@@ -737,14 +737,19 @@ Notas:
     
 - **¿Cuál es el propósito de la gestión del alcance?**
     
-    Establecer un proceso que permita incorporar cambios, asegurándose que estos contribuyan a la meta final del proyecto.
+    El propósito de la gestión del alcance es establecer un proceso que permita incorporar cambios, asegurándose que estos contribuyan a la meta final del proyecto.
 
 - ¿**Cuales son los procesos claves de la gestión del alcance?**
+	
 	1. **Planificar la gestión del alcance:** 
 		Definir cómo se determinará el alcance del proyecto y cómo se controlará a lo largo del ciclo de vida.
 	2. **Recopilar requisitos:** 
+		Identificar y documentar las necesidades de los interesados clave.
+		
+	3. **Definir el alcance**:
 		Redactar una declaración detallada del alcance que describe los entregables claves del proyecto, así como sus restricciones y supuestos.
-	3. **Crear la Estructura de Desglose del Trabajo (EDT o WBS):** 
+		
+	4. **Crear la Estructura de Desglose del Trabajo (EDT o WBS):** 
 		Dividir los entregables del proyecto en componentes más manejables, asegurando que se abarque todo el trabajo necesario.
 		
 		*Ejemplo:* en una empresa de software que ha sido contratada para desarollar una aplicación móvil de e-commerce, se crea una EDT para dividir el proyecto en componentes más pequeños. Por ejemplo:
@@ -762,8 +767,55 @@ Notas:
 		En proyectos de software, es muy común que el alcance crezca de manera no planificada (creep de alcance). Siguiendo el ejemplo anterior, supongamos que después de la aprobación inicial del alcance, el cliente solicita agregar nuevas funcionalidades como "recomendaciones de productos personalizadas" o "integración con redes sociales para compartir productos". Si estas características adicionales no se gestionan adecuadamente, podrían aumentar el tiempo de desarrollo y los costos, afectando el éxito del proyecto.
 	
 	
-	 El **alcance** del proyecto es esencial para definir y limitar el trabajo que se realizará, asegurando que los objetivos sean claros y alcanzables dentro de los parámetros establecidos. En un proyecto de desarrollo de software, definir y controlar adecuadamente el alcance ayuda a evitar retrasos y sobrecostos, y permite entregar una solución que cumpla con las expectativas del cliente
-	  
+	 El **alcance** del proyecto es esencial para definir y limitar el trabajo que se realizará, asegurando que los objetivos sean claros y alcanzables dentro de los parámetros establecidos. En un proyecto de desarrollo de software, definir y controlar adecuadamente el alcance ayuda a evitar retrasos y sobrecostos, y permite entregar una solución que cumpla con las expectativas del cliente.
+	 
+-   **¿Qué es la restricción de tiempo o cronograma y cuales son sus Procesos Clave?**
+	
+	 El tiempo o cronograma de un proyecto es una de las restricciones más críticas que los gestores de proyectos deben manejar. Según el PMBOK Guide en su Sección 6, la gestión del tiempo involucra una serie de procesos que aseguran que el proyecto se complete dentro del tiempo estimado, lo que incluye la definición de actividades, su secuenciación, la estimación de su duración, el desarrollo del cronograma y su control continuo.
+	 
+	 El cronograma del proyecto es esencial para garantizar que el proyecto se complete a tiempo. En un proyecto de desarrollo de software, el cronograma debe ser flexible para adaptarse a los desafíos técnicos que surjan durante el desarrollo. 
+	 
+	 Sin embargo, es crucial que se gestione cuidadosamente para evitar retrasos significativos que podrían afectar la entrega del proyecto. 
+	 
+	 Siguiendo las buenas prácticas descritas en el PMBOK Guide para la gestión del tiempo, los  equipos de proyecto pueden desarrollar cronogramas realistas y controlarlos efectivamente, asegurando que se cumplan los plazos establecidos y que el proyecto se entregue con éxito dentro del tiempo previsto
+	 
+	 **Procesos Clave de la Gestión del Tiempo (PMBOK Sección 6)**
+	 *Ejemplos con aplicación e-commerce.*
+	
+	 1. **Planificar la gestión del cronograma:**
+		 Establecer las políticas, procedimientos y documentación que guiarán la planificación, desarrollo y control del cronograma del proyecto.
+		
+		*Ejemplo:* Elección de Diagramas de Gantt y metodología Agile con sprints.
+		 
+	2. **Definir las actividades:**
+		Identificar y documentar las tareas específicas que deben realizarse   para producir los entregables del proyecto.
+		
+		*Ejemplo:*  El equipo de desarrollo identifica toda las actividades  necesarias. Ej: 1. Diseño de UI 2. Desarrollo de backend 3. Integracion con sistemas de pago 4. Pruebas en dispositivos 5. Publicacion en stores.
+		
+	3. **Secuenciar las actividades:**
+		Determinar el orden en que se deben realizar las actividades,  identificando dependencias entre ellas.
+		
+		*Ejemplo:*  El siguiente paso es ordenar las actividades de manera l ógica. Por ejemplo,antes de integrar los sistemas de pago, el backend debe estar completamente desarrollado. La secuenciación podría verse así: 1. Desarrollo backend 2. Integracion sistemas de pago 3. Diseño UI 4. Pruebas 5. Publicacion
+		
+		En este tipo de proyectos las dependencias típicas son las  dependencias fin-comienzo,  es decir, una actividad debe terminar ntes de que otra pueda comenzar.
+		
+	4.  **Estimación de la Duración de las Actividades:**
+		 Calcular el tiempo necesario para completar cada actividad del proyecto. Estas estimaciones se basan en la experiencia del equipo, la complejidad de las tareas y los recursos disponibles.
+		
+		*Ejemplo:* 1. Desarrollo backend: 4 semanas, 2. Integracion sistemas de pago: 2 semanas, 3. Diseño de UI: 3 semanas, 4. Pruebas: 2 semanas, 5. Publicacion: 1 semana.
+		
+	5. **Desarrollo del cronograma:**
+		Crear un cronograma del proyecto que integre las actividades, secuencias, duraciones,  recursos y restricciones del proyecto.
+		
+		*Ejemplo:* en un proyecto de desarrollo de software, el cronograma podría gestionarse  mediante una metodología Agile, donde las actividades se distribuyen en sprints semanales. Si seguimos un enfoque más tradicional, podríamos usar un diagrama de Gantt que muestre las actividades en un calendario de 12 semanas, con las fechas de inicio y fin claramente definidas.
+		
+	6. **Control del cronograma**: 
+		Monitorear el progreso del proyecto y gestionar los cambios en el cronograma para garantizar que se cumplan los plazos establecidos.
+		
+		*Ejemplo:*  Una vez que el proyecto está en marcha, es vital monitorear continuamente el progreso para asegurarse de que el equipo esté cumpliendo con los plazos. Si durante la implementación del backend surgen problemas técnicos que retrasan el trabajo, el equipo podría tener que reprogramar las actividades siguientes, como la integración con sistemas de pago, y ajustar las fechas de entrega.
+		
+	
+	 
 - **¿Qué es la triple restricción en un proyecto?**
     
      La Triple Restricción es un concepto fundamental en la gestión de proyectos que se representa típicamente como un triángulo, donde los tres lados corresponden a las restricciones de Alcance, Costo, y Tiempo. Estas tres variables están interrelacionadas de manera que cualquier cambio en una de ellas afecta inevitablemente a las otras dos. 
@@ -831,12 +883,105 @@ Notas:
 		  
 		  
         
-- ==**¿Cuáles son las restricciones del proyecto y cuáles son flexibles en enfoques tradicional y ágil?**==
+- ==**¿Cuáles son las restricciones del proyecto y cuáles son flexibles en enfoques tradicional y ágil?** Respuesta 1==
+    
+    Las restricciones de un proyecto son:
+    - Alcance
+    - Tiempo o cronograma
+    - Costos
+      
+    **Resumen ampliado: Restricciones flexibles en metodologías tradicionales vs. ágiles**
+    
+    En gestión de proyectos, la Triple Restricción (Alcance – Tiempo – Costo) representa las tres variables fundamentales que determinan el desempeño del proyecto.  El apunte afirma claramente que:
+    
+     “Las tres variables están interrelacionadas de manera que cualquier cambio en una de ellas afecta inevitablemente a las otras dos.” (pág. 13–14)
+     Pero cada **enfoque metodológico** decide **cuál de esas variables se deja fija** y cuáles se permiten ajustar.  
+     De allí surgen las **restricciones flexibles** según trabajemos con un enfoque **predictivo** o **ágil**.
+     
+     **1. Enfoque Predictivo o Tradicional** _(PMBOK – gestión clásica, cascada, planificación detallada)_
+     
+     El apunte caracteriza este enfoque como uno que busca **cumplir lo planificado desde el inicio**, con requisitos estables y un plan que “predice con detalle la secuencia de operaciones” (pág. 21–22)
+     
+     **1.1. Restricción rígida en Tradicional: el Alcance**
+	     En la gestión tradicional, el alcance se define con precisión durante la fase de planificación:
+	     “La gestión predictiva […] se basa en requisitos claros, estables y predecibles” (pág. 22). Por eso, modificarlo es costoso, complejo y riesgoso.  
+	     La filosofía es: **“cumplir con el alcance tal como fue previsto al inicio del proyecto”**.
+	     Ejemplo del apunte:  
+	     En la aplicación de e-commerce, si el cliente agrega recomendaciones personalizadas a mitad del proyecto: “Esta nueva funcionalidad requerirá 3 semanas adicionales y un costo extra de $10.000.” (pág. 15)
+	     Esto demuestra que el alcance no se flexibiliza: si aumenta, las otras restricciones deben adaptarse.
+     
+    **1.2. Restricciones flexibles en Tradicional: Tiempo y Costo**:
+	    El mismo ejemplo evidencia cómo responde el enfoque tradicional:
+		    - **Tiempo flexible**: el cronograma se extiende (“15 semanas en lugar de 12”).
+		    - **Costo flexible**: el presupuesto se ajusta (“$75.000 en lugar de $65.000”).
+		El apunte también indica que en predictivo:
+			El objetivo de este enfoque es obtener el producto tal como se ha previsto al inicio del proyecto, y su éxito se mide por cumplir con plazos, costos y calidad establecidos.
+		Pero si surge trabajo no previsto, es más frecuente extender tiempo o aumentar costo que modificar el alcance.
+	 
+	 
+    **Conclusión para predictivo:**
+    - **Alcance fijo**
+    - **Tiempo y Costo flexibles**
+    
+    
+    **2. Enfoque Ágil (Scrum, Kanban, XP)**_(Iterativo, incremental, adaptativo)_
+    
+    Tu apunte explica que las metodologías ágiles se diseñaron para entornos  “inestables y dinámicos” (pág. 25) y donde: “Los requisitos cambian constantemente y no existen productos finales, sino productos en evolución continua.” (pág. 25–26)
+    
+    Esto modifica la naturaleza de la flexibilidad en las restricciones.
+    
+    
+    **2.1. Restricciones rígidas: Tiempo y Costo**
+    El tiempo en ágil se fija a través de **iteraciones de duración fija**.  Aunque el apunte no usa la palabra “sprint”, describe el concepto:“ La agilidad se refiere a la capacidad de producir partes completas del producto en cortos periodos de tiempo.” (pág. 26). Y el costo también se vuelve rígido porque los equipos son estables:
+    - Equipo estable = costo estable por iteración.
+    - No se amplía el tamaño del equipo a mitad de iteración como respuesta a cambios de alcance.
+    
+    El enfoque ágil prioriza: “Resultados fiables […] entregando partes completas del producto en cortos periodos” (pág. 26)
+    Esto implica respetar los tiempos.
+    
+    **2.2. Restricción flexible: Alcance**
+    Aquí está la gran diferencia con el enfoque tradicional:
+    El apunte dice que el cliente: “No puede definir con precisión cómo será el producto final” (pág. 26)
+    y que el proceso es:
+    “Exploración iterativa, ajustes frecuentes y adaptación continua” (pág. 26–27)
+    Eso significa que lo que se ajusta continuamente es **el alcance**.
+    
+    Ejemplo de la práctica (coherente con el apunte):  
+    Si el tiempo de iteración es fijo (p. ej., 2 semanas), y el cliente pide agregar  algo nuevo, se decide:
+    - qué entra ahora,
+    - qué se pasa a la siguiente iteración,
+    - qué se descarta o reprioriza.
+    
+    Pero no se extiende el tiempo de la iteración, ni se aumenta el costo añadiendo gente.
+    
+    **Conclusión para ágil:**
+    - **Tiempo fijo**
+    - **Costo fijo**
+    - **Alcance flexible**
     
  - **¿Qué es la Gestión de Proyectos?**
     
     Es la aplicación de conocimientos, habilidades, técnicas y herramientas a las actividades de un proyecto con el fin de cumplir los requerimientos del proyecto.
     
+- **¿Cuáles son las restricciones del proyecto y cuáles son flexibles en enfoques tradicional y ágil?** Respuesta 2
+	
+	**Gestión tradicional**
+	
+	En la gestión tradicional (predictiva), la restricción más rígida es el alcance. El proyecto se planifica desde el inicio con una definición detallada de qué se va a entregar y esa definición se considera estable. Cambiar el alcance implica reabrir análisis, diseño, presupuestos y cronogramas, por lo que se intenta evitar. Por eso, si aparece trabajo adicional o nuevos requisitos, lo habitual no es modificar el alcance, sino ajustar el tiempo o el costo. 
+	
+	El tiempo puede extenderse (por ejemplo, agregando semanas al cronograma) y el costo también puede aumentar (por ejemplo, incorporando más recursos o aprobando horas adicionales). Esto refleja que, en un proyecto tradicional, la organización está dispuesta a flexibilizar plazo y presupuesto con tal de cumplir el alcance comprometido. La práctica común es: alcance fijo, y tiempo y costo como variables de ajuste.
+	
+	**Gestión ágil**
+	
+	En la gestión ágil ocurre lo contrario. Como el propósito es entregar valor de forma temprana y adaptarse a cambios frecuentes, el alcance se maneja de manera flexible. No todo se define al inicio, sino que se prioriza continuamente.
+	
+	Con respecto al tiempo, los equipos trabajan en ciclos de tiempo fijo, y ese tiempo de entrega (iteración o sprint) se respeta estrictamente. Las iteraciones no se extienden para agregar más trabajo, porque eso rompería la cadencia. Por eso se dice que el tiempo en ágil es inflexible. El equipo entrega lo que puede dentro del tiempo disponible, y lo que no entra se mueve al backlog para otra iteración. 
+	Además, si el proyecto tiene una fecha de finalización o hay una fecha definida para entrega del producto, esta fecha debe respetarse a rajatabla típicamente.
+	
+	El costo, en la mayoría de las implementaciones ágiles, tiende a ser relativamente fijo porque los equipos suelen tener tamaño estable. Sin embargo, puede considerarse flexible a nivel de proyecto si la organización decide incorporar más personal o asignar más recursos económicos. En cualquier caso, lo que sí es claramente flexible en ágil es el alcance, y lo claramente rígido es el tiempo de cada ciclo.
+
+	La comparación queda así: en gestión tradicional, el alcance es inflexible y el tiempo/costo son las variables de compensación. En gestión ágil, el tiempo es inflexible (ciclos fijos) y el alcance es la variable flexible. El costo puede verse como fijo cuando el equipo se mantiene estable, pero también puede ampliarse si el proyecto continúa por más iteraciones, lo que da lugar a interpretarlo como relativamente flexible a nivel macro. Esta diferencia refleja las prioridades de cada enfoque: en tradicional se protege el plan inicial, mientras que en ágil se protege la cadencia y la capacidad de adaptación.
+	
 - **¿En qué componentes fundamentales se apoya la gestión de proyectos?**
 	
 	La gestión de proyectos se apoya en cuatro componentes fundamentales:
