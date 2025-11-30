@@ -1,0 +1,2429 @@
+Notas:
+- **02/11/2025**:
+  Son las preguntas y respuestas del archivo provisto por Agus Nieto, pero reorganizadas con Gemini. Al reorganizar con Gemini se dejaron afuera contenido del texto. Se contempla agregar nuevos ítems y ampliar el contenido dentro de las respuestas existentes.
+- 04/11/2025:
+  Empecé con el proceso de aumentar este MD en base al documento de google original (o la copia que creé). Debo continuarlo.
+- 18/11/2025:
+  Hay preguntas en los enunciados de los parciales/exámenes que se pueden agregar:
+  - ¿Cuales son los principios del agilismo? Mencione tres.
+  - ¿Cuánto testing es suficiente?
+  - ¿Cuáles son los diferentes niveles de prueba? Explique dos, la que realiza el usuario final y en donde se integran diferentes componentes.
+  - ¿Cuales son las formas de medir un proyecto ágil?
+  - Defina metodología Lean.
+
+---
+
+## 1. Información, Sistemas de Información, Sistemas de Negocio y BPMN
+
+### Conceptos Clave
+
+- ¿Para qué usan la información las organizaciones?
+    
+    Se considera un recurso fundamental y decisivo en las operaciones, como apoyo para la toma de decisiones y para la reducción de la incertidumbre a nivel estratégico, ayudando a las organizaciones a ser más competitivas. para acompañar frente a la demanda del mercado actual.
+    
+- **¿Cuáles son las funciones principales de la información?**
+    
+    - Aumentar el conocimiento del usuario.
+    - Reducir la incertidumbre de lo que no se conoce.
+    - Ayudar a la toma de decisiones.
+    - Permitir realizar el control de tareas y eventos.
+    
+- **¿Cómo se clasifican los niveles de información?**
+    
+    - Estratégico.
+    - Táctico.
+    - Técnico.
+    
+- **Clasifique la toma de decisiones.**
+    
+    - **Estratégicas (o de planificación):** Adoptadas por la cúspide jerárquica o altos directivos.
+    - **Tácticas o de pilotaje:** Tomadas por directivos intermedios. Buscan asignar eficientemente los recursos disponibles.
+    - **Operativas:** Adoptadas por el nivel inferior, relacionadas con las actividades rutinarias de la empresa.
+    
+### Sistemas de Información y Negocio
+
+- **Tipos de Sistemas de Información.**
+    
+    - **TPS** (Sistema de procesamiento de transacciones): Gestiona información de transacciones.
+        
+    - **MIS** (Sistemas de información gerencial): Orientados a solucionar problemas empresariales.
+        
+    - **DSS** (Sistemas de soporte a decisiones): Herramienta para análisis de variables de negocio y apoyo a la toma de decisiones.
+        
+    - **EIS** (Sistemas de información ejecutiva): Herramienta orientada a gerentes para monitorizar el estado de variables.
+        
+    - **OAS** (Sistemas de automatización de oficinas): Aplicaciones para el trabajo diario administrativo.
+        
+    - **SE** (Sistema experto): Sistemas de inteligencia artificial que utilizan experiencia para hallar soluciones (ejemplo: simuladores).
+        
+    - **ERP** (Sistema Planificación de Recursos): Integran información y procesos de una organización en un solo sistema.
+        
+- ¿Cómo se describe un Sistema de Información y sus elementos?
+    
+    Es un conjunto de elementos orientados al tratamiento y administración de datos e información, organizados para cubrir una necesidad. Sus elementos son:
+    
+    - **Entradas:** Datos obtenidos de la operatoria.
+        
+    - **Procesos:** Operaciones realizadas con los datos para producir información.
+        
+    - **Salidas:** Producto (informes, listados, estadísticas) obtenido al procesar los datos.
+        
+    - **Retroalimentación:** Salidas que ingresan nuevamente al sistema para su análisis.
+        
+- **¿Qué es un Sistema de Negocio?**
+    
+    Es el conjunto de procesos, actividades, personas, reglas y recursos que una organización utiliza para generar valor o alcanzar un objetivo comercial. Su meta es entregar un producto o servicio al cliente.
+    
+- **Diferencia entre un Sistema de Información y un Sistema de Negocio**
+    
+    - **Sistema de Información (SI):** Se enfoca en **procesar datos para generar información** (informes, estadísticas).
+        
+    - **Sistema de Negocio (SN):** Se enfoca en **generar valor comercial** al cliente. El SI es un **componente** del SN que le proporciona la información necesaria para funcionar.
+        
+- **¿Qué relación tienen un servicio IT y los Sistemas de Información?**
+    
+
+### Modelado BPMN
+
+- **¿Qué es BPMN y para qué se utiliza?**
+    
+    Es una notación gráfica que describe la lógica de los pasos de un proceso de Negocio, de modo tal que se pueda coordinar la secuencia de los procesos y los mensajes que fluyen entre los participantes de las diferentes actividades de los procesos del negocio mediante un Diagrama de Proceso del Negocio (BPD).
+    
+
+---
+
+## 2. Ingeniería de software, Naturaleza del software, Ingeniería de requerimientos, requerimientos de software
+
+### Ingeniería de Software y Modelos de Proceso
+
+- **¿Qué es la ingeniería de Software?**
+    
+    Es la aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento del software. 
+    
+    Se lo puede definir, además, como el establecimiento y uso de los principios fundamentales de la ingeniería con el propósito de desarrollar de forma económica software que sea: 
+     - confiable
+     - de alta calidad
+     - que trabaje de manera eficiente
+     - que sea mantenible a lo largo del tiempo
+    
+- ==**¿Qué es el proceso del software?**== 
+    
+    El proceso del software es un conjunto de actividades que se llevan a cabo para desarrollar software, organizando el trabajo de manera estructurada. 
+    
+    *Generalmente, un proceso de software incluye las siguintes fases:*
+
+- ==¿**Cuáles son las Actividades Fundamentales del Proceso de Ingeniería de Software?**==
+	
+	Existen muchos diferentes procesos de software, pero todos deben incluir cuatro actividades que son fundamentales para la Ingeniería del Software:
+	
+	- **Especificación del software:**
+		Tienen que definirse tanto la funcionalidad del software como las restricciones de su operación.
+	- **Diseño e implementación del software:**
+		Debe desarrollarse el software para cumplir con las especificaciones.
+	- **Validación del software:**
+		Hay que validar el software para asegurarse de que cumple lo que el cliente quiere.
+	- **Evolución del software:**
+		El software tiene que evolucionar para satisfacer las necesidades cambiantes del cliente.
+	
+	
+	*Nota: fuente: https://405310-caruso-tomas.github.io/MSI/Sommerville/Actividades%20Fundamentales%20para%20la%20Ingenier%C3%ADa%20de%20Software/
+	 Debo validar bibliográficamente que esta definición no entre en conflicto con la siguiente pregunta ¿cuales son las actividades comunes en la estructura del proceso del software?* 
+	 
+	 
+- **¿Cuáles son las actividades comunes en la estructura del proceso del software?**
+	 
+    La estructura del proceso identifica actividades estructurales que por lo general son aplicables a todos los proyectos de software. Estas actividades obviamente pueden variar dependiende de la fuente, pero generalmente son las siguientes:
+     
+    - **Comunicación**:
+	    Antes de que comience cualquier trabajo técnico, se busca: 
+	    - entender los objetivos de los  participantes respecto del proyecto
+	      y 
+	    - reunir los requerimientos que ayuden a definir las características y funciones del software.
+	    
+    - **Planeación**: 
+	    La planeación define el trabajo de ingeniería de software al: 
+		- describir las tareas técnicas por realizar
+		- describir los riesgos probables
+		- definir los recursos que se requieren
+		- definir los ***productos del trabajo*** que se obtendrán
+		- definir una programación de las actividades. 
+		(Esta etapa puede llevar a renegociar con el cliente ciertos aspectos).
+	     
+    - **Modelado**: 
+		Se analiza y modela el problema y se propone una solución técnica. La actividad de modelado crea un "bosquejo" de la solución u objeto por hacer a fin de entender el panorama general, los requerimientos del software y el diseño que los satisfará.
+		
+    - **Construcción**:
+	    Esta actividad combina generación de código y las pruebas que se requieren para descubrir errores en éste.
+	    
+    - **Despliegue**:
+	    El software (completo o como incremento) se entrega al consumidor que lo evalúa y que le da retroalimentación.
+      
+    *Para muchos proyectos de software, las actividades estructurales se aplican en forma iterativa a medida que avanza el proyecto.*
+      
+- **¿Cuáles son las actividades sombrilla del proceso del software?**:
+	
+	Estas actividades abarcan todo el ciclo de vida del desarrollo de software,  independientemente del modelo de proceso utilizado. Estas actividades aseguran la calidad del software. Es común que las actividades sombrilla sean las siguientes:
+	
+	- **Seguimiento y control del proyecto:**
+		Permite que el equipo de software evalúe el progreso comparándolo con el plan del proyecto.
+		
+	- **Administración del riesgo:**
+		Evalúa los riesgos que puedan afectar al resultado del proyecto o calidad del software. Identificación y mitigación de los riesgos potenciales
+			
+	- **Revisión técnica/Evaluación**:
+		Revisiones formales para detectar errores en fases tempranas.
+		La revisión técnica evalúa los productos del proyecto, o productos de iteraciones a fin de descubrir y eliminar errores antes de que se propaguen a lo largo del proceso.
+		
+	-  **Medición del software:**
+		Medir diversos aspectos del proyecto, proceso de desarrollo y del producto de software. Métricas.
+		
+	- **Gestión de la configuración**:
+		Administra los efectos del cambio a lo largo del proceso del software.
+		
+	- **Administración de la reutilización:**
+		Define criterios para volver a usar el producto del trabajo (incluso los componentes de software) y establece mecanismos para obtener componentes reutilizables.
+	
+	- **Preparación y producción del producto del trabajo:**
+		Agrupa las actividades requeridas para crear productos del trabajo, tales como modelos, documentos, registros, formatos y listas.
+		
+	- **Garantía de calidad**:
+		Asegurar que el software cumple con los estándares y requerimientos de calidad.
+	
+	  
+- **¿Cuáles son las capas de la ingeniería de Software?**
+    
+    1. **Capa de Calidad:** Atraviesa todo el proceso de ingeniería de software, asegurando que cada fase y actividad se realice con un enfoque en la calidad. La calidad en ingeniería de software incluye aspectos como fiabilidad, eficiencia, usabilidad, mantenimiento y portabilidad del software.
+    
+    2. **Capa de Proceso:** El proceso de ingeniería de software es la capa que une y coordina todas las demás capas. Proporciona una estructura organizada para planificar, gestionar y controlar el desarrollo del software.
+       - Tiene como propósito definir cómo se deben realizar las tareas dentro del proyecto, desde la gestión del proyecto hasta la implementación y el mantenimiento del software. Asegura que el desarrollo se realice de manera eficiente, minimizando retrasos y errores.
+    
+    3. **Capa de Métodos:** Los métodos en ingeniería de software son técnicas y prácticas específicas que se utilizan para llevar a cabo las tareas.
+	      - Tiene como propósito proporcionar la base técnica para desarrollar software de calidad. Los métodos ayudan a los desarrolladores a tomar decisiones informadas y a realizar su trabajo de manera efectiva y coherente. 
+	      - *¿No son los métodos de los lenguajes de programación, no?*
+	      - Ejemplos?:
+	      
+	4. **Capa de Herramientas:** Las herramientas en la ingeniería de software son programas o aplicaciones que automatizan o facilitan tareas dentro del proceso de desarrollo de software. Estas herramientas pueden abarcar desde editores de código y depuradores, hasta sistemas de gestión de versiones y herramientas de integración continua.
+		- Tiene como propósito aumentar la productividad y la precisión del equipo de desarrollo, permitiéndoles manejar proyectos mas complejos y asegurar la coherencia y la calidad del software.
+
+- **¿Qué es el modelo de proceso del software?:**
+	
+	Un modelo de proceso describe la forma en que se organiza el desarrollo de software. Existen varios modelos, cada uno adaptado a diferentes tipos de proyectos. 
+	
+	Existe una clasificicación entre modelos de proceso prescriptivos, modelos de proceso evolutivos y modelos de proceso ágiles.
+	
+	Los modelos prescriptivos son:
+	- Modelo en cascada
+	- Modelo V
+	  
+	Los modelos presciptivos fueron propuestos originalmente para poner orden en el caos del desarrollo del software. Definen un conjunto prescripto de elementos del proceso y un flujo predecible para el trabajo del proceso.
+	  
+	Los modelos de proceso evolutivo son:
+	- Modelo Incremental
+	- Modelo de Prototipado Evolutivo
+	- Modelo en Espiral
+	  
+	Los modelos de proceso evolutivo justifican su razon de ser debido a que  en entornos modernos, es frecuente que los requerimientos del negocio del producto cambien conforme avanza el desarrollo, lo que hace que no sea realista trazar una trayectoria rectilínea hacia el producto final. **Los modulos evolutivos son iterativos**. Se caracterizan por la manera en la que permiten desarrollar versiones cada vez más completas del software.
+	  
+	Los modelos de proceso prescriptivos y los modelos de proceso evolutivos podrían ser agrupados en lo que se llaman las Metodologías Tradicionales.
+	  
+	Los modelos ágiles se pueden agrupar dentro de lo que se conoce como metodologías ágiles, siendo las siguientes algunos ejemplos de ellas:
+	
+	- Programación Extrema (XP)
+	- Lean Startup
+	- Kanban
+	- Scrum
+	
+- **¿Qué es el modelo en cascada y cuáles son sus etapas?**
+    
+    Definición breve:
+	    Sigue un enfoque secuencial donde las fases de análisis, diseño, codificación, pruebas y mantenimiento se realizan una después de la otra. Es fácil de entender, pero rígido frente a cambios.
+    
+    Es un modelo de base para el estudio de otros modelos. Es un modelo prescriptivo. Fue modelado a   partir de un enfoque sistemático y secuencial del desarrollo de software que comienza en el nivel del sistema y progresa a través del análisis, diseño, codificación, prueba y mantenimiento.
+    
+	Sigue un enfoque secuencial donde las fases de análisis, diseño, codificación, pruebas y mantenimiento se realizan una después de la otra. Es facil de entender, pero es rígido frente a cambios.
+    
+    Características:
+	    - Consta de fases secuenciales. Toma las Actividades Fundamentales para la Ingeniería de Software y las representa como fases separadas del proceso.
+	    - El resultado de cada fase consiste en uno o más documentos que resultan de un plan de trabajo. La siguiente fase no debe comenzar sino hasta que termine la fase previa y se nutren mutuamente de información muy controlada.
+	    - No permite volver atrás facilmente. No permite flexibilidad en los cambios. Presupone que el producto está perfectamente definido antes de iniciar el desarrollo.
+	    - Es útil para los casos en los que los requisitos son bien conocidos desde el inicio.
+	    - Es útil en situaciones en las que los requerimientos son fijos y el trabajo avanza en forma lineal hacia el final.
+	    - Con frecuencia, la naturaleza lineal del ciclo de vida clásica llega a "estados de bloqueo" donde hay miembros del equipo que deben esperar a otros para terminar tareas dependientes.
+	    - Es el paradigma más antiguo de la ingeniería del software.
+    
+    Etapas:
+    1.  Análisis y definición de requerimientos:
+	    Los servicios, funciones, restricciones y el propósito del sistema se establecen y sirven como especificación del sistema.
+	    
+    2. Diseño del sistema y del software:
+	    Se establece una arquitectura de sistema global. El diseño del software implica identificar y describir las abstracciones fundamentales del sistema de software.
+	    
+    3. Implementación y prueba de unidad:
+		Durante esta etapa, el diseño de software se realiza como un conjunto de programas o unidades del programa o componentes. La prueba de unidad consiste en verificar que cada unidad cumpla con su especificación.
+		
+    4. Integración y prueba de sistema:
+	    Las unidades del programa o los programas individuales se integran   y prueban como un sistema completo para asegurarse de que se cumplan los requerimientos y restricciones del software. Después de probarlo, se libera el sistema de software al cliente.
+	    
+    5. Operación y mantenimiento:
+	    Es la fase más larga del ciclo de vida, donde el sistema se instala y se pone en práctica. El mantenimiento incluye corregir los errores que no se detectaron en etapas anteriores del ciclo de vida, mejorar la implementación de las unidades del sistema e incrementar los servicios del sistema conforme se descubren nuevos requerimientos.
+	
+- **¿Cuáles son las ventajas y desventajas del modelo en cascada?**
+    
+    - **Ventajas:** 
+	    - Produce documentación en cada fase, con lo cual da visibilidad del proceso a sus administradores. 
+	    - Es sencillo de implementar.
+	
+    - **Desventajas:**
+	    - Dificultad para especificar claramente los requerimientos al comienzo del proyecto, es decir, antes del diseño o producción del código.
+	    - No permite flexibilidad a cambios. Olvidar algo en el modelado puede resultar costoso.
+	    - Supone que el producto está perfectamente definido antes de iniciar el desarrollo.
+	      
+- **¿Qué es el modelo V?**
+	Es un modelo prescriptivo. Es una variante del modelo en cascada donde cada fase de desarolllo tiene su fase de prueba correspondiente. Refuerza la validación y verificación en cada etapa.
+	
+	El modelo en V estructura el proceso de desarrollo en varios niveles. A partir del código del producto, emergen cuatro niveles de prueba que permiten **verificar y validar** el sistema en sus diferentes etapas. En este modelo, el proceso de verificación se inicia desde la escritura del código, ascendiendo a los niveles superiores de prueba, alineados con fases previas del desarrollo, como se observa en la figura. A su vez, el proceso de validación se lleva a cabo mediante la ejecución de pruebas correspondientes a cada nivel, asegurando que el producto cumpla con los requisitos establecidos.
+	
+	Análisis de Necesidades -> Plan de P. de Aceptación -> P. Aceptación
+	Diseño Funcional -> Plan de P. Sistemas -> P. de Sistemas
+	Diseño Técnico -> Plan de P. de Integración -> P. de Integración
+	Especificación de Componentes -> Plan de P. Unitarias -> P. Unitarias
+	---------------------------------Escritura de Código--------------------
+	
+- **¿Qué es el modelo incremental?**
+	
+	Definición breve:
+	    El software se desarrolla en incrementos funcionales. Cada versión ofrece una parte funcional del sistema, que puede usarse o probarse mientras se completa el resto
+	
+	El modelo incremental es un modelo evolutivo. Reúne las siguientes características:
+	- El desarrollo se estructura en módulo o versiones sucesivas.
+	- Cada incremento agrega funcionalidad.
+	- Combina elementos de los flujos de proceso lineal y paralelo.
+	- Permite recibir retroalimentación temprana.
+	- Es común que el primer incremento sea el producto fundamental. El cliente usa el producto y como resultado de su evaluación, se desarrolla un plan para el incremento que sigue, el cual puede incluir modificaciones al producto.
+	  
+- ¿**Qué es el modelo de prototipo y cuándo se utiliza?**
+    
+    Definición breve:
+	    Se desarrolla un prototipo para que el cliente pueda probar y proporcionar retroalimentación. Ideal para cuando los requisitos no están claros desde el inicio.
+    
+    Un modelo prototipo es un método de desarrollo de software que   consiste en crear una versión inicial y funcional (aunque no completa) del sistema para facilitar la definición de requisitos y la comunicación entre el programador y el cliente. 
+    
+    Se utiliza principalmente cuando:
+    
+    - El cliente define objetivos generales del software pero no proporciona requerimientos detallados para funciones y características.
+    - No están claras las necesidades reales del cliente.
+    - Se requiere verificar los requerimientos con mayor comprensión antes del desarrollo final.
+      
+    Etapas del modelo de prototipo:
+    
+    - Plan rápido para la recolección y refinación de requerimientos
+    - Modelado y diseño rápido
+    - Construcción del prototipo
+    - Despliegue, Entrega y Retroalimentacion
+    - Comunicación
+      
+    Ventajas:
+    - Este modelo permite la modificación del sistema en etapas tempranas del desarrollo
+    - Los cambios iniciales son menos costosos en etapas tempranas
+    - El prototipo sirve como mecanismo de definición de requisitos
+      
+    Consideraciones:
+    - El éxito del uso del prototipo depende de qué tan pronto y con qué frecuencia se reciba la retroalimentación del usuario para hacer cambios
+    - Aunque puede haber problemas, hacer prototipos es un paradigma eficaz para la ingeniería de software. La clave es definir desde el principio las reglas del juego; es decir, todos los participantes debn estar de acuerdo en que el prototipo sirva como el mecanismo para definir los requerimientos
+    - Algunos prototipos se construyen para ser desechables, otros son evolutivos. Poco a poco se transforman en el sistema real.
+	
+	Desventajas:
+	- La construcción de prototipos puede ser problemática cuando el cliente ve funcionando lo que parece ser una primera versión del software que no reúne todos los aspectos de calidad o mantenimiento a largo plazo
+      
+- **¿Qué es el modelo en espiral y cómo maneja los riesgos?**
+    
+    El modelo en espiral es un modelo orientado al riesgo que acopla el prototipado con aspectos controlados del modelo de cascada.  
+     
+    Reúne las siguientes características:
+    - El desarrollo está organizado en iteraciones, haciendo énfasis en la reducción del riesgo en cada una.
+    - Cada iteración alrededor del espiral representa un incremento del producto, pero lo central no es el incremento sino que cada ciclo incluye explícitamente la identificación, análisis y mitigación de riesgos.
+      
+      
+    Integra elementos del modelo en cascada:
+	    Dentro de cada vuelta se lleva a cabo:
+	    - planificación
+	    - análisis de requerimientos
+	    - diseño
+	    - implementación
+	    - pruebas
+	    ... pero no linealmente, sino avanzando según lo dicte el riesgo.
+	
+	Integra elementos del modelo de prototipado:
+	    Cuando el riesgo lo amerita, la actividad principal del ciclo puede ser:
+	    - construir un prototipo
+	    - validar una interfaz
+	    - experimentar alternativas tecnológicas
+	    Es decir: el prototipado es un instrumento para mitigar riesgos, no el objetivo final.
+	
+	Permite desarrollo incremental:
+	    Cada espiral termina con un producto entregable -completo o parcial-:
+	    - en ciclos tempranos: prototipos, documentos clave, modelos
+	    - en ciclos tardíos: versiones funcionales crecientemente maduras
+	    - experimentar alternativas tecnológicas
+	    Esto lo convierte en un **modelo evolutivo** (no tanto por iteraciones internas sino por la maduración progresiva del producto).
+	
+	Es adaptable y flexible:
+	    No prescribe fases rígidas: cada vuelta puede reconfigurarse según:
+	    - riesgos detectados
+	    - complejidad
+	    - requisitos de calidad
+	    - limitaciones del cliente
+	    Por eso Pressman dice que es un modelo metodológicamente amplio, se lo puede considerar más una estrategia que un proceso cerrado.
+    
+    El concepto de riesgo se define ampliamente en este contexto, y puede   referirse a requerimientos poco comprensibles, arquitecturas poco comprensibles, problemas de ejecución importantes, problemas con la tecnología subyacente, y demás. Después de controlar todos los riegos más importantes, el modelo en espiral finaliza del mismo modo que el modelo de ciclo de vida en cascada.
+    
+    **Estructura típica de una vuelta del espiral:**
+    1. Planificación:
+	    - Se establecen metas del ciclo
+	    - Se identifican restricciones (técnicas, de negocio, de recursos).
+	    - Se definen criterios de éxito
+	      
+	2. Análisis de riesgo:
+		- Análisis profundo de riesgos técnicos, operativos, etc.
+		- Definición de estrategias de mitigción
+		- Selección de alternativas de solución.
+		  
+	3. Implementación:
+		En esta fase se ejecuta la estrategia seleccionada para el espiral:
+		- Prototipado
+		- Diseño y codificacion
+		- Pruebas de concepto
+		- Modelado
+		- Arquitectura
+		  
+	4. Evaluación por el cliente:
+		1. Revisión del cliente
+		2. Retroalimentación del cliente
+		3. Plan detallado del próximo giro del espiral
+		4. Aprobación para avanzar
+		Si el cliente no aprueba, el proceso termina o retrocede de fase.
+	
+	
+	**Ventajas clave (según Pressman)**
+	    - **Gestión del riesgo explícita y central**
+	    - Reduce sorpresas en proyectos complejos o innovadores
+	    - Permite **contacto constante con el cliente**
+	    - Adaptable a cambios significativos de requerimientos
+	    - Combina lo mejor de cascada y prototipado
+	    - Adecuado para proyectos de gran escala y alta incertidumbre
+	    - Incrementos controlados del producto
+	
+	**Desventajas**
+	    - Puede requerir **expertos en análisis de riesgos**
+	    - **Administrativamente costoso** para proyectos pequeños
+	    - Difícil de aplicar si el cliente no se involucra en cada ciclo
+	    - Puede extender demasiado la duración del proyecto si se analizan demasiados riesgos
+    
+    **¿Cuándo recomienda Pressman usarlo?**
+	    - Proyectos grandes y complejos
+	    - Proyectos con alto riesgo técnico (nuevas tecnologías, arquitecturas críticas)
+	    - Sistemas con requisitos poco claros al inicio
+	    - Cuando el impacto del fracaso es alto (defensa, aeronáutica, sistemas bancarios, etc.)
+    
+### Ingeniería de Requerimientos
+
+- **¿Qué es la ingeniería de requerimientos y cuáles son sus 3 pasos fundamentales?**
+    
+    La ingeniería de requerimientos es una etapa crítica del proceso de software. Se enfoca en evitar el fracaso de los proyectos de desarrollo de software, al producir un documento que describa las necesidades del cliente y futuros usuarios del nuevo sistema que brindará apoyo al sistema bajo estudio.
+    
+    La principal tarea de la ingeniería de requerimientos consiste en la generación de especificaciones correctas que describan con claridad, sin ambiguedades, en forma consistente y compacta, el comportamiento del sistema; de esta manera, se pretende minimizar los problemas relacionados al desarrollo de sistemas.
+    
+    - Es el PROCESO por el cual se transforman los requerimientos declarados por los clientes, ya sean hablados o escritos, a especificaciones precisas.
+    - Estas especificaciones en lo ideal son no ambiguas, consistentes y completas del comportamiento del Sistema.
+    - Comienza durante la actividad de comunicación y continúa en la de Modelado.
+      
+    Pasos de la ingeniería de requerimientos:
+    
+    1. **Obtener:** Descubrir los requerimientos.
+
+    2. **Especificar:** Transcribir la información recopilada en un documento que define el conjunto de requerimientos.
+    
+    3. **Validar:** Verificar que cada requerimiento sea verificable, conciso, completo, consistente y no ambiguo.
+
+- **¿Qué son los requerimientos?**
+	Un requerimiento es una descripción del servicio que el sistema debe proporcionar o las restricciones en su desarrollo y operaión. Los requerimientos pueden variar desde descripciones de alto nivel hasta especificaciones detalladas.
+	
+- **¿Qué características debe tener un requerimiento válido?**
+    
+    - Necesario:
+	    Su omisión provoca una deficiencia en el sistema a construir.
+	- Correcto: 
+		Es correcto si cada uno de los requerimientos cumple su función dentro de las funcionalidades del Sistema.
+    - **Verificable**:
+	    Puede ser cuantificiado de manera que permita hacer uso de los siguientes métodos de verificación: inspección, análisis, demostración o pruebas.
+    - **Conciso**: 
+		Fácil de leer y entender.
+    - **Completo:**
+	    Con información suficiente para su comprensión.
+    - **Consistente:**
+	    No es contradictorio con otro requerimiento
+    - **No ambiguo:**
+		Tiene una sola interpretación, sin confusiones.
+	- Trazable:
+		El origen es claro, conciso y fácilmente referenciable.
+	- Modificable:
+		Su estructura y estilo son tales que cualquier cambio necesario de efectuar puede ser realizado en forma fácil.
+	
+- **¿Cuál es la diferencia entre requerimientos funcionales y no funcionales?**
+    
+    - **Funcionales (RF):** 
+	    Describen la **funcionalidad o servicios** que se espera que el sistema provea (qué debe hacer).
+	    
+	    Son declaraciones de las funciones, servicios o comportamientos específicos que el sistema debe realizar. Ejemplo incluyen:
+		- Cómo el sistema debe responder a determinadas entradas
+		- Cómo debe comportarse en situaciones particulares
+		- Qué servicios específicos debe ofrecer a los usuarios
+		
+		Tipos de RF:
+		- Requerimientos de transacción: especifican como el sistema debe maejar transacciones.
+		- Requerimientos de usuario: definen cómo los usuarios interactúan con el sistema.
+		- Requerimientos de sistema: Detallas las interacciones con otros sistemas.
+	     
+	    Un ejemplo podría ser: "El sistema debe permitir a los usuarios recuperar su contraseña si la olvidan".
+	     
+    - **No Funcionales (RNF):** estos describen las restricciones sobre los servicios o funciones ofrecidos por el sistema. Pueden incluir restricciones de tiempo, capacidad, normas de calidad, rendimiento, seguridad, usabilidad, confiabilidad, mantenimiento, portabilidad, etc. Aunque no están directamente relacionados con las funciones del sistema, son cruciales para su éxito.
+      
+      Tipos de RNF:
+		- Requerimientos de rendimiento: definen el tiempo de respuesta y capacidad del sistema.
+		- Requerimientos de seguridad: detallan las medidas necesarias para proteger el sisema.
+		- Requerimientos de usabilidad: describen la facilidad de uso del sistema.
+		- Requerimientos de mantenimiento: definen la facilidad con la que se pueden realizar actuaciones y reparaciones.
+		- Requerimientos de dominio
+		- Requerimientos duraderos
+		- Requerimientos volátiles
+		  
+	  Ejemplo: "El sistema debe ser capaz de manejar hasta 10,000 usuarios simultáneamente".
+	 
+- **¿Qué es una ERS (Especificación de Requerimientos de Software)?**
+    
+    Es un documento que define un conjunto de requerimientos especificados en el lenguaje natural del cliente. Es el segundo paso de la Ingeniería de Requerimientos.
+
+
+### Historias de Usuario
+
+- **¿Qué es una Historia de Usuario?**
+	 Los requerimientos del software son un problema de comunicación: aquellos que quieren el software deben comunicarse con aquellos que lo desarrollan. Para eso se desarrolló el concepto de Historias de Usuario:
+		- Una Historia de Usuario describe la funcionalidad valiosa para un usuario o comprador del Sistema. Representa específicamente Requerimientos del usuario, más que la documentación de los mismos.
+		- Son descripbiones breves y simples de una funcionalidad que un usuario desea.
+		- Deben ser escritas sin el uso de un lenguaje técnico.
+		- Son utilizadas principalmente en Modelos Ágiles.
+	
+	 *Ejemplo breve:*
+		En el sitio web de búsqueda de empleo BigMoneyJobs, que operaba como una plataforma para conectar a profesionales con oportunidades laborales. Ejemplos de historias de usuario de este software sería
+		- Título: Buscar empleos con filtros
+		- Descripción: Como usuario del sitio, quiero buscar empleos aplicando filtros por rango salarial, tipo de industria y ubicación, para encontrar rápidamente oportunidades laborales que se ajusten a mis preferencias
+		- Criterios de Aceptación
+		- DoD
+		- Notas técnicas
+		- Mockups/bocetos
+		- Tareas (subtareas)
+		- Estimación
+		- Prioridad
+		- Dependencias
+		- Riesgos identificados
+		- 
+		 
+	
+- **¿Qué es el método INVEST para historias de usuario?**
+    
+    Ayuda a escribir buenas historias de usuario que deben ser: Independiente,  Negociable, Valiosa, Estimable, Small (pequeña), Testeable.
+    
+    - I - Independiente:
+	    Cada HU debe poder implementarse sin depender de otras historias.
+	    
+    - N - Negociable: 
+	    Las historias deben ser flexibles para poder ajustarse si cambian los requerimientos.
+	    
+    - V - Valiosa: 
+		Cada historia debe proporcionar valor al usuario final.
+		
+    - E - Estimable:
+	    Debe poder estimarse en términos de esfuerzo o tiempo necesario para completarla.
+	    *SP: esfuerzo, complejidad e incertidumbre*
+	    
+    - S - Pequeña:
+	    Lo suficientemente pequeña para ser implementada en un sprint.
+	    
+    - T - Testeable:
+	    Debe ser clara y detallada para que pueda verificarse fácilmente mediante pruebas.
+      
+- ==**¿Qué es el método SMART para historias de usuario?**==
+	
+	El método SMART es una técnica que ayuda a definir metas claras y alcanzables para el equipo. Cada objetivo debe ser:
+	
+	 1. S - Específico:
+		Definir claramente lo que se quiere lograr, como "entregar una nueva funcionalidad para la autenticación de usuarios".
+		
+	2. M - Medible:
+		Establecer indicadores para medir el progreso, como "completar la funcionalidad con un 100% de cobertura de pruebas unitarias".
+		
+	3. A - Alcanzable:
+		Los objetivos deben ser realistas dados los recursos y el tiempo disponibles.
+		
+	4. R - Relevante:
+		El objetivo debe estar alineado con las metas generales del proyecto o negocio.
+		
+	5. T - Temporal:
+		Definir un plazo para alcanzar el objetivo, como "completar la funcionalidad en dos sprints".
+		
+- ¿**Cuáles son los elementos de una historia de usuario completa?**
+    
+    - Número de HU: la identifica.
+    - Título: 
+	    Resumen breve de la funcionalidad
+	    
+    - Descripción (formato "Como.. quiero.. para)
+	    Declara rol, necesidad y propósito.
+	    
+    - Criterios de Aceptación: 
+	    Condiciones específicas que deben cumplirse para considerar la  historia terminada. Suelen escribirse como reglas o en formato Gherkin (Dado - Cuando - Entonces)
+	    
+    - Definicion de Hecho (DOD): 
+      
+	    Checklist de calidad y completitud. Ej:
+		- código revisado
+		- pruebas ejecutadas
+		- documentación mínima actualizada
+		- despliegue funcional en entorno correspondiente
+		  
+    - Prioridad: 
+	    Define la prioridad de la HU según alguna técnica, por ejemplo *Moscow*. La define el product owner. Puede ser: alta/media/baja.
+	    
+    - Estimación: 
+	    Es un valor relativo que indica el esfuerzo, complejidad o incertidumbre para completarla. Típicamente se usan Story Points.
+	    
+    - Riesgos identificados: 
+	    Aspectos que pueden afectar cumplimiento o alcance.
+	    
+    - Programador:
+	    El desarrollador responsable asignado a la HU.
+	    
+	- Valor de negocio / Propósito:
+		A veces se agrega una frase o etiqueta que indica qué aporta esta historia al producto.
+		
+	- Dependencias:
+		Otras historias, tareas o condiciones que deben estar resueltas previamente.
+		
+	-  Conversación: 
+	    La conversación que surge de aclarar dudas con el Product Owner en una reunión personal. Se puede agregar un prototipo de interfaz.
+	    
+    
+- **¿Qué es la tecnica MosCow?**
+	 
+	 MoSCoW es una técnica de priorización de requisitos utilizada en gestión de proyectos y análisis de negocio. El nombre es un acrónimo formado por las iniciales de cuatro categorías de prioridad.
+	 
+	 **Categorías de MoSCoW**
+	 
+	 - **M – Must Have**
+		Requisitos imprescindibles, sin los cuales el producto no puede funcionar o el proyecto no tiene sentido.  Son obligatorios en la entrega. Ejemplos: autenticación básica, guardado de datos sin pérdida.
+		  
+	- **S - Should Have**
+		Requisitos importantes, pero no críticos.  Si no se entregan en esta iteración, el producto sigue siendo útil pero perdería valor.
+		Ejemplos: filtros avanzados, reportes secundarios.
+		
+	- **C - Could Have**
+		Deseables, apotan valor, pero no son urgentes.
+		Se incluyen solo si hay tiempo y capacidad.
+		Ejemplos: modo oscuro, animaciones visuales.
+		
+	- **W - Won´t Have (this time)**
+		Requisitos que no se implementarán ahora, pero podrían considerarse en el futuro. Se dejan explícitos para evitar malas interpretaciones.
+		Ejemplos: módulo completo de auditoría, integración con terceros no prioritaria
+	  
+	  **Por qué se usa MoSCoW**
+		- Da claridad al negocio y al equipo sobre qué es crítico y qué no.
+		- Evita que todos los requisitos parezcan urgentes.
+		- Permite compremeter un alcance realista por iteración o release.
+		- Facilita negociaciones entre stakeholders
+		
+	- **Regla práctica aplicada**
+		En la planificación de un sprint o release se suele cumplir la siguiente proporción orientativa:
+		- 60% Must
+		- 20% Should
+		- 20% Could
+		
+		Esto ayuda a que el sistema no quede sobrecargado, aunque no es una regla estricta.
+	 
+	 
+- **¿Qué es una historia de usuario transaccional?**
+    
+    Una Historia de Usuario (HU) transaccional describe un requerimiento  funcional en el cual varias operaciones relacionadas deben ejecutarse como una sola unidad atómica. Esto implica que o se llevan a cabo todas las operaciones exitosamente o, si ocurre algún error en el camino, se revierte todo para mantener la integridad de los datos y evitar estados intermedios inconsistentes.
+    
+    Para ser considerado transaccional, el proceso debe:
+    •Implicar cambios críticos en más de una fuente de datos y/o
+    •Generar efectos colaterales (p. ej., creación de registros contables, actualizaciones en inventario, validaciones externas)
+    •Su interrupción a mitad de camino podría causar información parcial o inconsistencias difíciles de subsanar.
+    
+    En otras palabras, la transaccionalidad cobra sentido cuando existe un  alto riesgo de dejar el sistema en un estado incoherente si uno de los pasos falla. Si solo hacemos validaciones o lecturas de tablas auxiliares, no se justifica manejarlo como transacción a gran escala.
+    
+    En conclusión, una Historia de Usuario transaccional busca garantizar que todos los pasos de un proceso crítico se realicen de forma integrada y segura, evitando resultados incompletos o datos corruptos. Es la estrategia que asegura la coherencia global de la información cuando los requerimientos exigen secuencias de acciones interdependientes.
+    
+    Ejemplo: En el caso de registrar una factura, por ejemplo, la historia de usuario transaccional cubriría:
+    
+    - Inserción de la cabecera (datos principales de la factura).
+    - Inserción de los detalles (productos, cantidades, precios, etc.).
+    - Actualización de stock y otros módulos (si aplica).
+    
+    Todo se realiza como un solo "bloque" lógico: o se completan los tres pasos de manera satisfactoria, o no se confirma ninguno. De esta forma, se garantiza la coherencia y exactitud de la información en el sistema.
+    
+
+---
+
+## 3. Gestión de procesos, gestión de proyectos, Gestión predictiva vs ágil, Metodologías de gestión de proyectos, SCRUM, agile
+
+### Gestión de Procesos
+
+- ==**¿Qué es la gestión de procesos?**==
+    *Nota: ¿es el mismo concepto, o misma definición, para gestión por procesos?, probablemente no.*
+    
+    Es una disciplina que consiste en identificar, diseñar, analizar, medir, ejecutar, controlar y mejorar los procesos clave de una organización para alcanzar sus objetivos de manera eficiente y efectiva.
+    
+    **Para que la gestión de procesos sea eficiente, los procesos deben cumplir con ciertas características, como ser:**
+    
+    - **Horizontalidad**: Tener un enfoque que involucre diferentes áreas o funciones, ej.: desde proveedor hasta cliente.
+        
+    - **Definibilidad**: Poder ser claramente definidos y documentados.
+        
+    - **Límites claros**: Tener un comienzo y un final bien establecidos.
+        
+    - **Representabilidad gráfica**: Ser posibles de modelar visualmente, por ejemplo, mediante diagramas.
+        
+    - **Medición y control**: Poder ser evaluados a través de indicadores y ser gestionados en función de ellos.
+        
+    - **Responsabilidad**: Tener un responsable asignado que supervise el proceso.
+    
+
+
+- **¿Cuáles son los tres tipos de procesos en una organización?**
+    
+    1. **Procesos Claves:** Responsables de desarrollar el producto o servicio que entrega la organización. Ej.: producción, comercialización, venta.
+        
+    2. **Procesos Estratégicos:** Dedicados al diseño y la planificación de la estrategia y los objetivos. Ej.: presupuestado, diseño de producto.
+        
+    3. **Procesos de Apoyo:** Entregan el soporte necesario para que los procesos claves se lleven a cabo. Buscan proporcionar recursos (humanos, monetarios, logísticos, entre otros). Ejemplos: proceso de formación, informática, logística.
+
+### Gestión de Proyectos (General y Predictiva)
+
+-  **¿Cuál es la definición clásica de proyecto según PMBOK?**
+    
+    Un proyecto es un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único. 
+	
+	La naturaleza temporal de los proyectos implica que un proyecto tiene un principio y un final definidos. Como bien se estableció, cada proyecto genera un producto, servicio o resultado único. El resultado del proyecto puede ser tangible o intangible.
+	
+	Otras consideraciones:
+	- un proyecto tiene un inicio y fin definidos
+	- un proyecto utiliza recursos limitados
+	- un proyecto tiene un alcance claro y un presupuesto preestablecido.
+
+- **¿Qué es una metodología de gestión de proyectos?**
+	
+	Una metodología de gestión de proyectos es un marco estructurado que proporciona pautas, procesos y técnicas para planificar, ejecutar y completar un proyecto con éxito.
+	
+	Pressman en "Ingeniería del Software" menciona varios modelos prescriptivos clásicos, como el modelo en cascada o el modelo de desarrollo iterativo, las cuales son metodologías estructuradas para guiar el proceso de desarrollo de software.
+
+- **¿Qué es el alcance de un proyecto?**
+    
+    El alcance o scope de un proyecto define todo el trabajo necesario para completar un proyecto con éxito, asegurando que se incluya únicamente lo que es necesario y se evite realizar trabajo adicional que no haya sido planeado o aprobado. 
+    
+    En términos generales, el alcance del proyecto responde a las siguientes preguntas clave:
+    - **¿Qué se entregará?** es decir, cuales serán los resultados finales del proyecto.
+    - **¿Cuáles son los límites del proyecto?**, es decir, qué está dentro y fuera del alcance.
+    - **¿Cuáles son los requisitos del cliente o del usuario final?**
+    
+- **¿Cuál es el propósito de la gestión del alcance?**
+    
+    Establecer un proceso que permita incorporar cambios, asegurándose que estos contribuyan a la meta final del proyecto.
+
+- ¿**Cuales son los procesos claves de la gestión del alcance?**
+	1. **Planificar la gestión del alcance:** 
+		Definir cómo se determinará el alcance del proyecto y cómo se controlará a lo largo del ciclo de vida.
+	2. **Recopilar requisitos:** 
+		Redactar una declaración detallada del alcance que describe los entregables claves del proyecto, así como sus restricciones y supuestos.
+	3. **Crear la Estructura de Desglose del Trabajo (EDT o WBS):** 
+		Dividir los entregables del proyecto en componentes más manejables, asegurando que se abarque todo el trabajo necesario.
+		
+		*Ejemplo:* en una empresa de software que ha sido contratada para desarollar una aplicación móvil de e-commerce, se crea una EDT para dividir el proyecto en componentes más pequeños. Por ejemplo:
+		- Módulo de búsqueda de productos
+		- Módulo de carrito de compras
+		- Módulo de procesamiento de pagos
+		- Interfaz de usuario (UI)
+		  
+	- **Validar el alcance:** Obtener la aprobación formal de los entregables por parte de los interesados clave.
+	  
+	- **Controlar el alcance:** 
+		Monitorear el estado del alcance del proyecto y gestionar los cambios d e manera que no se extienda innecesariamente, lo que se conoce como "creep de alcance".
+		
+		**Ejemplo de "Creep de Alcance"** 
+		En proyectos de software, es muy común que el alcance crezca de manera no planificada (creep de alcance). Siguiendo el ejemplo anterior, supongamos que después de la aprobación inicial del alcance, el cliente solicita agregar nuevas funcionalidades como "recomendaciones de productos personalizadas" o "integración con redes sociales para compartir productos". Si estas características adicionales no se gestionan adecuadamente, podrían aumentar el tiempo de desarrollo y los costos, afectando el éxito del proyecto.
+	
+	
+	 El **alcance** del proyecto es esencial para definir y limitar el trabajo que se realizará, asegurando que los objetivos sean claros y alcanzables dentro de los parámetros establecidos. En un proyecto de desarrollo de software, definir y controlar adecuadamente el alcance ayuda a evitar retrasos y sobrecostos, y permite entregar una solución que cumpla con las expectativas del cliente
+	  
+- **¿Qué es la triple restricción en un proyecto?**
+    
+     La Triple Restricción es un concepto fundamental en la gestión de proyectos que se representa típicamente como un triángulo, donde los tres lados corresponden a las restricciones de Alcance, Costo, y Tiempo. Estas tres variables están interrelacionadas de manera que cualquier cambio en una de ellas afecta inevitablemente a las otras dos. 
+     
+     El equilibrio entre estas restricciones es crucial para el éxito del proyecto y, en su centro, se encuentra la Calidad del proyecto, que depende directamente de cómo se gestionen estas tres dimensiones.
+
+- **¿Cual es la evolución de la triple restricción?**
+	 
+	 Si bien la Triple Restricción ha sido durante mucho tiempo una herramienta clásica para analizar y gestionar proyectos, en la práctica moderna de gestión de proyectos se ha reconocido que este enfoque es insuficente para capturar la complejidad real de los proyectos actuales.
+	 
+	 El objetivo final de un proyecto no es sólo mantener estas tres restricciones en equilibrio, sino **entregar valor a las partes interesadas**. Por lo tanto, el enfoque tradicional del tripangulo ha evolucionado para incluir otras tres restricciones críticas:
+	 
+	 **Calidad, Riesgos y Recursos**
+	 
+	 - **Calidad**
+		 La calidad no sólo es un resultado del equilibrio entre alcance, tiempo y costo, sino que también es una restricción en sí misma. La gestión de la calidad implica asegurar que el producto final cumpla con los estándares y expectativas establecidos. Esto requiere planificación y control a lo largo de todo el proyecto.
+		 
+		 **Aspectos que afectan la calidad:**
+			- Falta de comunicación
+			- Habilidades deficientes de diseño o desarrollo
+			- Demasiados cambios en el proyecto (¿alcance?)
+			Estos son factores que pueden resultar en una calidad 
+			deficiente, independientemente de otros aspectos como el costo, tiempo o recursos.
+		
+		
+	- **Riesgos**:
+		 Los riesgos hacen referencia a cualquier incidente inesperado que puede interferir en el proyecto.
+		 
+		 Aunque la mayoría de los riesgos son negativos, algunos pueden ser positivos.
+		  
+		 *Ejemplo:* una nueva tecnología podría ayudar a terminar el trabajo más rápido, o una nueva competencia en el mercado podría reducir el valor del producto.
+		 
+		 **Gestión de riesgos:**
+			La gestión de riesgos implica identificar, analizar y mitigar los riesgos potenciales que podrían desviar el proyecto de sus objetivos. Esto se puede hacer utilizando un registro de riesgos para evaluar la probabilidad y la gravedad de cada riesgo, lo que permite mitigar primero aquellos más probables y graves.
+		
+		- **Ejemplos de riesgos a abordar:**
+			- Recursos escasos
+			- Contratiempos operativos
+			- Bajo rendimiento
+			- Falta de claridad
+			- Corrupción del alcance
+			- Costos altos
+			- Presión de tiempo
+		
+		- **Ejemplo de riesgo en un proyecto de software:**
+			La posibilidad de que un componente clave no sea compatible con la infraestructura existente podría causar retrasos significativos y aumentar los costos. Gestionar este riesgo podría implicar realizar pruebas tempranas o tener un plan de contingencia.
+		
+	- **Recursos:**
+		Los recursos se refieren a las personas, equipos, materiales y otros elementos necesarios para completar el proyecto. Están estrechamente relacionados con las restricciones de costos, ya que estos requisitos cuestan dinero. 
+		
+		La gestión de recursos implica asegurar que se tengan los recursos adecuados en el momento adecuado para mantener el proyecto en marcha.
+		
+		 **Recursos para considerar:**
+			- Personas
+			- Equipamiento
+			- Materiales
+			- Instalaciones
+			- Software
+		
+		 **Plan de gestión de recursos:**
+			Asegura que los recursos necesarios estén disponibles para cada aspecto del proyecto, evitando que esta restricción afecte negativamente otras áreas como la calidad, el presupuesto o el cronograma.
+		
+		 **Ejemplo:**
+			En un proyecto de software, los recursos clave podrían incluir desarrolladores con habilidades específicas, servidores para pruebas y herramientas de desarrollo. Si no se gestionan adecuadamente, la falta de recursos podría retrasar el proyecto o aumentar los costos debido a la necesidad de recursos adicionales de última hora.
+		  
+		  
+        
+- ==**¿Cuáles son las restricciones del proyecto y cuáles son flexibles en enfoques tradicional y ágil?**==
+    
+ - **¿Qué es la Gestión de Proyectos?**
+    
+    Es la aplicación de conocimientos, habilidades, técnicas y herramientas a las actividades de un proyecto con el fin de cumplir los requerimientos del proyecto.
+    
+- **¿En qué componentes fundamentales se apoya la gestión de proyectos?**
+	
+	La gestión de proyectos se apoya en cuatro componentes fundamentales:
+	
+	- **Conocimiento**:
+		Incluye un conocimiento profundo del producto y del negocio, así como de las guías y mejores prácticas de gestión de proyectos. Por ejemplo, el conocimiento se aplica en áreas diversas como la integración del proyecto, el alcance, el tiempo, el costo, la calidad, los recursos humanos, la comunicación, los riesgos, las adquisiciones y la gestión de interesados.
+		
+	- **Habilidades:**
+		Comprende habilidades interpersonales y de liderazgo, como la capacidad para comunicarse efectivamente, negociar, resolver problemas, liderar equipos y ejercer influencia en los interesados del proyecto.
+		
+	- **Técnicas:**
+		Incluyen diferentes métodos y enfoques para abordar problemas y gestionar el proyecto. Ejemplos incluyen los enfoques ágiles y tradicionales. En el enfoque predictivo, se suele utilizar una planificación detallada al inicio del proyecto y seguir una secuencia de fases definida.
+		
+	- **Herramientas:**
+		Las herramientas varían desde técnicas de planificación y control como los Gráficos de Gantt, el PERT, el CPM, y aplicaciones informáticas modernas como Trello, Asana entre otras.
+	
+    
+- ==**¿Qué es el enfoque predictivo o clásico de la gestión de proyectos?**==
+	
+	La gestión de proyectos, tal como se desarrolló en las últimas décadas del  siglo XX, se fundamenta en la **planificación detallada, el seguimiento riguroso y el control continuo** de las actividades necesarias para alcanzar los objetivos del proyecto. 
+	
+	Este enfoque predictivo es especialmente útil en entornos donde los requisitos son claros, estables y predecibles, y ha sido ampliamente adoptado en múltiples industrias debido a su capacidad para garantizar resultados consistentes.
+	
+	Este enfoque se caracteriza por una serie de elementos clave que definen  su estructura y aplicación.
+	
+	1. **Planificación Basada en la Descomposición del Trabajo:**
+		
+		La gestión de proyectos comienza con un análisis exhaustivo del trabajo que se va a realizar. Esto implica la descomposición del proyecto en tareas o actividades más pequeñas y manejables, que se organizan en un plan de trabajo estructurado. 
+		
+		*La planificación se basa en los requisitos detallados del proyecto, ya sea en un proyecto de obra (por ejemplo, construcción) o en cualquier otro tipo de proyecto con objetivos definidos.*
+		
+	2. **Desarrollo del Plan de Proyecto**:
+		A partir de la información recopilada durante la fase de planificación, se elabora un plan que ajusta los recursos, tiempos y costos disponibles. Este plan sirve como guía principal para la ejecución del proyecto. Durante la ejecución, se realiza un seguimiento constante para identificar posibles desviaciones respecto al plan inicial, lo que permite tomar medidas correctivas oportunas necesarios.
+		
+	3. **Gestión Predictiva del Proyecto**:
+		Este enfoque de gestión de proyectos es "predictivo" porque se basa en un plan inicial que predice con detalle la secuencia de operaciones necesarias para completar el proyecto, sus costos asociados y los tiempos de ejecución. 
+		
+		El objetivo principal es lograr que el producto o servicio final se obtenga tal como se ha "previsto" al inicio del proyecto, y su éxito se mide por la capacidad de cumplir con los plazos, los costos y la calidades establecidos.
+	   
+	
+	
+- **==¿Cuáles son las características de la Gestión de Proyectos Predictiva o Clásica?==**
+	 
+	Las características del enfoque clásico o predictivo de la gestión de proyectos son:
+	
+	1. **Disciplina Formal Basada en Procesos Sistemáticos y Repetibles:**
+		La gestión de proyectos predictiva se apoya en una metodología estructurada que utiliza procesos sistemáticos, repetibles y escalables. 
+		
+		Esta metodología implica una serie de pasos definidos que se siguen rigurosamente para alcanzar los objetivos del proyecto.
+		
+	2. **Criterios de Éxito Claramente Definidos:**
+		El éxito de un proyecto gestionado de manera predictiva se mide en función de tres criterios fundamentales:
+		 - Calidad: El producto o servicio final debe cumplir con los estándares y requisitos especificados.
+		 - Costes: El proyecto debe completarse dentro del presupuesto establecido.
+		 - Fechas: El proyecto debe terminarse dentro del plazo previsto.
+		   
+	3. **Entorno Estable y Predecible:**
+		Este enfoque de gestión asume que el proyecto se desarrollará en un entorno relativamente estable y predecible. Esto signfica que los cambios en el alcance o los requisitos del proyecto son mínimos y se gestionan cuidadosamente para no afectar significativamente el plan inicial.
+		
+	4. **Objetivo de Mantener el Cronograma, Presupuesto y Recursos:**
+		La prioridad en el enfoque predictivo es mantener el cronograma, presupuesto y los recursos planificados. 
+		
+		Esto requiere un control estricto y la capacidad de tomar medidas correctivas rápidamente si se detectan desviaciones del plan.
+		
+	5. **División en Fases Secuenciales o Ciclo de Vida del Proyecto**
+		La gestión de proyectos predictiva divide el desarrollo del proyecto en fases secuenciales, conocidas como el ciclo de vida del proyecto. 
+		
+		Cada fase se completa anes de que la siguiente comience, lo que facilita un enfoque estructurado y controlado. Las fases típicas incluyen:
+			1.INICIO
+			2. PLANEACIÓN
+			3. EJECUCION
+			4. CONTROL
+			5. CIERRE
+	
+- **¿Cuáles son las 5 fases del ciclo de vida del proyecto predictivo según PMBOK?**
+    
+    La gestión de proyectos predictiva divide el desarrollo del proyecto en fases  secuenciales,  conocidas como el ciclo de vida del proyecto. Cada fase completa antes de que la siguiente comience, lo que facilita un enfoque estructurado y controlado. Las fases típicas incluyen:
+    
+    - **Inicio**:
+	    Establece las bases del proyecto a través de un acta de constitución, la justificación del  mismo, el estudio de viabilidad y la identificación de riesgos iniciales. Esta fase define el propósito y la dirección del proyecto.
+	    
+    - **Planeación**:
+	    La fase de planeación consiste en desarrollar todos los planes subsidiarios necesarios (alcance, tiempo, costo, calidad, recursos, comunicación, riesgos,  adquisiciones, gestión de interesados) que se integran en un plan "global" de gestión del proyecto. 
+	    
+	    Permite definir claramente qué se va a hacer, cuándo, cómo y con qué recursos.
+	    
+    - **Ejecución**:
+	     Refiere a la integración y ejecución de las actividades de acuerdo con el plan de gestión del proyecto. Involucra la coordinación de personas y recursos.
+	      
+	    (¡De haber cambios en el alcance?) Se implementan los cambios aprobados para alcanzar los objetivos establecidos.
+	    
+    - **Control**:
+	    En la fase de control, se monitorea y controla el progreso del proyecto en relación con   el plan. Implica la revisión y aprobación de cambios, así como también la actualización de la documentación y los planes del proyecto. 
+	    
+	    Esta fase ayuda a asegurar que el proyecto se mantenga dentro de los límites de calidad, coste y tiempo definidos.
+	    
+    - **Cierre**:
+	    La fase de cierre finaliza formalmente el proyecto (o una fase del mismo), incluyendo la entrega de todos los entregables, la obtención de la aceptación formal del cliente o patrocionador, la documentación de las lecciones aprendidas, y la liberación de recursos para futuros proyectos.
+    
+- ¿**Qué es la EDT (WBS) y para qué se utiliza?**
+    
+    Dividir los entregables del proyecto en componentes más manejables, asegurando que se abarque todo el trabajo necesario.
+    
+	*Ejemplo:* en una empresa de software que ha sido contratada para desarollar una aplicación móvil de e-commerce, se crea una EDT para dividir el proyecto en componentes más pequeños. Por ejemplo:
+		- Módulo de búsqueda de productos
+		- Módulo de carrito de compras
+		- Módulo de procesamiento de pagos
+		- Interfaz de usuario (UI)
+    
+- ==¿**Qué es el "creep de alcance" y cómo se controla?**==
+    
+    Es el crecimiento de un alcance de manera no planificada, que puede aumentar tiempos y costos del proyecto.
+    *Ampliar*
+    
+- **¿Qué es la línea base de costos y cómo se utiliza para el control?**
+    
+    Es un costo de proyecto de referencia, normalmente definido al sumar  todas las estimaciones de costo iniciales, que se utiliza para realizar el control de los costos del proyecto y reconocer desviaciones considerables.
+    *Ampliar!*
+    
+- ==**¿Qué tipos de dependencias existen en la secuenciación de actividades?**==
+    
+    La secuenciación de actividades es ordenar las actividades a realizar de manera lógica. 
+    
+    Tipos de dependencias:
+    - Fin-comienzo: debe terminar una para empezar la siguiente.
+    - ¿Hay otras?
+    
+- **¿Cuáles son los 4 componentes fundamentales de la gestión de proyectos según PMBOK?**
+    
+    1. **Alcance (Scope):** Define qué trabajo debe realizarse y qué no debe incluirse en el proyecto. Comprende:
+        - Definición clara de los entregables
+        - Requerimientos del proyecto
+        - Límites y exclusiones
+        - Estructura de desglose del trabajo (EDT/WBS).
+        
+    2. **Tiempo (Time):** Planificación, estimación y control de la duración del proyecto. Incluye: 
+        - Secuenciación de actividades
+        - Estimación de duraciones
+        - Desarrollo del cronograma
+        - Control del cronograma
+        
+    3. **Costo (Cost):** Abarca la planificación, estimación, presupuestación y control de los costos del proyecto. Comprende:
+        - Estimación de costos de recursos
+        - Desarrollo del presupuesto
+        - Control de costos
+        - Gestión del valor ganado
+        
+    4. **Calidad (Quality):** Cumplir con los requisitos y satisfacer las expectativas del cliente. Incluye:
+        - Planificación de la calidad
+        - Aseguramiento de la calidad
+        - Control de la calidad
+        - Mejora continua
+    
+    - **¿Qué son los productos del trabajo en metodologías tradicionales?**
+	    - En los enfoques tradicionales (cascada, V-model, ingeniería clásica del software), los **productos del trabajo** son los **artefactos formales** que se generan como resultado de cada fase del proceso. Estos productos suelen ser **documentales**, **secuenciales** y **predefinidos**.
+		    - Ejemplos:
+			    - Documentación de Requisitos (Especificación de Requisitos del Software (ERS o SRS)
+			    - Modelos UML
+			    - Especificaciones de arquitectura
+			    - Casos de prueba
+	    
+
+### Gestión Ágil y SCRUM
+
+- ¿Qué es la agilidad?
+	 
+	 La agilidad es la capacidad de producir partes completas de un producto en cortos períodos de tiempo. Lo que permite respuestas rápidas a cambios en los Requerimientos del cliente o del mercado. La agilidad pone énfasis en la entrega rápida y funcional, y le resta importancia a los productos intermedios del trabajo.
+	
+	 Los modelos ágiles se desarrollaron como un esfuerzo por superar las debilidades de la gestión predictiva y las metodologías formales, a las que consideraban excesivamente pesadas y rígidas por su fuerte dependencia de planificaciones. Estos nuevos métodos no son aplicables a todos los proyectos, personas y situaciones. 
+	
+	 Es frecuente que en la economía moderna sea difícil o imposible predecir la forma en la que evolucionará un sistema basado en computadora. Por lo tanto, se debe ser lo suficientemente ágil para responder a lo fluido que se presenta el ambiente de negocios. La fluidez implica cambio, y el cambio es caro, en particular si es descontrolado o si se administra mal, o si se da en etapas tardías del proyecto.
+	
+	
+- ==**¿Qué beneficios tienen las metodologías Ágiles?**==
+    
+    - Prioridades flexibles 
+    - Mayor transparencia 
+    - Costos y plazos conocidos
+    - Mejora la calidad final 
+    - Entrega anticipada.
+    
+- ==**¿Cuáles son los 5 objetivos clave de la gestión ágil?==**
+    
+    - Maximizar valor
+    - Reducir tiempo de salida al mercado: del tiempo es un factor competitivo crítico
+    - Agilidad 
+    - Flexibilidad: capacidad de adaptar el desarrollo a las características del proyecto y a la evolución de los requisitos
+    - Resultados fiables: mientras que la gestión predictiva busca cumplir con plazos y costos predefinidos, la gestión agil se centra en entregar resultados valiosos.
+    *Ampliar!*
+	
+- ==**¿Qué factores determinan la elección entre gestión predictiva o ágil?**==
+    Los factores que determinan la elección entre una gestión y otra son:
+    
+    - Prioridad de Negocio 
+    - Estabilidad de Requisitos 
+    - Facilidad para Modificar el Producto
+    - Costo de Hacer Prototipos 
+    - Criticidad del Sistema 
+    - Tamaño del Equipo.
+    
+    La gestión predictiva es recomendable si se necesita control y estabilidad. Ágil es preferible si  se necesita flexibilidad y adaptación.
+    *Ampliar!*
+    
+- **¿Cuáles son los criterios de éxito en gestión predictiva vs gestión ágil?**
+    
+    - **Gestión Predictiva:** Se mide en función de la calidad del producto, costes y fechas.
+        
+    - **Gestion Ágil:** Se mide no solo en términos de tiempo, costo y alcance, sino en la capacidad de entregar un producto que realmente cumpla con los objetivos y necesidades del cliente.
+
+- **¿Qué son los productos intermedios del trabajo en metodologías ágiles?**
+	 En los enfoques ágiles los **productos intermedios** no son grandes documentos formales, sino **resultados tangibles y de corto alcance** producidos durante iteraciones frecuentes.  Su propósito principal es **validar valor**, no documentar fases.
+	 
+	 - Ejemplos:
+		- Elementos del backlog (Historias de Usuario, Criterios de aceptación, Tareas, Bugs registrados)
+		- Artefactos (Tablero de trabajo, Scrum board, Estimaciones, Sprint Plan, Sprint Backlog)
+		- Artefactos emergentes de diseño (Esquemas simples, Bocetos)
+		- Incrementos de software
+		  
+	La premisa es: **si no aporta valor para el equipo o el cliente, no se produce**.
+	
+- **¿Cuáles son los 4 valores del Manifiesto Ágil?**
+    
+    1. Individuos e interacción sobre procesos o herramientas.
+        
+    2. Software que funciona sobre documentación extensa.
+        
+    3. Comunicación con el cliente sobre negociación contractual.
+        
+    4. Adaptabilidad al cambio sobre seguir un plan rígido.
+        
+- **¿Cuáles son los principios ágiles?**
+	
+	1. La prioridad más alta es satisfacer al cliente a través de la entrega pronta y continua de software valioso.
+	2. Los procesos ágiles dominan el cambio para aprovechar las ventajas
+	competitivas que pueda tener el cliente.
+	3. Entregar con frecuencia software que funcione.
+	4. Las personas de negocio y los desarrolladores deben trabajar juntos durante todo el proyecto.
+	5. Desarrollar los proyectos con individuos motivados.
+	6. El método más eficiente y eficaz para transmitir información es cara a cara.
+	7. La medida principal de avance es el software que funciona.
+	8. Los procesos ágiles promueven el desarrollo sostenible; es necesario
+	mantener un ritmo constante de forma indefinida.
+	9. La atención continua a la excelencia técnica y el buen diseño mejora la
+	agilidad.
+	10. Es esencial la simplicidad, es decir, maximizar la cantidad de trabajo no realizado.
+	11. Las mejores arquitecturas y diseños surgen de equipos con organización propia.
+	12. El equipo reflexiona en intervalos regulares sobre cómo se rmás eficaz y luego afina y ajusta su comportamiento en consecuencia.
+	
+- ==**¿Qué es Scrum?**==
+	 
+	 Es un enfoque iterativo e incremental que permite a los equipos entregar valor de manera rápida y adpatarse a cambios en los requerimientos o el entorno. Pone su enfoque en la entrega de productos mediante ciclos iterativos y colaborativos.
+	 
+	 Scrum es un marco de trabajo ágil utilizado principalmente para gestionar proyectos complejos, como el desarrollo de software, aunque también se aplica en otros contextos como marketing, educación o gestión de proyectos en general. La organización de esta metodología es conocida como el ciclo de scrum.
+	 
+	 Scrum se basa en los principios ágiles y promueve el empirismo, lo que significa que las decisiones se toman en función de lo que se observa y experimenta, en lugar de suposiciones o planes rígidos
+	 
+- ¿**Cuáles son los pilares de Scrum?**
+  
+	Los tres pilares del empirismo en Scrum son:
+	- Transparencia:
+		Todo el proceso debe ser visible para los involucrados. Esto incluye claridad en los objetivos, el progreso y los problemas, utilizando herramientas como Tableros Kanban o Deficiones de Hecho DoD.
+		
+	- Inspección:
+		Los equipos revisan frecuentemente el trabajo y el progreso (en ciertos eventos Scrum) para identificar desviaciones o mejoras necesarias.
+		
+	- Adaptación:
+		El equipo ajusta el producto o el proceso según los resultados de la insepcción.
+		
+- ¿Qué es el Ciclo de Scrum?
+	El ciclo de scrum se divide en sprints, que son períodos cortos de trabajo que generalmente duran entre 2 y 4 semanas, al final de los cuales se entrega un incremento funcional del producto.
+	
+- ¿Cuáles son los Roles de Scrum?
+	 1. Product Owner:
+		- Responsable de maximizar el valor del producto y gestionar el backlog del producto.
+		- Comunica las prioridades de negocio al equipo y toma decisiones sobre el producto.
+		- Representa los intereses del cliente y las partes interesadas.
+		  
+	2. Scrum Master:
+		-  Facilita la implementación de Scrum y elimina obstáculos para el equipo.
+		-  Asegura que el equipo siga los principios y valores de Scrum.
+		-  Promueve la auto-organización y mejora continua del equipo.
+		   
+	3. Development Team:
+		- Un equipo multifuncional que es responsable de crear los incrementos del producto.
+		- El equipo debe ser pequeño y auto-organizado.
+		- Son responsables de completar las tareas durante el sprint.
+	
+- ¿Cuales son los Artefactos de Scrum?
+	1. Product Backlog:
+		- Es una lista priorizada de todo lo que se necesita en el producto.
+		- Se gestiona continuamente y el Product Owner es responsable de gestionarlo.
+		  
+	2. Sprint Backlog:
+		- Es el conjunto de elementos del Product Backlog que se seleccionan para ser trabajados en un sprint.
+		- Incluye las tareas que el equipo se compromete a completar durante el sprint.
+	
+	3. Incremento:
+		- Es el producto funcional que debe estar en un estdao "hecho" al final de cada sprint.
+		- Cada incremento es acumulativo y debe estar completamento probado.
+	
+- ¿Cuales son las Ceremonias de Scrum?
+	
+	- Sprint Planning:
+		En esta reunión, el equipo planifica el trabajo para el próximo spinrt. El PO presenta las historias de usuario prioritarias y el equipo decide qué puede completar durante el sprint.
+		*Duración*: 2-4 horas para un sprint de dos semanas.
+		
+	- Daily Scrum:
+		Reunión diaria de 15 minutos donde el equipo discute el progreso hacia el objetivo del sprint.
+		*Duración:* 15 minutos diarios.
+		
+	- Sprint Review:
+		Al final del sprint, el equipo presenta el incremento completado al PO y otras partes interesadas para obtener retroalimentación.
+		*Duración:* 1-2 horas.
+		
+	- Sprint Retrospective:
+		Revisión de lo que salió bien y qué se puede mejorar en el próximo sprint.
+		*Duración:* 1 hora.
+		
+- **¿Qué es la Pila del Producto (Product Backlog) y quién la gestiona?**
+    
+    Es una lista priorizada de trabajo pendiente que representa todo lo que se necesita para mejorar (desarrollar o mantener) el producto. Es la única fuente de trabajo y es gestionada por el Product Owner. Está ordenado por prioridad según el valor que aporta al negocio o al usuario.
+    
+    
+- **¿Qué es la Pila del Sprint (Sprint Backlog) y sus características?**
+    
+    El Sprint Backlog es un subconjunto del Product Backlog, elegido por el equipo de desarrollo para trabajar durante un Sprint, (ciclo de trabajo, generalmente de 1 a 4 semanas). Es gestionado por los desarrolladores.
+    
+    Características clave:
+    - Contiene los elementos seleccionados del Product Backlog más un plan de acción para cumplirlos.
+    - Se actualiza diariamente en la reunión Daily Scrum para reflejar el progreso.
+    
+    **Ejemplo:**  
+	Durante el Sprint actual, el equipo puede tomar del Product Backlog:
+	- “Diseñar pantalla de registro.”
+	- “Implementar validación de formulario.”
+	- “Crear test unitarios para el módulo de usuarios.”
+	  
+	  Los tres elementos principales del Sprint Backlog son:
+	  - Los elementos seleccionados del Product Backlog: son los ítems que el equipo selecciona durante la planificación del sprint. (Sprint Planning). Representan (son) lo que se va a construir durante sl Sprint. Cada ítem seleccionado suele tener criterios de aceptación y una definición de "Hecho" (DoD).
+	    
+	  - El Objetivo del Sprint (Sprint Goal): Es una declaración corta y clara que describe el propósito del sprint. Sirve como **guía** para las decisiones del equipo durante el Sprint. Ej.: “Permitir que los usuarios puedan registrarse y autenticarse con su cuenta de correo.”
+	  
+	  Este objetivo ayuda al equipo a mantener el foco, incluso si algunos elementos del backlog cambian o se refinan durante el Sprint.
+	  
+	- El plan para entregar el incremento: 
+	 Es el conjunto de tareas técnicas, subtareas o pasos concretos que el equipo identifica para completar los ítems seleccionados.
+	 Representa cómo se va a construir el trabajo del Sprint.
+	 
+		 **Ejemplo de descomposición:**
+			 -  PBI: "Implementar formulario de registro."
+			 - Validar email y contraseña
+			 - Conectar con API /register
+			 - Testear en distintos navegadores
+	
+	Estas tareas son autoorganizadas por el equipo y se actualizan constantemente durante el Sprint.
+	 
+- **¿Qué es el Incremento y cuándo se considera "terminado"?**
+    
+    Es un paso concreto hacia el "Objetivo del Producto" (Product Goal). Cada incremento se adiciona a los Incrmentos previos y se verifica exhaustivamente, para asegurarse de que todos los Incrementos funcionan bien juntos. Para que provea valor, el Incremento debe ser usable. El trabajo hecho no puede considerase parte de un Incremento a menos que se ajuste a la Definición de Hecho.
+    
+- **¿Qué es la Definición de Hecho (Definition of Done)?**
+	
+	La Definition of Done es un acuerdo claro y compartido dentro del equipo  Scrum que define cuándo un trabajo se considera completamente terminado. 
+	
+	En otras palabras: es una lista de criterios de calidad que cada ítem o  incremento debe cumplir antes de considerarse "hecho" y potencialmente entregable.
+	
+	**Relación con el Incremento:**
+	En Scrum, al final de cada Sprint, el equipo debe entregar un Incremento, es decir:
+		la versión más reciente del producto que integra todo el trabajo completado durante el Sprint (y todos los anteriores).
+	Para que ese incremento sea válido:
+	- Debe cumplir la Definition of Done.
+	- Si cualquier ítem del Sprint, no cumple con la DoD, no forma parte del Incremento.
+	Ejemplo:
+		Si la DoD exige "Código revisado y testeado automáticamente", y una nueva funcionalidad no tiene pruebas unitarias, entonces esa funcionalidad no está "Done" y no se incluye en el Incremento.
+	
+	**Relación con un PBI (Product Backlog Item)**
+	Cada **PBI** (como una historia de usuario, mejora o bug fix) también debe cumplir con la DoD **para considerarse terminado**.  
+	Es decir, el trabajo de un ítem no está listo para entregar hasta que **cumpla todos los criterios definidos en la DoD.**
+
+	**Ejemplo de DoD aplicada a un PBI:**
+	
+	- Código implementado.
+	    
+	- Revisado por otro desarrollador (code review).
+	    
+	- Pruebas unitarias con 100% de éxito.
+	    
+	- Pruebas funcionales pasadas.
+	    
+	- Documentación actualizada.
+	    
+	- Desplegado en entorno de prueba.
+	
+	Solo entonces el PBI puede marcarse como _Done_ y sumarse al Incremento del producto.
+	
+- ==**¿Cómo funciona la técnica de Planning Poker?==**
+    
+    Es una técnica comúnmente utilizada para estimar Story Points. Cada miembro del equipo asigna un puntaje a la HU usando una baraja de números (normalmente basada en la secuencia de Fibonacci) y luego se discuten las diferencias hasta llegar a un consenso.
+    
+    *Añadidura propia:*
+	    - Esta técnica se suele utilizar junto con la técnica del "Tamaño relativo", donde los Story Points a asignar se basan en la comparación entre historias. Por ejemplo: si una historia que se completó previamente tenía 3 puntos, y la nueva historia parece dos veces más compleja, entonces se podría asignar 6 (5) Story Points.
+	    - Además, cada equipo suele definir una referencia para lo que se considera una historia de 3 o 5 puntos, es decir, cuales son los criterios que tiene que tener una historia de determinado puntaje para que sirva como punto de comparación al momento de puntuar o estimar. A esta HU de referencia se le suele llamar "HU canónica".
+    
+    
+- **¿Qué son los Story Points?**
+	Los Story Points (Puntos de Historia) son una unidad de medida relativa  que el equipo usa para estimar el esfuerzo que implica completar un Product Backlog Item o una historia de usuario. 
+	
+	No representan tiempo (ni horas ni días), sino una combinación de tres factores:
+	- Complejidad: cuán difícil es implementar la historia (lógica, dependencias, tecnología nueva)
+	- Esfuerzo: cuánto trabajo implica en términos generales
+	- Riesgo o incertidumbre: qué tan incierto o riesgoso es el desarrollo.
+	  
+	**La ponderación varía según el equipo:**
+	
+	No existe una fórmula matemática universal (por ejemplo, “Complejidad = 50%, Esfuerzo = 30%, Riesgo = 20%”).  
+	En Scrum, la estimación es **relativa y contextual al equipo**.
+	
+	**Diferentes realidades → diferentes percepciones**:
+	
+	- Un equipo con **alta experiencia técnica** puede asignar **menos puntos** a una tarea que otro equipo que recién empieza con esa tecnología.
+	- Un equipo con **muchas dependencias externas** puede darle más peso al **riesgo**, mientras otro prioriza la **complejidad técnica**.
+	- Equipos más maduros tienden a estimar **por referencia**, no por fórmula (“esto se parece a una historia 5 puntos que hicimos antes”).
+	  
+	**Lo importante: mantener coherencia interna**
+	Cada equipo debe usar su propia escala de referencia:
+	Por ejemplo:
+		Muy fácil: 1 punto
+		Simple: 3 puntos
+		Moderado: 3-5 puntos
+		Complejo: 8-13 puntos
+		Muy complejo/incierto: +20
+		
+	Así, los puntos **no son comparables entre equipos**, pero **sí consistentes dentro del mismo equipo**, que es lo que importa para calcular su **velocidad**.
+	
+- ==**¿Cómo se calcula la velocidad de un equipo?**==
+    
+    Velocidad, trabajo y tiempo son las tres magnitudes que componen la fórmula de la velocidad, en gestión de proyectos ágil, definiéndose como la cantidad de trabajo realizada por unidad de tiempo.
+    
+    Velocidad = Trabajo / Tiempo.
+	*Chequear*.
+	
+- **¿Cuál es la definición oficial de Scrum para velocidad?**
+	
+	En Scrum, la velocidad (velocity), se define como: La cantidad de trabajo completado (en Story Points) durante un Sprint.
+	Es decir:
+	- No mide tiempo, sino resultado de valor entregado.
+	- Refleja la capacidad del equipo para terminar historias de usuario o PBIs según la DoD
+	- Se calcula empíricamente, observando los sprints.
+	  
+	  Ejemplo:
+		- En el Sprint 1 se completan 25 puntos,
+		- En el Sprint 2 se completan 27,
+		- En el Sprint 3 se completan 26
+			- Velocidad promedio = 26 puntos por sprint.
+	Este enfoque es relativo al equipo y se basa en SP, no en horas. Por eso, la velocidad no tiene unidades de tiempo. (no se consideran puntos por hora ni puntos por día).
+
+- **¿Qué definición de velocidad alternativa se puede dar?**
+	
+	La **velocidad** puede definirse como la cantidad de **trabajo completado** dividida por el **tiempo invertido** en completarlo.
+	
+	Velocidad = Trabajo completado / Tiempo
+	
+	El “trabajo completado” puede expresarse en distintas unidades, según el contexto: horas-hombre, tareas, entregas o Story Points.
+	
+	Esta definición proviene de enfoques de **gestión de flujo de trabajo** y **productividad**, y se utiliza en metodologías como **Kanban**, **Lean Software Development**, **Extreme Programming (XP)** y en la **gestión de proyectos tradicional** (PMI, PERT, CPM). En estos contextos, la velocidad busca cuantificar el **rendimiento temporal** o la **eficiencia operativa** de un equipo o proceso.
+	
+	En Scrum, aunque el tiempo del Sprint es constante, esta fórmula puede interpretarse como una expresión equivalente de cuántos Story Points (trabajo) se completan en un período determinado (tiempo). Sin embargo, Scrum evita vincular directamente los Story Points con unidades de tiempo, ya que su enfoque es empírico: la velocidad se mide únicamente en función del **trabajo efectivamente terminado** dentro del marco fijo de un Sprint, sin asociarla a métricas de productividad horaria o diaria.
+	
+	En resumen:
+	- En **Scrum**, la velocidad representa la cantidad de trabajo completado (en Story Points) por Sprint.
+	- En **otros enfoques** como Kanban, Lean, XP o la gestión tradicional, la velocidad se entiende literalmente como **trabajo dividido por tiempo**, y se usa para medir **rendimiento o eficiencia** en un flujo continuo o en procesos productivos.
+	
+- **¿Qué es el gráfico burn-up y burn-down?**
+    
+    Gráficos para pronosticar el proceso que muestran:
+    
+    - **Burn-up:** Cantidad de _story points_ quemados respecto del total.
+        
+    - **Burn-down:** _Story points_ por quemar.
+      
+      
+    Otra definición:
+    Los gráficos Burn Up y Burn Down son herramientas de visualización muy usadas en Scrum y otros marcos ágiles para seguir el progreso de un equipo a lo largo del tiempo dentro de un Sprint, una release o un proyecto completo.
+    
+    - Burn Down Chart (Gráfico de trabajo pendiente) (Ideal para sprints):
+	    
+	    El burn down chart muestra cuánto trabajo queda por hacer en función del tiempo. 
+	    - Eje X: el tiempo, normalmente dividido en días de Sprint.
+	    - Eje Y: cantidad total de trabajo pendiente. (típicamente Story Points)
+	    
+	    **Cómo se interpreta**
+		- Al comienzo del Sprint, la línea parte del total de puntos comprometidos.
+		- Cada día, se resta lo que el equipo completó.
+		- Idealmente, la línea va descendiendo hasta llegar a cero al final del Sprint.
+	    
+	    El gráfico muestra visualmente si el equipo va encaminado, atrasado o adelantado  respecto del progreso esperado.
+	    
+	    **Qué revela:**
+	    - Progreso diario o por iteración.
+	    - Riesgos de no completar el Sprint a tiempo
+	    - Si el equipo está quemando trabajo de manera conestante o irregular.
+	    - Caída "neutral": el equipo estimó correctamente con justeza las tareas.
+	    - Caída "antes de lo esperado": el equipo sobreestimó las tareas, tiene que ajustar estimación.
+	    - Caída "retrasada": el equipo subestimó las tareas, tiene que reajustar estimación.
+	      
+	  - **Burn Up Chart**:. (Ideal para proyectos completos)
+	    
+		  El Burn Up Chart muestra el trabajo completado acumulado a lo largo del tiempo, y además suele mostrar una línea fija de alcance total (scope). Es el complemento inverso del Burn Down.
+		  Ejes:
+		  - Eje X (horizontal): tiempo. días, semanas o sprints.
+		  - Eje Y (vertical): cantidad de trabajo (en puntos, tareas o unidades).
+		  
+		**Cómo se interpreta**:
+		- La línea inferior muestra el trabajo completado acumulado.
+		- La línea superior muestra el alcance total del trabajo previsto (que puede cambiar si se agregan o quitan tareas)
+		- Cuando ambas líneas se tocan, el equipo completó el alcance total.
+		  
+		**Ejemplo**:
+		- Día 1: 0 puntos completados
+		- Día 5: 25 puntos completados
+		- Día 10: 50 puntos completados (igual al alcance, proyecto terminado).
+		  
+		**Qué revela**:
+		- Progreso acumulado real.
+		- Cambios en el alcance (si la linea superior sube o baja).
+		- Predicción visual de cuando se completará todo el trabajo, manteniendo trazabilidad si se agregan o eliminan tareas.
+		  
+- ¿Qué es una Spike en Scrum?
+	
+	Un spike en Scrum es una tarea de investigación cuyo objetivo es reducir la incertidumbre técnica, funcional o de diseño. Los spikes son especialmente útiles cuando el equipo se enfrenta a un desafío desconocido y necesitan investigar antes de comprometerse con una solución:
+	
+	Tipos de spikes:
+	- Spike técnico:
+		Implica investigar tecnologías, herramientas o frameworks que el equipo no ha utilizado antes.
+		
+	- Spike funcional:
+		Se utiliza pra entender mejor los requisitos del cliente o usuario.
+	
+	Ejemplo: Si el equipo está considerando usar una nueva base de datos para un microservicio nuevo de la aplicación, pueden realizar un spike para investigar si esa base de datos cumple con los requisitos de escalabilidad y rendimiento.
+	
+- ¿Qué son Épicas, Temas y Tareas en Scrum?
+	
+	- Épicas: 
+		Son grandes historias de usuario que se descomponen en otras más pequeñas.
+	- Temas:
+		Agrupaciones de historias o tareas relacionadas por un objetivo en común.
+	- Tasks:
+		Son las unidades más pequeñas de trabajo que el equipo puede completar durante un sprint.
+		
+- ¿Qué es Scrum Técnico y Scrum Avanzado?
+	- Scrum Técnico:
+		Se refiere a la aplicación de Scrum con un enfoque en los aspectos técnicos del desarrollo, como la implementación de buenas prácticas de codificación, automatización de pruebas y diseño técnico de alta calidad.
+		
+	- Scrum Avanzado:
+		Es la aplicación de Scrum con mayor dominio, profundidad y madurez, especialmente en contextos complejos.  Se refiere a un conocimiento profundo del marco, mas allá de los fundamentos. Implica habilidades avanzadas de facilitación y se enfoca en el manejo de equipos de alta madurez, así como también el control de depencias entre equipos y la mejora continua a nivel organizacional.
+	
+- ¿Qué es la metodología Lean?
+	La metodología Lean tiene su origen en la manufactura, pero se ha adaptado al desarrollo de software, con el objetivo de maximizar el valor entregado al cliente y minimizar los desperdicios (entendiendose "desperdicios" como cualquier actividad que no aporte valor directo). Lean se centra en los siguientes principios clave:
+	
+	- Eliminar desperdicios:
+		Identificar y reducir actividades que no agregan valor. En el contexto de desarrollo de software, esto puede significar eliminar burocracia, reducir el tiempo de espera para revisiones y evitar el trabajo innecesario.
+		
+	- Mejora continua (Kaizen):
+		Busca la mejora constante en cada ciclo de trabajo. Los equipos revisan continuamente sus procesos para hacer ajustes y ser más eficientes.
+	- Optimización del sistema global:
+		En lugar de optimizar componentes individuales, Lean aboga por optimizar el flujo completo del trabajo, asegurando que el producto final se entregue lo más rapido y eficientemente posible.
+	
+	En software, el enfoque Lean implica reducir el trabajo en progreso (WIP), garantizar la entrega de valor constante, y enfocar los esfuerzos en lo que los usuarios necesitan.
+		
+- **¿Qué es Lean Startup?**
+	
+	Es una metodología completa creada por Eric Ries para desarrollar productos y negocios en contextos de incertidumbre (startups, innovación, nuevos productos).
+	
+	Es una metodología para crear productos y empresas rápidamente, con poco desperdicio y aprendiendo del mercado lo antes posible.
+	
+	Su idea central es:
+		No construir primero el producto completo. Construir lo mínimo necesario para aprender qué  quiere el cliente y ajustar el rumbo.
+	Es especialmente útil cuando no se sabe si una idea de negocio realmente va a funcionar.
+	
+	Los 3 pilares de Lean Startup son:
+	1. MVP:
+		El producto mínimo viable: la versión más simple que permite validar una hipótesis del negocio.
+		No es una versión barata del producto final, es un experimento.
+		
+	2. Ciclo Build - Measure - Learn
+		Es el corazón del método.
+		- Build: construir el MVP o experimento
+		- Measure: medir como reaccionan los usuarios
+		- Learn: aprender si la hipótesis era corecta.
+		Este ciclo se repite continuamente para aprender rápido y barato.
+		
+	3. Pivot or Persevere:
+		- Pivot: cambiar de rumbo si la evidencia demuestra que la hipótesis era incorrecta
+		- Persevere: seguir adelante si los datos validan la idea.
+		  
+- **Comparar dos metodologías Ágiles (Scrum vs. Lean Startup)**
+	- **Scrum:** Es un marco de trabajo iterativo e incremental para el desarrollo de proyectos que estructura el trabajo en ciclos llamados Sprints (que constan de 1 a 4 semanas de duración fija). Su objetivo es entregar productos funcionales al final de cada Sprint mediante equipos multidisciplinarios que se comprometen con requisitos específicos que no pueden cambiarse durante el Sprint.
+		
+	- **Lean Startup:** Es una metodología que considera a la startup como una organización temporal cuyo objetivo es encontrar un modelo de negocio viable y escalable mediante experimentos que sirven para aprender. Su premisa fundamental es el ciclo "construir - medir - aprender" utilizan un Producto Mínimo Viable (MVP) para validar hipótesis con clientes reales. 
+	
+	Scrum es rígido durante el Sprint pero flexible entre Sprints, priorizando la ejecución disciplinada y la entrega de incrementos funcionales, mientras que Lean Startup es completamente flexible, promoviendo el pivoteo constante basado en el aprendizaje validado obtenido de experimentos con clientes reales.
+	
+	Scrum se centra en el producto y la productividad del equipo, mientras que Lean Startup se centra en el cliente y la validación del modelo de negocio. Scrum funciona mejor cuando los requisitos están relativamente claros; Lean Startup está diseñado específicamente para contextos de alta incertidumbre.
+	
+- **¿Qué es un MVP?**
+	Un MVP (Producto Mínimo Viable) es una versión básica de un producto que incluye solo las funcionalidades esenciales para comenzar a entregar valor al usuario y recibir retroalimentación. El concepto central del MVP es probar rápidamente una idea en el mercado para aprender de los usuarios reales sin invertir demasiado tiempo ni recursos en el desarrollo de funcionalidades avanzadas.
+	
+	Ejemplo: Si estás construyendo una aplicación de entrega de alimentos, el MVP solo incluiría la funcionalidad básica de búsqueda de restaurantes y pedido de comida, sin características avanzadas como recomendaciones personalizadas o programas de lealtad.
+---
+
+## 4. UML, bloques de construcción, elementos, relaciones, PUD, vistas, vistas 4+1
+
+### UML (Lenguaje Unificado de Modelado)
+
+- ¿Qué es UML?
+    
+    Es un lenguaje unificado de modelado utilizado para construir, especificar, documentar y visualizar software de manera efectiva.
+    
+- ¿Por qué UML es un lenguaje y NO una metodología?
+    
+    UML es solo un lenguaje estándar para escribir "planos" de software. No proporciona un proceso, es independiente del proceso de desarrollo.
+    
+- **Elementos de construcción de UML.**
+    
+- **Relaciones UML.**
+    
+- ¿Qué diagramas se modelan en el dominio del problema?
+    
+    Se utilizan el Diagrama de Clases y el Diagrama de Casos de Uso.
+    
+- ¿Para qué modelamos el dominio?
+    
+    Para visualizar, construir, especificar y documentar correctamente un sistema que refleje la realidad del negocio o problema que queremos resolver.
+    
+
+### Casos de Uso y Diagramas
+
+- ¿Qué es un actor en UML?
+    
+    Es el rol que juega un usuario en un caso de uso. Representa un rol jugado por una persona, hardware o incluso otro sistema.
+    
+- **¿Cuál es la diferencia entre relaciones de inclusión y extensión en casos de uso?**
+    
+    - **Inclusión:** Un caso de uso contiene un **comportamiento común** para más de un caso de uso (la flecha apunta al caso de uso común).
+        
+    - **Extensión:** Un caso de uso distinto maneja las **excepciones** del caso de uso básico (la flecha apunta del caso de uso extendido al básico).
+        
+- **¿Cuándo usar diagrama de secuencia vs diagrama de colaboración?**
+    
+    - **Diagrama de colaboración:** Se usa en el análisis para identificar responsabilidades de los objetos, sin tanta importancia en la secuencia cronológica.
+        
+    - **Diagrama de secuencia:** Se usa para detallar el **orden cronológico** (para diseñar).
+        
+- ¿Para qué se usa un diagrama de actividad?
+    
+    Para describir cualquier tipo de procesos. Se usa para modelar de forma gráfica los diferentes casos de uso, transacciones o procedimientos que haya en un sistema.
+    
+- ¿Para qué sirve un diagrama de despliegue?
+    
+    Es utilizado para representar la distribución física (estática) de los componentes software en los distintos nodos físicos de la red.
+    
+
+### PUD (Proceso Unificado de Desarrollo)
+
+- ¿Qué es el PUD (Proceso Unificado de Desarrollo)?
+    
+    Es una metodología de desarrollo de software que utiliza UML como lenguaje de modelado para conseguir un desarrollo de software con una infraestructura de bloques de construcción reutilizables.
+    
+- **¿Cuáles son las 3 características principales del PUD?**
+    
+    1. Está dirigido por los **casos de uso**.
+        
+    2. Es centrado en la **"arquitectura"**.
+        
+    3. Es **iterativo e incremental**.
+        
+- **¿Cuáles son las 4 fases del PUD y qué se hace en cada una?**
+    
+    1. **Fase de inicio:** Descripción del producto final y análisis de negocio.
+        
+    2. **Fase de elaboración:** Se especifican en detalle la mayoría de los CU y se diseña la arquitectura.
+        
+    3. **Fase de construcción:** Se crea el producto.
+        
+    4. **Fase de transición:** Se prueba el producto y se informan defectos.
+        
+- ¿Qué es un flujo de trabajo en PUD y cuáles son sus componentes?
+    
+    Es un conjunto de actividades, herramientas y estándares que se usan en un proceso.
+    
+    - **Flujo de trabajo (FT) = actividades + trabajadores + artefactos**.
+        
+- ¿Cuál es el propósito del flujo de trabajo de requisitos?
+    
+    Guiar el desarrollo hacia el sistema correcto, mediante una buena descripción de los requisitos del sistema.
+    
+
+---
+
+## 5. Factibilidad, riesgo, gestión del riesgo en proyectos
+
+### Factibilidad
+
+- ¿Qué es la factibilidad?
+    
+    La factibilidad refiere a la capacidad de llevar a cabo un proyecto, evaluando si este puede realizarse con los recursos, tecnología, personal y tiempo disponibles. Un proyecto es factible si las condiciones actuales permiten que este se complete con éxito desde un punto de vista técnico, económico y operativo. 
+    
+    La evaluación de factibilidad no solo se centra en la disponibilidad de los recursos, sino también en la identificación de posibles obstaculos y limitaciones que podrían surgir durante la implementación. 
+    
+    Además, es fundamental considerar la alineación del proyecto con los objetivos estratégicos de la organización, ya que un proyecto que no esté alineado puede generar conflictos internos y desviar recursos de iniciativas más críticas.
+	
+	Ejemplo: Un proyecto de software que pretende utilizar inteligencia artificial requiere una infraestructura de servidores específicos y personal con conocimientos avanzados. Si la empresa no dispone de estas tecnologías o no puede contratar a los especialistas necesarios, el proyecto no sería factible.
+	
+- ==**¿Qué es la factibilidad técnica? Dar ejemplos.**==
+    
+    La factibilidad técnica evalúa si los recursos tecnológicos (hardware, software, infraestructura y personal) son suficientes para desarrollar el sistema propuesto y si el equipo tiene la capacidad de implementar las tecnologías necesarias. Es esencial analizar tanto los recursos actuales como las posibles necesidades futuras.
+    
+    **¿Por qué es importante?**:
+	    Permite:
+	    - Evitar sorpresar: identifica posibles obstáculos y riesgos técnicos
+	    - Optimizar recursos: permite tomar decisiones informadas sobre la inversión en tecnología.
+	    - Asegurar el éxito del proyecto: reduciendo la probabilidad de fracasos técnicos.
+	--
+	
+	**Elementos Claves de la Factibilidad Técnica:**
+	
+	- **Hardware**:
+	  
+	  - Evaluación de equipos: se debe verificar si los servidores, computadoras, dispositivos móviles y otros equipos necesarios para el proyecto están disponibles en cantidad suficiente y cumplen con los requerimientos técnicos del proyecto.
+	    
+	     **Ejemplo:** si un equipo de desarrollo necesita un servidor potente para procesar grandes volúmenes de datos en tiempo real, es importante confirmar si los servidores actuales de la organización tienen la capacidad de procesamiento adecuada o si será necesario adquirir uno nuevo. 
+	  
+	  - Estabilidad y compatibilidad: Los dispositivos actuales deben ser estables y compatibles con las nuevas tecnologías que se van a implementar. Esto implica evaluar si los equipos pueden operar de manera confiable con el software o sistema que se desea desarrollar.
+	    
+	      **Ejemplo**: si el proyecto implica implementar una nueva base de datos, es crucial verificar si los servidores actuales son compatibles con esa base de datos y si el hardware existente puede soportar los picos de carga.
+	    
+	  - Capacidad: se debe asegurar que la capacidad de almacenamiento y procesamiento del hardware sea suficiente para las demandas del proyecto. Esto incluye espacio en disco y velocidad de CPU.
+	    
+	      **Ejemplo:** si el proyecto implica gestionar grandes volúmenes de imagenes, el servidor deberá tener suficiente espacio de almacenamiento y capacidad de procesamiento para manejar y procesar estas imágenes eficientemente.
+	    
+	  - Procesamiento: se debe garantizar que el hardware tenga la potencia de procesamiento suficiente para ejecutar las tareas del sistema, como la velocidad de la CPU y la cantidad de memoria RAM disponible.
+	    
+	     **Ejemplo:** un proyecto que require procesamiento en tiempo real de datos, como el análisis de transacciones financieras, requerirá hardware con una CPU de alto rendimiento y suficiente memoria para ejecutar múltiples operaciones simultáneamente.
+	
+	- **Software**:
+	  - Desarrollo propio: El desarrollo propio implica crear el software internamente, utilizando las herramientas y recursos que ya posee la organización. Esto ofrece flexibilidad para personalizar el software a las necesidades específicas del proyecto.
+		
+		 Ejemplo: una empresa de logística desarrolla su propio sistema de seguimiento de paquetes porque necesita características personalizadas que no están disponibles en software comercial.
+	
+	 -  Tercerización: en lugar de desarrollar el software internamente, se puede contratar a un proveedor externo especializado para que desarrolle el software. Esto puede ser más rapido y eficiente si la organización no tiene los recursos internos suficientes.
+		 
+		 Ejemplo: una empresa decide subcontratar el desarrollo de su nueva app móvil a una empresa de software externa que tiene experiencia en aplicaciones de e-commerce.
+	
+	 - Compra de software existente (parametrización): en este caso, la organización compra un software existente en el mercado y lo ajuste parametrizándolo para que cumpla con los requerimientos del proyecto.
+		 Ejemplo: una universidad compra un sistema de gestión académica y lo adapta para cumplir con sus necesidades específicas, como gestión de notas y horarios.
+	
+	 - Compatibilidad: Verificar que el nuevo software sea compatible con los sistemas actuales de la organización es crucial para evitar problemas de integración y asegurar que todo funcione de manera fluida.
+		  Ejemplo: si una empresa está instalando un nuevo sistema de facturación, debe asegurarse de que este sistema sea compatible con su plataforma de contabilidad actual.  
+	
+	- **Procesamiento y Rendimiento**:
+	  
+	  - Capacidad de procesamiento: es importante asegurarse de que el sistema pueda manejar la carga de trabajo prevista sin perder el rendimiento. Eso incluye verificar la velocidad de los procesadores y la capacidad del software para manejar múltiples usuarios.
+		  Ejemplo: un sitio web de comercio electrónico debe tener servidores con suficiente capacidad para manejar grandes volúmnes de tráfico durante períodos de alta demanda, como el Black Friday.
+	
+	 - Simulación de rendimiento: consiste en realizar pruebas para simular como funcionará el sistema bajo diferentes condiciones de uso y carga. Esto permite identificar posibles problemas antes de implementar el sistema a gran escala.
+		  Ejemplo: Una empresa realiza una simulación de rendimiento para su nueva plataforma de streaming de video, probando cómo se comporta con miles de usuarios simultáneos, a fin de identificar posibles cuellos de botella en el procesamiento.
+	
+	- **Seguridad y Escalabilidad**:
+	  - Seguridad: Es fundamental evaluar si el sistema será seguro frente a posibles amenazas cibernéticas. Esto incluye asegurar que los datos estarán protegidos y que las medidas de seguridad, como firewalls, encriptación y autenticación sean adecuadas.
+		  Ejemplo: Una empresa de salud que maneja datos sensibles de pacientes debe asegurar de que su nuvo sistema de regsitros médicos tenga encriptación y cumpla con las normativas de seguridad, como las leyes nacionales.
+		  
+	 - Escalabilidad El sistema debe ser capaz de crecer y adaptarse a futuras necesidades de demanda, sin que esto afecte su rendimiento. La escalabilidad implica que el sistema podrá manejar un número mayor de usuarios, datos o transacciones en el futuro.
+		  Ejemplo: Un sistema de ventas online que inicialmente espera gestionar 100 transacciones por día debe estar diseñado apra poder manejar miles de transacciones diarias si el negocio crece rápidamente.
+	 
+	**Herramientas y Estrategias de Evaluación de la Factibilidad Técnica**
+	- Matriz de Homegeneización: 
+		Es una herramienta que permite estandarizar las tecnologías (hardware, software, sistemas operativos, etc.) dentro de una organización. El objetivo es asegurarse de que todas las partes del sistema sean compatibles entre sí, lo que reduce problemas de integración y facilita el mantenimiento.
+		Ejemplo sencillo: *una empresa donde cada departamento usa*
+		*un sistema operativo diferente (Windows, macOS, Linux). Esto puede*
+		*generar incompatibilidades al intentar compartir archivos o ejecutar ciertos*
+		*programas. La matriz de homogeneización sugiere que todos los*
+		*departamentos usen el mismo sistema operativo, por ejemplo, Windows,*
+		*para que todos los equipos sean compatibles y el soporte técnico sea más*
+		*fácil.*
+	- Análisis de Compatibilidad de Hardware y Software:
+		Es una análisis que verifica si el hardware  y el software que ya tiene la empresa pueden trabajar bien con las nuevas soluciones tecnológicas que se quieren implementar. Es importante asegurarse de que los sitemas existentes no presentes problemas de integración con las nuevas tecnologías. 
+		Ejemplo sencillo: *si una empresa quiere implementar un nuevo sistema de facturación, pero usa computadoras muy antiguas, el análisis de compatibilidad verifica si ese nuevo software de facturación funcionará correctamente en esas computadoras o si se necesitará actualizar los equipos.*
+	- Benchmarking de Tecnología:
+		El benchmarking consiste en comparar diferentes tecnologías, herramientas o productos que cumplen funciones similares. Esto ayuda a tomar una decisión informada sobre cuál es la mejor opción en términos de rendimiento, costo, facilidad de uso, etc.
+		Ejemplo sencillo: *Una empresa que está eligiendo un sistema de gestión de proectos puede hacer un benchmarking de las plataformas más populares (como Trello, Asana y Jira) para comparar sus características, costos y facilidad de integración antes de elegir cuál implementar.*
+	- PoC: 
+		Las pruebas de concepto (Proof of Concept) permiten realizar pruebas a pequeña escala de una nueva tecnología o enfoque para ver si realmente funcionará antes de hacer una inversión mayor. Sirve para reducir el riesgo de fallos en la implementación a gran escala. 
+		Ejemplo sencillo: *Una empresa quiere lanzar una app movil. Antes de desarrollarla por completo, hacen una versión muy básica PoC para probar si los usuarios potencilaes la encuentran útil. Si la PoC tiene éxito, proceden con el desarrollo completo*.
+	- Estudio de Capacidad de Procesamiento:
+		Este estudio analiza si los sistemas actuales (servidores, redes, computadores) tienen suficiente capacidad de procesamiento para manejar la nueva carga de trabajo que generará el proyecto. Evalúa si los servidores pueden manejar el aumento de datos, usuarios o transaccciones sin perder rendimiento. 
+		Ejemplo sencillo: *Una tienda online pequeña que espera aumentar sus
+		ventas hace un estudio de capacidad de procesamiento para ver si su
+		servidor actual puede soportar el doble de visitas durante una campaña de descuentos. Si descubren que su servidor no es lo suficientemente potente, necesitarán actualizarlo antes de lanzar la campaña*
+	- Simulación de Rendimiento: 
+		Es un proceso en el que se simulan condiciones de uso en escenarios reales o extremos para comprobar como funcionará el sistema bajo diferentes niveles de carga o estrés. Esto ayuda a predecir como se comportará el sistema cuando esté en pleno funcionamiento.
+		Ejemplo sencillo: *Antes de lanzar un nuevo sistema de atención al cliente en línea, una empresa simula como funcionarí si 1.000 usuarios tratan de conectarse al mismo tiempo. Si el sistema responde bien, saben que está listo para usarse. Si se ralentiza o falla, deberán optimizarlo antes de implementarlo.*
+	- Evaluación de Escalabilidad y Seguridad: 
+	  Esta evaluación asegura que el sistema pueda crecer sin problemas a medida que las necesidades de la empresa aumentan (escalabilidad) y que esté protegido frente a amenazas de seguridad (ciberataques, pérdida de datos, secuestro de datos, etc). Garantiza que el sistema sea flexible  y seguro para adaptarse a cambios futuros.
+	  Ejemplo sencillo: *Una pequeña plataforma de e-commerce que espera duplicar su número de clientes en los próximos años realiza una evaluación de escalabilidad para asegurarse de que su infraestructura de servidores podrá manejar el aumento de tráfico y ventas. Al mismo tiempo, revisan que sus sistemas de pago sean seguros frente a posibles ataques cibernéticos.*
+	  
+	
+- ==¿Qué es la factibilidad económica? Dar definición, ejemplos y herramientas.==
+    
+	La factibilidad económica se refiere a evaluar si un proyecto es financieramente viable. Este análisis implica comparar los costos involucrados con los beneficios financieros esperados para determinar si el proyecto generará un retorno positivo sobre la inversión (ROI) y será sostenible a largo plazo.
+	¿Por qué es importante? Una evaluación exhaustiva de la factibilidad económica permite:
+	- Evitar pérdidas: Identificar desequilibrios entre costos y beneficios.
+	- Optimizar la inversión: Tomar decisiones informadas sobre el uso eficiente de los recursos financieros.
+	- Asegurar la rentabilidad del proyecto: Reducir el riesgo de que el proyecto resulte en pérdidas económicas o no recupere la inversión realizada.
+	  
+	  - **Herramientas y Técnicas Claves de la Factibilidad Económica**
+		- Análisis de Retorno sobre la Inversión ROI - Return on Investment:
+		  El ROI es una métrica financiera que mide el porcentaje de retorno generado por un proyecto en comparación con la inversión inicial. Cuanto más alto sea el ROI, más rentable será el proyecto. Este análisis compara los beneficios obtenidos (como ingresos adicionales o ahorros en costos) con el costo total del proyecto, y proporciona una medida clara de su viabilidad económica.
+		  Fórmula: ROI = (Beneficio Neto / Costo Total) * 100
+		  
+		  Ejemplo: *Una empresa invierte $10.000 en una nueva herramienta de marketing digital, la cual espera aumentar los ingresos en $2.000 anuales. El ROI se calcularía de la siguiene manera:
+		  ROI = (2000 / 10000) * 100 = %20 anual.*
+		  
+		- Análisis Costo-Beneficio (CBA Cost-Benefit Analysis):
+		  El CBA compara los costos totales del proyecto (tanto iniciales como operativos) con los beneficios económicos y no económicos que se esperan obtener. Incluye costos tangibles (dinero gastado en hardware o software) y beneficios intangibles (como la mejora en la satisfacción del cliente).
+		  
+		  Fórmula: B/C = Beneficios / Costos.
+			  B/C > 1: El proyecto es rentable, ya que beneficios superan los costos.
+			  B/C = 1: El proyecto es indiferente, es decir, los beneficios son exactamente iguales a los costos.
+			  B/C < 1: El proyecto no es rentable, ya que los costos superan los beneficios.
+			  
+			Ejemplo: *Una empresa evalúa implementar un nuevo sistema de gestión que tendrá un costo de $50,000 y se espera que genere beneficios anuales de $15,000 durante 5 años. Los beneficios totales serían $75,000 (15,000× 5), mientras que los costos totales son $50,000. 
+			B / C = 75,000 / 50,000 = 1.5*
+			
+			*Interpretación: Dado que B/C = 1.5, el proyecto es rentable. Por cada dólar invertido, se obtiene un retorno de 1.5 dólares en beneficios. Esto indica que los beneficios son significativamente mayores que los costos, lo que hace que el proyecto sea financieramente viable*
+			
+		- Análisis de Punto de Equlibrio (Break-Even Analysis): 
+		    
+		    El análisis de punto de equilibrio determina el momento en que los ingresos generados igualarán a los costos.  Es clave para decidir si el proyecto es sostenible a corto o largo plazo. PE: Costo Total / Ganancia por Venta
+		      
+		    
+		    Ejemplo: *Un negocio minorista invierte $50,000 en un nuevo sistema de ventas online. Cada producto vendido genera $50 de ganancia. 
+		    Para encontrar el punto de equilibrio: Punto de Equilibrio = Costo Total / Ganancia por Venta Punto de Equilibrio = 50,000 / 50 = 1,000 ventas. El negocio deberá vender 1,000 productos antes de empezar a generar beneficios.*
+		    
+		- Análisis de Recuperación (Payback Period Análisis): 
+			 El análisis de recuperación calcula el tiempo que tomará recuperar la inversión inicial mediante los beneficios generados. Es útil para evaluar qué tan rápido un proyecto comenzará a ser rentable.
+			 
+			 Fórmula: Período de Recuperación = Inversión Inicial / Ahorros Anuales
+			 
+			 Ejemplo: *Una empresa invierte $20.000 en un nuevo software que le ahorrará $5.000 al año. Para calcular el período de recuperación: PR = 20.000/5.000 = 4 años.
+			 Después de 4 años, la empresa habrá recuperado su inversión.*
+			 
+		 - Análisis de Sensibilidad Económica: 
+			   El análisis de sensibilidad económica evalúa como cambios en variables clave (como el costo de implementación o los ingresos proyectados) afectan la viabilidad del proyecto. Ayuda a identificar qué factores tienen mayor impacto en la rentabilidad del proyecto.
+			   
+			  Ejemplo:  *Una empresa de Telecomunicaciones planea invertir $1 millón en una nueva red de fibra óptica y espera ganar $300.000 al año. Un análisis de sensibilidad podría explorar como el proyecto sería afectado si los costos aumentaran en un 20% o si los ingresos disminuyeran en un 15%. Esto permite a la empresa evaluar los riesgos antes de comprometerse con la inversión.*
+			  
+		-  Valor Presente Neto (VPN - Net Present Value): 
+			El VPN calcula el valor presente de los flujos de caja futuros, descontados a una tasa de interés. Este análisis considera que el valor del dinero disminuye con el tiempo y ayuda a determinar si los ingresos futuros justifican la inversión inicial.
+			
+			Ejemplo: *Una empresa quiere invertir $200.000 en una nueva fábrica que se espera genere $60.000 al año durante 5 años. Con una tasa de descuento del 10%, el VPN ayuda a calcular si esos $60.000 anuales tienen suficiente valor hoy para justificar la inversión inicial. Si el VPN es positivo, el proyecto será viable.*
+			  
+		- Flujo de Caja Descontado DCF - Discounted Cash Flow: 
+		
+		     El análisis de flujo de caja descontado valora un proyecto basándose en los ingresos y egresos proyectados, ajusados por una tasa de descuento. Ese enfoque ayuda a evaluar la rentabilidad futura del proyecto teniendo en cuenta inflación y riesgos.
+		     
+		     Ejemplo: Un banco que invierte $300.00 en una nueva plataforma de banca digital, con la expectativa de ahorrrar $100.000 al año durante 4 años. Utilizan una tasa de descuento del 5% para calcular si esos ahorros futuros valen más que los $300.000 de inversión inicial. Si el valor presente de los ahorros es mayor que la inversión, el proyecto será viable.  
+		 
+- ==¿Qué es la factibilidad operativa? Dar definición, ejemplos y herramientas.==
+    
+    La factibilidad operativa evalúa si la organización tiene la capacidad para implementar y utilizar un nuevo sistema o proceso de manera efectiva, asegurando que los usarios finales lo acepten y lo utilicen eficientemente. Esta evaluación incluye la disposición de los usuarios, los recursos humanos disponibles, y las condiciones organizacionales que permitan su implementación.
+    
+    **¿Por qué es importante?** Una evaluación exhaustiva de la factibilidad operativa permite:
+    - Garantizar la adopción del sistema. Se asegura que los usuarios estén preparados y dispuestos a usar el sistema, reduciendo la resistencia al cambio y aumentando las posibilidades de éxito.
+    - Evitar interrupciones en las operaciones: Al evaluar cómo el sistema afectará el flujo de trabajo actual, se pueden planificar los momentos de implementación para minimizar el impacto en la productividad diaria.
+    - Reducir el riesgo de fallos operativos: Al identificar problemas relacionados con la capacitación de los usuarios y la adecuación de los recursos, se previenen errores en la ejecución del sistema.
+    - Optimizar el uso de recursos humanos y materiales: La evaluación permite una distribución eficiente de las tareas y asegura que los equipos y el personal esten alineados con los requerimientos del sistema.
+    
+    P**reguntas clave para evaluar la factibilidad operativa:**
+    - ¿El personal actual tiene las habilidades necesarias? ¿Brechas, planes de capacitación?
+    - ¿Los usuarios están dispuestos a aceptar el nuevo sistema? ?Nivel de aceptación, encuestas, simulaciones para medir disposición?
+    - ¿Exisen recursos operativos suficientes? ¿Hay recursos humanos y tecnológicos para soportar la operación continua? ¿Es necesario contratar y/o actualizar infraestructura?
+    - ¿El sistema se puede integrar con los procesos actuales? ¿Nuevo sistema complementa o rechaza procesos operativos existentes?
+    - ¿Cómo afectará la implementación del sistema a las operacioens diaras? ¿Se ha planificado adecuadamenta la transición? ¿Es el momento de implementación el más adecuado?
+      
+    **Elementos claves de la Factibilidad Operativa:**
+    - Evaluación de recursos humanos: 
+	      Se evalúa si el personal disponible cuenta con las competencias y habilidades necesarias para operar y mantener el sisetma. Por ej: si se está implementando un software de gestión de proyectos, es crucial capacitar al personal en su uso para evitar cuellos de botella operativos.
+    - Evaluación tecnológica: 
+	      Se analiza si la tecnología actual de la organización es compatible con el nuevo sistema. Esto incluye la infraestructura tecnológica (servidores, redes) y las herramientas digitales utilizadas.
+    - Aceptación por parte de los usuarios:
+	      Un sistema sólo será exitoso si los usuarios lo adoptan. Evaluar la disposición de los usuarios a usar el sistema es fundamental para evitar resistencias o bajos niveles de adopción. Esto se puede realizar mediante encuestas de satisfacción y simulaciones de uso.
+    - Momento de implementación:
+	      La implementación debe ser planificada cuidadosamente para evitar interrupciones operativas. Por ejemplo: en una organización de retail, se podría elegeir implementar un nueva sistema de invenario fuera de la temporada alta de ventas para minimizar el impacto.
+    - Simulaciones y pruebas:
+	      La creación de escenarios hipotéticos y simulaciones es útil para prever problemas potenciales y evaluar el impacto organizacional. Por ejemplo: simular una semana de trabajo con el nuevo sistema podría ayudar a identificar puntos de mejora antes de su despliegue coompleto.
+    
+    Factores Específicos:
+    - Preparación del sitio y equipos:
+	      Evaluar si las instalaciones y los equipos están listos para recibir el nuevo sistema es fundamental. Si una organización planea instalar una solución de videoconferencias, se debe verificar la disponibilidad de cámaras, micrófonos y software en todas las estaciones de trabajo.
+	      
+    - Capacidades de los usuarios (usabilidad):
+	      Es crucial garantizar que los usuarios puedan operar el sistema sin problemas. Por ejemplo, si un nuevo CRM está siendo introducido en un equipo de ventas, es necesario asegurarse de que el sistema sea intuitivo y fácil de usar, evitando la frustración de los empleados.
+    - Conversiones de datos:
+	      Durante la implementación de nuevos sistemas, la conversión de datos antiguos es esencial. Por ejemplo, al migrar de un sistema de facturación a otro, se debe garantizar que los datos de clientes y facturas pasadas se conviertan sin errores para evitar problemas administrativos.
+    - Controles:
+	      Establecer mecanismos de control asegura que el sistema funcione correctamente y se mantenga seguro. Por ejemplo, implementar un sistema de auditorías periódicas para verificar que la base de datos no haya sido vulnerada.
+	
+      
+	**Capacitación de Usuarios: Un Pilar de la Factibilidad Operativa**
+    La capacitación de usuarios es crucial para asegurar que los usuarios puedan aprovechar plenamente un nuevo sistema. Un proceso de capacitación exitoso:
+    
+    - Incrementa la adopción: Los usuarios serán más propensos a usar una herramienta si han sido adecuadamento entrenados.
+    - Disminuye errores: Una capacitación adecuada reducirá errores costosos y aumentará la eficiencia.
+    - Mejora la productividad: Los usuarios capacitados pueden realizar sus tareas de manera más efectiva.
+    - Aumenta la satisfacción: Los usuarios que comprenden bien el sistema tendrán menos frustraciones, lo que eleva la moral y el compromiso con la organización.
+      
+      
+    **Planificación de la capacitación**
+    Para asegurar una capacitación efectiva, es fundamental planificar los siguientes aspectos:
+    
+    - Identificación de necesidades de capacitación: 
+		Determinar qué conocimientos previos tienen los usuarios y qué áreas necesitan más atención. Por ejemplo, si se está introduciendo una nueva herramienta de análisis de datos, es posible que el equipo de marketing necesite más apoyo en conceptos avanzados de analítica.
+		
+    - Definición de objetivos claros:
+		Establecer metas claras para la capacitación. Por ejemplo, el objetivo de una capacitación en una nueva plataforma de comercio electrónico podría ser que los usuarios puedan procesar pedidos, gestionar inventario y actualizar precios sin asistencia externa.
+		
+	- Métodos de capacitación: 
+		Seleccionar el mejor formato para impartir la capacitación, ya sea presencial, virtual o una combinación. Por ejemplo, en tiempos de teletrabajo, un curso virtual con módulos de autoaprendizaje podría ser la mejor opción.
+		
+	- Desarrollo de contenido: 
+		Crear un plan de estudios que abarque todos los temas clave. En el caso de un nuevo sistema ERP, esto podría incluir la gestión de pedidos, inventarios y facturación.
+		
+	- Recursos necesarios: 
+		Determinar las herramientas necesarias para la capacitación, como tutoriales en video, manuales de usuario y plataformas de formación. Un ejemplo podría ser el uso de plataformas de e-learning como Moodle para administrar la capacitación de un software interno.
+		
+	- Evaluación de la capacitación:
+		Definir cómo se medirá el éxito. Por ejemplo, un examen final o un ejercicio práctico podrían ayudar a evaluar si los usuarios han aprendido las habilidades necesarias
+	
+	**Materiales de Apoyo para la Capacitación**
+	- Manuales de usuario:
+		Deberán ser claros, concisos y fáciles de entender y cubrir todos los aspectos del sistema. Ej: un manual de usuario para un software de contabilidad debería incluir desde cómo crear una factura hasta cómo generar reportes financieros.
+		 
+	- Videos tutoriales:
+		Ideal para mostrar visualmente cómo realizar tareas específicas. Por ej: un video que explique cómo crear una campaña de marketing digital en una nueva plataforma.
+		
+	- Guías rápidas:
+		Resúmenes cortos de las funciones clave, que sirvan como recordatorio para los usuarios.
+		
+	- Foros y comunidades en línea:
+		Espacios donde los usuarios puedan intercambiar experiencias y resolver dudas con otros usuarios.
+	
+	
+- ¿Cuál es la importancia del análisis de la factibilidad?
+	
+	El análisis de la factibilidad es una herramienta fundamental en la planificación y evaluación de la viabilidad de un proyecto de software. Realizar este análisis antes de comenzar el desarrollo ofrece varios beneficios clave. 
+	
+	- Reducción de Riesgos: 
+		El análisis de factibilidad permite identificar obstáculos potenciales, como limitaciones tecnológicas, presupuestarias o de recursos humanos. Al prever estos riesgos, se puede mitigar su impacto en las fases posteriores del proyecto.
+		
+	- Mejor administración de recursos:
+		La evaluación de la factibilidad económica garantiza que los recursos disponibles (financieros, humanos y técnicos) se utilicen de manera eficiente. Esto asegura que el proyecto no exceda el presupuesto y que ofrezca un retorno de inversión adecuado.
+		
+	- Alineación con los objetivos organizacionales
+		Evaluar la factibilidad operativa confirma que el software que se va a desarrollar será útil para la organización y se integrará correctamente con los procesos existentes. También asegura que los usuarios finales puedan utilizar la solución de manera efeciva.
+		
+	- Optimización de tiempo y esfuerzo:
+		Comenzar un proyecto sin una evaluación adecuada de su viabilidad puede generar retrasos, sobrecostos o incluso su fracaso. El análisis de factibilidad ayuda a prevenir estos problemas al abordar todos los aspectos claves desde el inicio.
+		
+	- Decisiones informadas: 
+		El análisis de factibilidad proporciona datos y análisis concretos que facilitan decisiones fundamentadas, ya sea para continuar, modificar, o, en casos extremos, cancelar el proyecto.
+	
+    
+- ¿Cómo se relaciona un Product Owner con la factibilidad?
+    
+    Tiene un rol clave en asegurar que las decisiones del producto sean  realistas y sostenibles, trabajando con el equipo técnico, de negocio y stakeholders.
+    
+
+- ¿Cuál es la definición de viabilidad?
+	La viabilidad evalúa si es rentable o sostenible a largo plazo realizar un proyecto. Este análisis considera principalmente los factores económicos y los beneficios que el proyecto generará en el futuro, en comparación con los costos que implicará su desarrollo. La evaluación de la viabilidad va mas allá de la simple comparación de costos y beneficios; **también implica un estudio detallado del mercado, la demanda esperada, y las tendencias económicas que podrían afectar el rendimiento del proyecto a lo largo del tiempo**. 
+	
+	Ejemplo: un proyecto podría ser técnicamente posible, pero si los costos de desarrollo superan los beneficios que generará, no sería viable. La viabilidad económica asegura que la inversión inicial tendrá un retorno adecuado y que el proyecto será rentable para la empresa. Asimismo, un análisis de viabilidad debería incluir escenarios de sensibilidad que evalúen cómo:
+	 - cambios en los costos
+	 - cambios en la demanda
+	 - cambios en las condiciones del mercado
+	podrían afectar la rentabilidad del proyecto a lo largo del tiempo.
+	
+- ¿Cuál es la diferencia entre factibilidad económica y viabilidad económica?
+	
+	Si bien la factibilidad económica evalúa los costos y beneficios financieros del proyecto, la viabilidad económica también considera aspectos estratégicos, como el posicionamiento en el mercado, la ventaja competitiva y el potencial de crecimiento a largo plazo.
+	
+	Herramientas:
+	- Estudios de Mercado:
+		  Realizar estudios de mercado pauede ayudar a determinar si existe una demanda real para el software o sistema en desarrollo. Esto es particularmente importante en proyectos orientados a la venta de productos o servicios digitales.
+		  
+		  
+	- Evaluación de Riesgos: 
+		  Es esencial llevar a cabo una evaluación de riesgos para identificar obstáculos que puedan afectar la viabilidad del proyecto. Entre las herramientas más utilizadas se encuentran:
+			- Matrices de Riego: permiten identificar y evaluar la probabilidad e impacto de los riegos
+			- Análisis FODA (Fortalezas, Oportunidades, Debilidades, Amenazas): ayuda a identificar factores internos y externos que podrían influir en el éxito del proyecto.
+			  
+### Beneficios y Rentabilidad
+
+- Retorno de inversión (ROI): ¿para qué se usa en el proyecto?
+    
+    Se utiliza para medir la ganancia esperada que brindará la realización del proyecto.
+    
+- Beneficios tangibles: ejemplifique.
+    
+    Son aquellos que se pueden cuantificar directamente y tienen un impacto económico claro. Ejemplos: Mejora de productividad, Reducción del uso de papel, Menores costos de operación.
+    
+- Beneficios intangibles: ejemplifique.
+    
+    No se pueden medir fácilmente en dinero, pero mejoran cualitativamente el funcionamiento. Ejemplos: Acceso rápido y preciso a los datos, Mayor satisfacción del cliente, Facilidad para tomar decisiones.
+    
+
+### Riesgo y Gestión del Riesgo
+
+
+- ¿Qué es el riesgo?
+	
+	El riesgo se define como un evento incierto o conjunto de eventos que pueden afectar a los objetivos de un proyecto y pueden contribuir a su éxito o fracaso. Los riesgos que pueden tener un impacto positivo en el proyecto se les conoce como oportunidades, mientras que las amenazas son riesgos que podrían afectar al proyecto de una manera negativa.
+	
+
+- ¿Qué es la gestión de riesgo?
+    
+    La gestión de riesgos es un proceso que implica identificar, analizar y responder a los riesgos que puedan afectar al proyecto, producto u organización, con el fin de minimizar los impactos negativos y aumentar las probabilidades de éxito (maximizando los impactos positivos del riesgo)
+    
+- ¿Cuáles son las etapas de la gestión de riesgo?
+	
+	- Identificación del Riesgo: 
+		Se deben identificar los riesgos potenciales que podrían impactar al proyecto. Ya sea retrasándolo, afectando su calidad o incluso comprometiendo a la organizacion.
+		
+		**Clasificación de Riesgos**
+		- **Riesgos del proyecto:** 
+	        Son aquellos relacionados con el cronograma y los recursos, como la posible salida de personal clave o retrasos en disponibilidad de hardware.
+	    - **Riesgos del producto/técnicos:** 
+			Afectan la calidad o el rendimiento del software, como errores en componentes o bajo rendimiento de herramientas.
+	    - **Riesgos empresariales o de negocio:** 
+	        Afectan a la organización en su conjunto, como la aparición de productos competidores o cambios tecnológico que desactualicen el sistema.
+	    
+	-  **Análisis de Riesgos**:
+		Por cada riesgo, se evalúa su probabilidad de ocurrencia y sus potenciales consecuencias.
+		
+		La probabilidad se clasifica en categorías: baja <10%, moderada 25-50%, o alta >75%.
+		
+		Los efectos pueden ser: 
+		- catastróficos (amenazan la viabilidad del proyecto) 
+		- graves (causan retrasos importantes)
+		- tolerables (demoras manejables) 
+		- insignificantes
+		
+		Es útil clasificar los riesgos y priorizarlos en función de su gravedad y probabilidad. Esto ayuda a los administradores a enfocar sus efuerzos en los riesgos de mayor impacto.
+		
+	
+	- **Planificación del Riesgo**
+		Una vez identificados y evaluados, se desarrollan estrategias para enfrentar los riesgos clave:
+		
+		- Estrategias de evitación: 
+			Reducen la probabilidad de que el riesgo ocurra, como diseñar redundancias para compensar posibles fallos.
+		- Estrategias de minimización:
+			Reducen el impacto del riesgo en caso de que no ocurra, como la reorganización de equipos para que mas miembros conozcan funciones críticas.
+		- Planes de contingencia: 
+			Preparan al equipo para actuar si el riesgo se materializa, como un plan alternativo en caso de problemas financieros.
+			
+	- **Monitorización del riesgo**:
+		- La monitorización continua es necesaria para revisar los riesgos y los planes. Se verifica si los riesgos previamente identificados han cambiado en probabilidad o impacto y si han surgido nuevos riesgos.
+		- Se utilizan indicadores para evaluar los riesgos, como una alta rotación de personal, peticiones de cambio de requisitos o problemas tecnológicos frecuentes.
+		  
+	- **Herramientas**
+		- Matriz de riesgos
+	
+- **Tipos de Riesgo:**
+    
+    - Tecnológicos.
+        
+    - Personales y de comunicación.
+        
+    - Organizacionales.
+        
+    - De herramientas.
+        
+    - De requerimientos.
+        
+    - De estimación.
+        
+
+---
+
+## 6. Testing de software
+
+### Conceptos Fundamentales
+
+- ¿Qué es el testing de software?
+	El testing de software consiste en una serie de actividades orientadas a recopilar información sobre el funcionamiento y comportamiento de una aplicación, con el fin de deerminar si está lista para su uso público o generalizado. 
+	
+	El testing, en el mundo del desarrollo de software, juega un papel fundamental en asegurar la calidad del producto final. Por eso, está estrechamente relacionado con el Aseguramiento de la Calidad (QA), y su objetivo principal es garantizar que el software sea apto para el uso previsto antes de su lanzamiento.
+	
+- ¿Cuál es la diferencia entre Aseguramiento de Calidad (QA) vs Control de Calidad (QC)?
+
+	 - QA: El Aseguramiento de Calidad es un enfoque **preventivo**, que tiene como objetivo establecer procesos y estándares que garanticen que el software cumpla con los requisitos y expectativas del cliente. QA se enfoca en evitar errores **durante el desarrollo** y en implementar prácticas que aseguren la calidad del producto a lo largo de todo el ciclo de vida del software.
+	 
+	 - QC: El Control de Calidad es un enfoque **correctivo**, que implica la **evaluación del producto terminado** para identificar defectos y problemas. QC se centra en la detección de errore o fallos en el software y la implementación de soluciones antes de que el producto sea entregado al cliente final.
+	   
+- Verificación y validación en testing.
+    
+    La calidad del software no solo depende de los atributos del producto final, sino también de cómo se ha llevado a cabo el proceso de desarrollo. Este enfoque integral se conoce como Verificación y Validación (V&V), dos actividades que abordan diferentes aspectos de la calidad y están presentes en todas las fases del ciclo de vida del software, desde planificación hasta el mantenimiento:
+    
+    - Verificación: responde a la pregunta: ¿**Estamos construyendo el producto de la manera correcta?** Es decir, se asegura de que el proceso de desarrollo siga los estándares y requisitos establecidos. En esta etapa, se verifican aspectos como la calidad de la documentación, el cumplimiento de los modelos y la implementación adecuada de los requisitos. La verificación se realiza a lo largo del proceso, con revisiones y pruebas que garantizan que el producto cumple con las especificaciones en cada etapa.
+      
+      - Validación: responde a la pregunta: **¿Estamos construyendo el producto correcto?** Aquí el enfoque está en el producto final, verificando si este satisface las necesidades del usuario o cliente. La validación se realiza principalmente a través de pruebas funcionales y de aceptación, donde se evalúa si el producto cumple con los objetivos establecidos y si está listo para ser entregado.
+    
+    En resumen, la verificación se centra en la corrección del proceso de desarrollo, mientras que la validación evalúa si el producto final es el adecuado para su propósito.
+    
+- ==¿Cuáles son los principios del Testing?==
+  
+	- El testing muestra la presencia de defectos, no su ausencia
+	- El testing exhaustivo es imposible
+	- Testing temprano (Early testing)
+	- Agrupación de defectos (Defect clustering)
+	- Paradoja del pesticida (Pesticide paradox)
+	- El testing depende del contexto (Testing is context dependent)
+	- Falsedad de la ausencia de errores (Absence of errors fallacy)
+    
+    
+    
+- **¿Cuál es la diferencia entre error, defecto y fallo?**
+	
+	El testing se enfoca en la identificación de errores, defectos y fallos dentro de un sistema. Para entender bien estos conceptos, es clave diferenciarlos.
+	  
+    - **Error:** 
+        Un error ocurre cuando una persona comete una equivocación, ya sea al escribir el código o al documentar los requisitos del sistema. 
+        
+        Por ejemplo, un programador puede escribir = en lugar de == al  comparar dos valores  en el código, lo que causa un error lógico. Este error humano no se ve directamente en el programa, pero provoca que el comportamiento esperado del software no sea correcto.
+        
+    - **Defecto:** 
+	    
+	    Un defecto es el resultado de un error que ha sido introducido en el código o en un  documento. Cuando el programa se ejecuta, el defecto puede generar un comportamiento no deseado.
+	    
+	    Ejemplo: El error de escribir = en lugar de == hace que el sistema siempre asuma que  dos valores son iguales, incluso cuando no lo son. Este error, una vez codificado, se convierte en un defecto. Si este defecto pasa al programa sin ser corregido, puede causar problemas en la funcionalidad del sistema.
+	    
+	    **Severidad y Prioridad** son dos características importantes a tener en cuenta cuando se analiza un defecto.
+	    
+	    - Severidad: mide el impacto del defecto. Por ejemplo: un defecto que cambia el color de un botón de verde a rojo es un defecto cosmético, mientras que un defecto que impide el procesamiento de pagos es crítico.
+	      
+	    - Prioridad: indica qué tan urgente es corregir el defecto. Un defecto menor en una pantalla poco usada puede tener una baja prioridad, pero un defecto crítico en el sistema de pagos puede ser urgente.
+	    
+	    *Un sinónimo común de defecto es el término bug.*
+	    
+    - **Fallo:** 
+        
+        Un fallo es lo que ocurre cuando un defecto se manifiesta mientras se está ejecutando  el sistema. Es el resultado visible del defecto y puede causar que el programa funcione de manera incorrecta o que no funcione en absoluto.
+        
+        Ejemplo: Debido al defecto mencionado, en una tienda en línea, el sistema no puede calcular correctamente si un usuario tiene suficiente saldo para completar una compra, lo que produce un fallo cuando se rechaza una transacción que debería haber sido aceptada. El usuario ve un mensaje de error inesperado, lo que indica que se ha producido un fallo.
+        
+    
+    **En esumen:**
+    
+    Es fácil confundir estos términos, pero es importante diferenciarlos:
+    
+	• Error: Una equivocación humana (por ejemplo, un programador escribe mal una condición).
+	• Defecto: El error se introduce en el sistema (el código erróneo está
+	presente).
+	• Fallo: El defecto se manifiesta en la ejecución del programa (el sistema no se comporta como debería, por ejemplo, rechaza una transacción válida).
+	
+	
+- ==**Otra definición de defecto**==
+- **¿Cómo se analiza un bug (diferencia entre severidad y prioridad)?**
+	 
+	 Cuando se detecta un defecto (o bug), se analiza en base a su severidad y prioridad para decidir como abordarlo. No todos los efectos requieren ser corregidos de inmediato, y el análisis ayuda a asignar los recursos adecuados para su resolución.
+	 
+	- Severidad:
+		
+		La severidad de un defecto **refleja el impacto que tiene en la funcionalidad del sistema** o en la **experiencia** del usuario. Existen diversos esquemas para clasificar la severidad de los defectos, pero el más común y aconsejable es utilizar dos niveles clave: Severidad-1 y Severidad-2. Usar más niveles puede dificultar el análisis y la resolución de los problemas.
+		- Severidad-1: Este tipo de defectos impide la finalización del proyecto. Un proyecto no puede completarse si existen problemas de Sev-1 sin resolver.
+		- Severidad-2: Son defectos menos críticos que, en cantidades limitadas, permiten que el proyecto se complete.
+		  
+		Los defectos deben evaluarse en función de impacto y probabilidad:
+		
+		- Impacto: Mide la gravedad del defecto cuando ocurre. Los niveles de impacto típicos son:
+			  
+			- Alto: El usuario no puede completar una tarea clave. Por ejemplo: una funcionalidad principal de la aplicación no responde, como un botón de "pago" que no funciona en una tienda en línea.
+			  
+			- Bajo: El defecto es menor o tiene una solución alternativa. Ejemplo: errores otográficos o una fuente incorrecta, que se clasifican como errores "Cosméticos" o "Menores".
+			
+		- Probabilidad: Mide la frecuencia con la que es probable que ocurra el defecto. Esta puede ser:
+			  - Alta: El defecto se manifiesta con frecuencia
+			  - Baja: Ocurre solo en situaciones raras o específicas.
+		
+		Un ejemplo de una escala de severidad típica incluye los siguientes niveles:
+			- COSMETIC: Defectos que no afectan la funcionalidad.
+			- LOW: Defectos de baja gravedad.
+			- MEDIUM: Defectos de gravedad media.
+			- HIGH: Defectos graves.
+			- CRITICAL: Defectos críticos.
+		
+	- Prioridad:
+		
+		La prioridad indica **la urgencia con la que se debe corregir un defecto**. Si un error afecta funcionalidades críticas del proyecto, debe asignársele una prioridad alta. Si no, podría resolverse más adelante o en otro sprint.
+		
+		Por ejemplo: cuando aparece un defecto, es importante determinar si debe corregirse inmediatamente. Si la respuesta es "sí", el bug tiene prioridad "Urgente" o "Muy Alta". En muchos equipos, el líder de proyecto es quien asigna la prioridad, ya que esto puede influir en la planificación y reasignación de tareas para los desarrolladores.
+		
+		Clasificación de Defectos por Prioridad:
+		- Alta: Debe resolverse dentro de un día hábil. Afecta la funcionalidad principal o bloquea múltiples casos de prueba, lo que impide la validación de la calidad del producto. Estos defectos deben corregirse, volver a probarse y cerrarse rápidamente. Ejemplo: una pantalla de inicio de sesión que no funciona en una aplicación bancaria.
+		  
+		- Media: Estos defectos pueden solucionarse durante el ciclo normal de desarrollo y no bloquean la aplicación. Ejemplo: un error que afecta una funcionalidad no crítica y que se puede corregir en una versión futura.
+		  
+		- Baja: No afecta la funcionalidad, y tiene soluciones alternativas. Se debe corregir después de otros problemas más importantes. Ejemplo: un ícono que no se alinea correctamente en una interfaz de usuario, pero no afecta el uso de la aplicación.
+		  
+		  Además, se puede utilizar una tabla para definir la (severidad) / (prioridad) y el impacto de los defectos:
+		  
+		  - CRÍTICO:
+			  - Afecta funcionalidad o datos críticos. No tiene solución alternativa.
+		  - MAYOR
+			  - Afecta funcionalidad o datos principales, pero tiene solución alternativa difícil o poco obvia.
+			  - Ejemplo: Una funcionalidad no funciona en un módulo, pero la tarea se puede realizar con un procedimiento complejo en otros módulos
+		  - MENOR
+			- Afecta funcionalidades o datos secundarios, con una solución alternativa fácil.
+			- Ejemplo: Un error en una funcionalidad menor que se puede realizar fácilmente desde otro módulo.
+		  - TRIVIAL (COSMÉTICO):
+			- No afecta la funcionalidad ni los datos, y no requiere solución alternativa.
+			- Ejemplo: Errores ortográficos, discrepancias menorse en el diseño.
+	
+- **¿Cuánto testing es suficiente?**
+	
+	 Una pregunta común es si el testing por sí solo garantiza la calidad del software. El testing es una parte crucial, pero no es suficiente por sí solo. El aseguramiento de calidad (QA - Quality assurance) incluye otras actividades, como la revisión del código, auditorías y procesos de mejora continua, que ayudan a garantizar un software de alta calidad.
+	 
+	 **Testing necesario y suficiente**
+	 
+	 El testing no garantiza el 100% de la calidad del software. Esto se debe a que muchos errores provienen de factores humanos, y, dado que los errores humanos son impredecibles, no es posible probar todas las combinaciones posibles de errores o defectos. Esto hace que el testing exhaustivo sea imposible, ya que no podemos cubrir cada posible situación en la que el software podría fallar.
+	 
+	 Entonces, el desafío es determinar cuánto testing es necesario y suficiente para asegurar una buena calidad. Para resolver esta cuestión, se utilizan dos variables clave:
+	 
+	 - Riesgo:
+		El riesgo mide la probabilidad de que algo salga mal y el impacto que tendría ese fallo en el sistema. En base al riesgo, podemos priorizar qué partes del software necesitan más pruebas y cuales pueden ser probadas con menos intensidad. 
+		
+		Ejemplo:
+		Si estamos probando un sistema bancario, las funciones relacionadas con las transferencias de dinero son de alto riesgo, ya que cualquier fallo podría causar grandes pérdidas económicas o problemas legales. Por lo tanto, se dedicaría más esfuerzo a probar estas funciones críticas, mientras que el cambio de colores en la interfaz gráfica sería de bajo riesgo y podría testearse con menos detalle.
+		
+	 - Costo:
+		El costo se refiere tanto al costo financiero del proyecto como al costo potencial de no detectar y corregir defectos a tiempo. Cuanto mayor sea el impacto de un defecto no detectado, mayor será el costo para la empresa.
+		
+		Ejemplo: Ejemplo: En un sistema de control de tráfico aéreo, los errores pueden costar vidas humanas, por lo que el costo de no encontrar un defecto crítico es extremadamente alto. En este caso, se justificaría una inversión mayor en testing. Por otro lado, en una aplicación de uso interno para gestionar agendas, el costo de un fallo podría ser mucho menor, y el testing podría ajustarse para reflejar este menor riesgo.
+		
+- ¿Qué es el estado de un defecto? ¿Cuales son los posibles estados?
+	
+	El estado de un defecto refleja su posición actual en su ciclo de vida  dentro del proceso de gestión de errores, 
+	
+	 **Estados comunes en el ciclo de vida de un defecto**
+	 - **Nuevo (New)**: 
+		Un evaluador ha identificado y reportado un nuevo defecto, el cual está pendiente de ser asignado a un desarrollador para su resolución.
+	 - **Asignado (Assigned)**:
+		El defecto ha sido asignado a un desarrollador, quien es responsable de investigarlo y solucionarlo.
+	 - **Rechazado (Rejected):**
+		El desarrollador no ha podido reproducir el defecto reportado o lo ha considerado inválido, por lo que lo ha rechazado, devolviéndolo al evaluador. (también conocido como No reproducible)
+	 - **Solucionado (Fixed):**
+		El desarrollador ha corregido el defecto y ha realizado los cambios necesarios en el código.
+	 - **Listo para probar (Ready to test)**:
+		El administrador de versiones ha incorporado el código corregido en una nueva versión del software, y esta se ha pasado al evaluador para verificar que el defecto esté realmente corregido.
+	 - **Reprueba fallida (Failed Retest):**
+		Después de realizar las pruebas, el evaluador ha descubierto que el defecto sigue presente, por lo que el defecto se devuelve al equipo de desarrollo para una revisión adicional.
+	 - **Cerrado (Closed)**:
+		El defecto se ha corregido de manera satisfactoria y ha pasado todas las pruebas de validación. Ya no require mas atención.
+	
+	 **Estados alternativos**
+	 - Diferido: Se posterga la resolución del defecto para un próximo sprint, release o versión futura.
+	 - Duplicado: Si el defecto ya ha sido reportado previamente y está en proceso de resolución o ha sido resuelto. 
+	
+- **¿Qué es un test case y cuáles son sus elementos principales?**
+    
+    Un caso de prueba es un artefacto fundamental en el proceso de pruebas de software, ya que permite analizar y documentar si el software cumple con los requisitos y funciona correctamente. Su propósito principal es verificar que una funcionalidad específica de un producto de software opere según lo esperado. Un caso de prueba bien definido facilita la reproducción de defectos y asegura una cobertura adecuada de los requisitos del sistema.
+    
+    Cada caso de prueba generalmente se compone de los siguientes elementos (a grandes rasgos):
+    
+     - Objetivo: Define el propósito de la prueba. Es decir, qué funcionalidad o comportamiento del sistema se va a validar.
+     - Datos de entrada y ambiente: Incluye los valores de entrada necesarios y las condiciones del entorno (hardware, software, configuración) bajo las cuales se ejecutará la prueba.
+     - Comportamiento esperado y actual: Describe cuál es el resultado que se espera obtener y el comportamiento real observado durante la ejecución de la prueba.
+       
+       
+    Elementos más específicos:
+     - Título 
+     - Descripción 
+     - Precondiciones 
+     - Pasos de ejecución
+     - Datos de entrada
+     - Resultado esperado
+     - Resultado real
+     - Estado del test case.
+    
+- ¿Cuáles son las fases del proceso básico de prueba?
+    
+    - Planificación
+    - Especificación
+    - Ejecución
+    - Análisis
+    - Evaluación.
+    
+
+### Tipos y Niveles de Prueba
+
+- **¿Qué es el modelo en V?**
+	El modelo en V estructura el proceso de desarrollo en varios niveles. 
+	
+	(Ver figura en apunte)
+	
+	*Definición propia*:
+	Conceptualmente, a grandes rasgos, las actividades de diseño del software tienen su contraparte de actividades de testing de software. A cada nivel de desarrollo le corresponde un nivel de pruebas, mediado por la planificación de ese tipo de pruebas por ej:
+	 - Análisis de Necesidades -> Plan de Pruebas de Aceptación -> Pruebas de Aceptación
+	 - (más abajo... )
+	 - Especificación de Componentes -> Plan de Pruebas Unitarias -> Pruebas Unitarias
+	   
+	   
+	**Definición online:**
+	El modelo en V recibe su nombre por su forma, que se asemeja a la letra “V”. En el modelo en V, dividimos el ciclo de vida del desarrollo de software en fases y cada fase está asociada con una fase de prueba correspondiente. 
+	
+	El lado izquierdo de la V representa la fase de verificación, mientras que el lado derecho representa la fase de validación. La verificación confirma que el producto se ha fabricado correctamente según las especificaciones. La validación confirma que el producto satisface las necesidades y expectativas del usuario. 
+	
+	**Definición del apunte:**
+	El enfoque de pruebas sigue el modelo en V, que estructura el proceso de desarrollo en varios niveles. A partir del código del producto, emergen cuatro niveles de prueba que permiten **verificar y validar** el sistema en sus diferentes etapas. En este modelo, el proceso de verificación se inicia desde la escritura del código, ascendiendo a los niveles superiores de prueba, alineados con fases previas del desarrollo, como se observa en la figura. A su vez, el proceso de validación se lleva a cabo mediante la ejecución de pruebas correspondientes a cada nivel, asegurando que el producto cumpla con los requisitos establecidos.
+	
+	Análisis de Necesidades -> Plan de P. de Aceptación -> P. Aceptación
+	Diseño Funcional -> Plan de P. Sistemas -> P. de Sistemas
+	Diseño Técnico -> Plan de P. de Integración -> P. de Integración
+	Especificación de Componentes -> Plan de P. Unitarias -> P. Unitarias
+	---------------------------------Escritura de Código--------------------
+	
+	
+- ¿Cuales son los niveles de prueba según el modelo V?
+
+	 - Pruebas Unitarias
+	 - Pruebas de Integración
+	 - Pruebas de Sistemas
+	 - Pruebas de Aceptación
+	   
+- ¿Qué son las pruebas unitarias?
+	
+	Son un tipo de prueba de software donde se verifica el funcionamiento de las partes más pequeñas y aisladas de una aplicación, llamadas unidades. Estas unidades suelen ser funciones o métodos individuales dentro de una clase u objeto en un lenguaje de programación. 
+	
+	El propósito principal de las pruebas unitarias es asegurarse de que cada unidad de código funcione correctamene de manera independiente, sin depender de otras partes del sistema. Esto permite detectar errores de forma temprana, ya que cualquier fallo en una unidad puede ser corregido antes de integrarla con otros componentes del software.
+	
+- ¿Qué se hace en una prueba unitaria?
+	
+	En una prueba unitaria, se crea un conjunto de casos de prueba específicos que cubren diferentes escenarios para la unidad bajo prueba. Por ejemplo, si se está probando una función que realiza una suma los casos de prueba pueden incluir:
+	 - Verificar que la suma de dos números sea correcta
+	 - Verificar la suma de dos numeros negativos
+	 - Verificar el comportamiento cuando se suman cero y otro número
+	 - Verificar el manejo de entradas inválidas, como cadenas de texto en lugar de números
+	   
+	El objetivo es asegurarse de que la función se comporte como se espera en todos los casos posibles, incluyendo aquellos donde se puede anticipar un error. 
+	
+- **¿Quién realiza las pruebas unitarias?**
+	
+	Las pruebas unitarias son normalmente realizadas por los desarrolladores del software, quienes escriben estas pruebas en paralelo al desarrollo del código. Al integrar las puebas unitarias en su flujo de trabajo, los desarrolladores pueden verificar ocntinuamente que el código que están escribiendo cumple con los requisitos y que cualquier cambio en el futuro no rompoe la funcionalidad existente. 
+	
+- ¿Cuáles son las ventajas de las pruebas unitarias?
+	
+	- Detección temprana de errores: 
+		Las pruebas unitarias permiten detectar problemas en etapas tempranas del desarrollo, lo que reduce el costo de corregirlos.
+		
+	- Facilita el mantenimiento:
+		Con una cobertura adecuada de pruebas unitarias, es más facil refactorizar o modificar el código, ya que los tests garantizan que los cambios no introduzcan nuevos errores.
+		 
+	- Mejor comprensión del código: 
+		Al escribir pruebas unitarias, los desarrolladores tienden a pensar de manera más estructurada sobre el comportamiento esperado de cada unidad, lo que lleva a un código más claro y robusto.
+	
+- ¿ Cuáles son los tipos de pruebas unitarias?
+	
+	- Pruebas positivas:
+		Verifican que una unidad de código se comporte como se espera en condiciones normales o válidas. 
+		Ej: verificar que una función que suma dos números, al pasarle 2+3 devuelva 5.
+		
+	- Pruebas Negativas:
+		Verifican que el código maneje adecuadamente situaciones o entradas no válidas. 
+		Ejemplo: Para la misma función de suma, una prueba negativa sería verificar que invocarla con los parámetros ("dos" y 3) lance un error o maneje la entrada incorrecta decuadamente.
+		
+	- Boundary Testing (Pruebas de Frontera):
+		Se utilizan para verificar el comportamiento de una unidad en los límites de sus valores permitidos. 
+		Ejemplo: Si una función acepta números entre 1 y 100, una prueba de frontera verificaría el comportamiento con los valores 1, 100, 0 y 101.
+		
+	- Pruebas de Excepción: 
+		Evalúan como se comporta el código cuando courre un error o una excepción. 
+		Ejemplo: Una función que divide dos números, una exception tes verificaría el comportamiento cuando el divior es 0.
+		
+		**Pruebas Complementarias a las Unitarias**
+		- Pruebas de Verificación Funcional:
+			Verifican que cada unidad cumpla con su funcionalidad esperada. Esto es clave dentro del testing unitario, ya que el objetivo es probar que cada componente individual del código haga exactamente lo que debería hacer. 
+			Ej: Probar que una función de validación de emails devuelva true para entradas válidas como ejemplo@dominio.com y false para entradas no válida como sinarroba.com
+			
+		- Pruebas de Regresión:
+			Son un conjunto de pruebas unitarias que se ejecutan nuevamente después de realizar cambios en el código para asegurarse de que las modificaciones no haya introducido errores en funcionalidades existentes. 
+	
+- ¿Qué son las pruebas de integración?
+	  
+	Las pruebas de integración son un tipo de prueba de software diseñada para verificar que los diferentes módulos o componentes de una aplicación funcionen correctamente cuando se combinan. 
+	
+	A diferencia de las pruebas unitarias, que se enfocan en evaluar unidades individuales de código en aislamiento, las pruebas de integración validan que las partes del sistema interactúen y se comuniquen de manera adecuada. 
+	
+	El objetivo principal de las pruebas de integración es identificar fallos que puedan surgir en las interfaces entre módulos, como errores en la transmisión de datos, problemas de sincronización o dependencias mal gestionadas. Estas pruebas aseguran que cuando se integran varios componentes, la aplicación funcione como un todo coherente, sin comprotamientos inesperados ni fallos derivados de la interacción entre sus partes. 
+	
+	Esto es especialmente importante en aplicaciones complejas, donde distintos módulos pueden haber sido desarrollados por equipos diferentes o con tecnologías distintas. El integration testing permite detectar problemas que no son visibles al probar componentes por separado, como incompatibilidades en los formatos de datos, errores en los flujos de comunicación o mal manejo de excepciones.
+	
+	
+- **¿Qué se hace en una prueba de integración?** 
+- ¿Quien realiza las pruebas de integración?
+- ¿Cuáles son las ventajas de las pruebas de integración?
+- ¿Cuáles son los tipos de pruebas de integración?
+- **¿Qué son las Pruebas de Sistema (System Testing)?**
+	 
+	Las pruebas de sistema son un tipo de prueba de software que se llevan a cabo sobre el sistema completo e integrado, con el fin de verificar que todos los componentes funcionen en conjunto y que el sistema cumpla con los requisitos especificados. 
+	
+	A diferencia de las pruebas de integración, que evalúan la interacción entre módulos individuales, las pruebas de sistema examinan el comportamiento de todo el sistema en su conjunto, incluyendo tanto sus funcionalidades como aspectos no funcionales. 
+	
+	El objetivo principal de las pruebas de sistema es asegurar que el software funcione según lo esperado en un entorno lo más cercano posible al real, abarcando todos los aspectos que afectan su correcto desempeño, desde el funcionamiento de las funciones principales, hasta el rendimiento bajo cargas de trabajo intensas y la capacidad de recuperación ante fallos.
+	
+- ¿Qué se hace en una prueba de sistema?
+- ¿Quién realiza las pruebas de sistema?
+- ¿Cuáles son las ventajas de las pruebas de sistema?
+- ¿Cuáles son los tipos de pruebas de sistema?
+- ¿Qué es un smoke test?
+    
+    Un test de alto nivel, básico y de corto tiempo, para asegurar el  funcionamiento correcto de las funciones críticas del software.
+    
+    Las pruebas de humo, smoke testing, son un conjunto básico de pruebas rápidas que se realizan para verificar si las funcionalidades principales del sistema funcionan correctamente después de una nueva construcción o actualización. Si estas pruebas fallas, se detienen las pruebas más profundas. Ejemplo: Después de actualizar una aplicación, verificar que los usuarios puedan iniciar sesión y realizar tareas clave sin errores antes de realizar pruebas más detalladas.
+    
+- **¿Qué son las pruebas de aceptación?**
+	Las pruebas de aceptación UAT son una fase crítica en el ciclo de vida del software, donde los usuarios finales o representantes del cliente validan si el sistema cumple con los requisitos y expectativas establecidos. Este tipo de pruebas se lleva a cabo después de que el sistema haya sido completamente desarrollado, probado en niveles previos (unitarios, integración, sistema) y está listo para ser entregado en su versión final.
+	
+	El objetivo principal de las pruebas de aceptación es asegurar que el software es apropiado para su uso en el mundo real. Durante esta fase, los usuarios finales prueban las funciones principales y los escenarios de uso del software para verificar que satisfacen sus necesidades y cumplen con los requisitos previamente acordados.
+	También se evalúa si el sistema es fácil de usar, intuitivo y de acuerdo con las expectativas del cliente.
+	
+- ¿Qué se hace en una prueba de aceptación?
+- ¿Quién realiza las pruebas de aceptación?
+- ¿Cuáles son los tipos de pruebas de aceptación?
+- **¿Cuál es la diferencia entre pruebas alfa y beta?**
+    
+    Son dos tipos de pruebas de aceptación.
+    - **Pruebas Alfa:** Son realizadas por los mismos desarrolladores o un equipo de QA, en un entorno de desarrollo o de prueba, y se hacen de manera controlada antes de la liberación oficial. Se enfoca en detectar errores y fallos importantes en el sistema.
+    - **Pruebas Beta:** Se realizan de forma **externa** con los potenciales clientes, es decir, fuera del equipo de desarrollo, en un entorno de usuario real. Se proporciona una versión preliminar del sistema, llamada beta, a ungrupo de usuarios externos o clientes potenciales para que lo prueben y proporcionen retroalimenteación.
+- ¿Cómo se puede clasificar las pruebas de software?
+	
+	Las pruebas de software se realizan para garantizar que el sistema cumpla con los requisitos establecidos y funcione correctamente bajo diversas condiciones. Estas pruebas pueden ser analizadas desde diferentes enfoques, y cada enfoque ofrece una perspectiva distinta sobre cómo ejecutar y evaluar el software. A continuación, los tres enfoques más comunes:
+	
+	 - **Desde el punto de vista de su comportamiento**:
+		 - Pruebas *estáticas*: Las pruebas estáticas son aquellas en las que no se ejecuta el código del software. Se enfocan en revisar el código fuente, la documentación, o el diseño del sistema para identificar defectos sin necesidad de ejecutar el programa.
+			   - Objetivo: Detectar problemas antes de que el software se ejecute, lo que puede ahorrar tiempo y esfuerzo en etapas posteriores del desarrollo.
+			   - Ejemplo: revisar el código fuente para detectar errores de sintaxis o malas prácticas de programación.
+		
+		 - Pruebas *dinámicas*: Las pruebas dinámicas requieren ejecutar el software y observar su comportamiento en tiempo real. Se enfocan en validar si las funcionalidades del sistema funcionan como se espera bajo condiciones de ejecución reales.
+			   - Objetivo: Asegurar que el software cumple con los requisitos operatios y de rendimiento mientras se está ejecutando. Ejemplo: Probar la funcionalidad de un formlario de login, verificar si las entradas son procesadas correctamente por el sistema.
+		
+	 - **Desde el punto de vista de su ejecución:** 
+		 - Pruebas *manuales*: Las pruebas manuales implican la intervención de un tester humano que sigue un conjunto predefinido de pasos para probar el software. El tester evalúa el comportamiento del sistema observando como interactúa el usuario con el software.
+		   
+		   - Pruebas *automatizadas*: En las pruebas automatizadas, se utilizan herramientas de software para ejecutar pruebas de manera automática, lo que permite repetir las pruebas rápidamente y con mayor eficiencia. Este tipo de pruebas es ideal para verificaciones repetitivas o cuando se necesita realizar una gran cantidad de pruebas en poco tiempo.
+			- Objetivo: Reducir la intervención humana, acelerar el proceso de pruebas, y permitir la ejecución continua de pruebas durante todo el ciclo de vida del software. 
+			- Ejemplo: Utilizar herramientas como Selenium para automatizar pruebas de UI en una app web.
+		
+	- **Desde el punto de vista de los requisitos:**
+		Las pruebas también se pueden clasificar según el tipo de requisitos que se están verificando. Esto se divide principalmente en pruebas que validan funcionalidades específicas del sistema (funcionales) y pruebas que verifican aspectos no relacionados directamente con la funcionalidad (no funcionales).
+		- Pruebas *Funcionales*: Las pruebas funcionales validan que el software cumpla con las funcionalidades descritas en los documentos de requisitos. Se enfocan en comprobar que las características del sistema funcionan de acuerdo con las especificaciones y los objetivos del negocio.
+			- Objetivo: Asegurar que cada función del software opere como se espera.
+			- Ejemplo: Verificar que un sistema de pago en línea acepte pagos correctamente cuando el usuario ingresa los datos de tarjeta de crédito.
+			
+			**Dentro de la clasificación de Pruebas Funcionales**:
+			- Pruebas de Caja Negra:
+				Las pruebas de caja negra se enfocan exclusivamente en las entradas y salidas del sistema, sin considerar su estructura interna o implementación. Estas pruebas se basan en los requisitos funcionales y las especificaciones del software, asegurando que el sistema se comporte como se espera desde la perspectiva del usuario.
+				
+				Tienen como objetivo validar que el sistema cumple con todos los requisitos funcionales y que produce resultados correctos y esperados para un conjunto definido de entradas, independientemente de cómo se implementa internamente.
+				
+				Algunos tipos de pruebas de caja negra:
+				- Partición de equivalencias: La partición de equivalencia es una técnica de prueba de software que divide el conjunto de datos de entrada en grupos o "clases" (particiones). La idea es que todos los valores dentro de una misma partición se comportan de manera similar en el programa. Por lo tanto, en lugar de probar cada dato posible, solo es necesario probar un valor representativo de cada partición, lo que reduce el número de casos de prueba necesarios mientras se mantiene una cobertura de pruebas efectiva.
+				  
+				- Análisis de valores límite: Se identifican los límites superior e inferior de un rango de entrada válido. Se prueban valores en los siguientes puntos. Justo por debajo del límite inferior. En el límite inferior. Justo por encima del límite inferior. Justo por debajo del límite superior. En el límite superior. Justo por encima del límite superior
+				- Tablas de decisión: Se utilizan tablas para representar diferentes condiciones de entrada y sus salidas correspondientes.
+				  
+				*Ejemplo de testing de caja negra:*
+				Pruebas de login: Ingresar combinaciones de usuario y contraseña (correctas, incorectas, vacías) para comprobar que el sistema responde de manera adecuada.
+				
+			- Pruebas de Caja Blanca:
+				
+				Las pruebas de caja blanca, también conocidas como pruebas estructurales, requieren un entendimiento profundo del código fuente del sistema. Se centran en evaluar la lógica interna y el flujo del programa, garantizando que cada parte del código funcione correctamente y se ejecuten todas las rutas lógicas posibles.
+				
+				Tienen como objetivo identificar errores en la implementación del código, asegurando que todas las rutas lógicas sean probadas y que el software se comporte correctamente en todas las situaciones posibles, lo que ayuda a detectar defectos en la lógica y el flujo de control.
+				
+				Algunos tipos de pruebas de caja blanca:
+				- Cobertura de sentencias: asegurar que cada sentencia del código se ejecute al menos una vez durante las pruebas.
+				- Cobertura de caminos: verificar que se hayan probado todos los caminos posibles en el flujo del programa
+				- Pruebas unitarias: validar que las funciones individuales o métodos del software se comporten correctamente en aislamiento.
+				
+				*Ejemplo de testing de caja blanca:*
+				Utilizar un framework como JUnit para comprobar que una función específica devuelve el resultado correcto para todos los posibles valores de entrada.
+	   
+- ¿Qué es un test de caja negra? (definición y ejemplo).
+    
+    Se enfoca en las entradas y salidas del sistema, sin conocimiento de la estructura interna. Se basa en los requerimientos. Ejemplo: Sistema de login de usuario.
+    
+- ¿Qué es un test de caja blanca? (definición y ejemplo).
+    
+    Se basa en un análisis de los detalles procedimentales del código, por lo que es necesario conocer la lógica interna. Ejemplo: Función que calcula descuento probando todas las rutas.
+    
+
+### Pruebas y Metodologías Ágiles
+
+- ¿Qué es TDD?
+    
+    Desarrollo Dirigido por Tests. Es una técnica para diseñar software centrada en la implementación de las funciones justas que el cliente necesita, minimizando defectos y produciendo software modular.
+    
+- **¿Qué es el ciclo Red-Green-Refactor en TDD?**
+    
+    1. **Rojo:** Escribir una prueba que falle.
+        
+    2. **Verde:** Implementar el código mínimo necesario para que la prueba pase.
+        
+    3. **Refactorizar:** Mejorar el código sin romper la funcionalidad.
+       
+- **Ejemplo de TDD con Red-Green-Refactor:**
+	Supongamos que estamos desarrollando una calculadora. Escribimos primero una prueba que verifique que 2+2 debe ser igual a 4. La prueba fallará (rojo), entonces escribimos el código que permita que pase (verde). Finalmente, refactorizamos para optimizar el código manteniendo la funcionalidad correcta.
+	
+
+- ¿Qué es ATDD?
+    
+    Desarrollo dirigido por tests de Aceptación. Técnica colaborativa donde clientes, testers y desarrolladores colaboran para definir los criterios de aceptación antes de comenzar el desarrollo. Este enfoque asegura que todos entiendan claramente qué se espera del sistema.
+    
+- ¿Qué es BDD?
+    
+     Behavior Driven Development (desarrollo guiado por el comportamiento). BDD se enfoca en el comportamiento del sistema desde una perspectiva de negocio. Utiliza ejemplos concretos para definir cómo debería comportarse el sistema en diferentes escenarios. Las pruebas se redactan en un lenguaje accesible para todos los involucrados, como clientes y desarrolladores.
+     
+	**Ejemplo de BDD**:
+		Imagina un carrito de compras en un supermercado en línea:
+		- Escenario 1: Si un producto ya está en el carrito, no debería agregarse de nuevo.
+		- Escenario 2: Si un producto está agotado, no debería poder añadirse al carrito.
+		- Escenario 3: Al agregar un producto al carrito, el sistema debería notificar al usuario.
+		Estas pruebas no solo validan el sistema, sino que aseguran que el
+		comportamiento sea coherente con las expectativas del usuario.
+	 
+     
+    
+- **¿Cuáles son las principales diferencias entre testing tradicional y testing ágil?**
+    
+    - **Tradicional:** El testing es una etapa que se realiza **al final** del proceso de desarrollo.
+        
+    - **Ágil:** El testing es una **actividad continua**, integrada en el desarrollo desde las primeras etapas.
+        
+- ¿Qué pruebas son buenas candidatas para automatización?
+    
+    Pruebas de carga y rendimiento, Pruebas de humo (Smoke tests), Pruebas repetitivas, Pruebas de regresión.
+    
+
+### Principios y Gestión de Defectos
+
+        
+- Principio Pareto
+    
+    Establece que el 80% de las consecuencias se derivan de 20% de las causas. Aplicado al software: el 20% de los errores causan el 80% de los fallos.
+    
+- Rol del QA (Quality Assurance).
+    
+    Es el profesional encargado de prevenir los fallos y asegurar la calidad del software. Suele ser el encargado del diseño de las pruebas.
+    
+- **¿Cuál es la diferencia entre Quality Assurance (QA) y Quality Control (QC)?**
+    
+    - **QA:** Orientado al **control y gestión de las pruebas** (prevenir fallos).
+        
+    - **QC:** El tester que trabaja sobre **procesos correctivos** sobre el producto (bajo la gestión de controles de defecto).
+        
+
+
+### Pruebas Específicas
+
+- ¿Qué son las pruebas de regresión y cuándo se usan?
+    
+    Colección de casos de prueba que se utilizan para asegurar que una regresión pase por áreas de productos funcionales.
+    
+- ¿Qué es el End to End?
+    
+    Pruebas que cruzan los límites del producto y garantizan que los puntos de integración entre los productos se ejerzan y validan.
+    
+- ¿Qué son las pruebas de rendimiento y sus tipos?
+    
+    Permiten conocer el comportamiento del software ante una carga determinada. Tipos:
+    
+    - **Load testing (Pruebas de carga):** Comprender el comportamiento del sistema bajo una carga especificada (ej. número de usuarios simultáneos).
+        
+    - **Prueba de estrés:** Se utiliza para comprender los **límites superiores** de capacidad dentro del sistema.
+        
+    - **Spike testing:** Aumentar o disminuir repentinamente una carga muy grande de usuarios y observar el comportamiento del sistema.
+        
+    - **Soak testing:** Determinar si el sistema puede **sostener la carga continua** esperada, monitoreando el uso de la memoria (para detectar fugas).
+        
+
+---
