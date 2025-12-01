@@ -771,7 +771,7 @@ Notas:
 	 
 -   **¿Qué es la restricción de tiempo o cronograma y cuales son sus Procesos Clave?**
 	
-	 El tiempo o cronograma de un proyecto es una de las restricciones más críticas que los gestores de proyectos deben manejar. Según el PMBOK Guide en su Sección 6, la gestión del tiempo involucra una serie de procesos que aseguran que el proyecto se complete dentro del tiempo estimado, lo que incluye la definición de actividades, su secuenciación, la estimación de su duración, el desarrollo del cronograma y su control continuo.
+	 El tiempo o cronograma de un proyecto es una de las restricciones más críticas que los  gestores de proyectos deben manejar. Según el PMBOK Guide en su Sección 6, la gestión del tiempo involucra una serie de procesos que aseguran que el proyecto se complete dentro del tiempo estimado, lo que incluye la definición de actividades, su secuenciación, la estimación de su duración, el desarrollo del cronograma y su control continuo.
 	 
 	 El cronograma del proyecto es esencial para garantizar que el proyecto se complete a tiempo. En un proyecto de desarrollo de software, el cronograma debe ser flexible para adaptarse a los desafíos técnicos que surjan durante el desarrollo. 
 	 
@@ -807,15 +807,14 @@ Notas:
 	5. **Desarrollo del cronograma:**
 		Crear un cronograma del proyecto que integre las actividades, secuencias, duraciones,  recursos y restricciones del proyecto.
 		
-		*Ejemplo:* en un proyecto de desarrollo de software, el cronograma podría gestionarse  mediante una metodología Agile, donde las actividades se distribuyen en sprints semanales. Si seguimos un enfoque más tradicional, podríamos usar un diagrama de Gantt que muestre las actividades en un calendario de 12 semanas, con las fechas de inicio y fin claramente definidas.
+		*Ejemplo:* en un proyecto de desarrollo de software, el cronograma podría gestionarse   mediante una metodología Agile, donde las actividades se distribuyen en sprints semanales. Si seguimos un enfoque más tradicional, podríamos usar un diagrama de Gantt que muestre las actividades en un calendario de 12 semanas, con las fechas de inicio y fin claramente definidas.
 		
 	6. **Control del cronograma**: 
 		Monitorear el progreso del proyecto y gestionar los cambios en el cronograma para garantizar que se cumplan los plazos establecidos.
 		
 		*Ejemplo:*  Una vez que el proyecto está en marcha, es vital monitorear continuamente el progreso para asegurarse de que el equipo esté cumpliendo con los plazos. Si durante la implementación del backend surgen problemas técnicos que retrasan el trabajo, el equipo podría tener que reprogramar las actividades siguientes, como la integración con sistemas de pago, y ajustar las fechas de entrega.
 		
-	
-	 
+- **==¿Qué es la restricción de costo y cuales son sus Procesos Clave?==**
 - **¿Qué es la triple restricción en un proyecto?**
     
      La Triple Restricción es un concepto fundamental en la gestión de proyectos que se representa típicamente como un triángulo, donde los tres lados corresponden a las restricciones de Alcance, Costo, y Tiempo. Estas tres variables están interrelacionadas de manera que cualquier cambio en una de ellas afecta inevitablemente a las otras dos. 
@@ -826,7 +825,7 @@ Notas:
 	 
 	 Si bien la Triple Restricción ha sido durante mucho tiempo una herramienta clásica para analizar y gestionar proyectos, en la práctica moderna de gestión de proyectos se ha reconocido que este enfoque es insuficente para capturar la complejidad real de los proyectos actuales.
 	 
-	 El objetivo final de un proyecto no es sólo mantener estas tres restricciones en equilibrio, sino **entregar valor a las partes interesadas**. Por lo tanto, el enfoque tradicional del tripangulo ha evolucionado para incluir otras tres restricciones críticas:
+	 El objetivo final de un proyecto no es sólo mantener estas tres restricciones en equilibrio, sino **entregar valor a las partes interesadas**. Por lo tanto, el enfoque tradicional del triángulo ha evolucionado para incluir otras tres restricciones críticas:
 	 
 	 **Calidad, Riesgos y Recursos**
 	 
@@ -975,7 +974,7 @@ Notas:
 	
 	En la gestión ágil ocurre lo contrario. Como el propósito es entregar valor de forma temprana y adaptarse a cambios frecuentes, el alcance se maneja de manera flexible. No todo se define al inicio, sino que se prioriza continuamente.
 	
-	Con respecto al tiempo, los equipos trabajan en ciclos de tiempo fijo, y ese tiempo de entrega (iteración o sprint) se respeta estrictamente. Las iteraciones no se extienden para agregar más trabajo, porque eso rompería la cadencia. Por eso se dice que el tiempo en ágil es inflexible. El equipo entrega lo que puede dentro del tiempo disponible, y lo que no entra se mueve al backlog para otra iteración. 
+	Con respecto al tiempo, los equipos trabajan en ciclos de tiempo fijo, y ese tiempo de entrega (iteración o sprint) se respeta estrictamente. Las iteraciones no se extienden para agregar más trabajo, porque eso rompería la cadencia. Por eso se dice que el tiempo en ágil es inflexible. El equipo entrega lo que compromete dentro del tiempo disponible, y lo que no entra se mueve al backlog para otra iteración. 
 	Además, si el proyecto tiene una fecha de finalización o hay una fecha definida para entrega del producto, esta fecha debe respetarse a rajatabla típicamente.
 	
 	El costo, en la mayoría de las implementaciones ágiles, tiende a ser relativamente fijo porque los equipos suelen tener tamaño estable. Sin embargo, puede considerarse flexible a nivel de proyecto si la organización decide incorporar más personal o asignar más recursos económicos. En cualquier caso, lo que sí es claramente flexible en ágil es el alcance, y lo claramente rígido es el tiempo de cada ciclo.
@@ -1610,11 +1609,11 @@ Notas:
     
 - ¿Qué diagramas se modelan en el dominio del problema?
     
-    Se utilizan el Diagrama de Clases y el Diagrama de Casos de Uso.
+    Para describir el dominio de problema se utilizan dos diagramas de UML, el DIAGRAMA DE CLASES y el DIAGRAMA DE CASOS DE USO. El modelo de dominio representan las “cosas” que existen o los “eventos” que suceden en el entorno en el que se desenvuelve un sistema.
     
 - ¿Para qué modelamos el dominio?
     
-    Para visualizar, construir, especificar y documentar correctamente un sistema que refleje la realidad del negocio o problema que queremos resolver.
+    Para visualizar, construir, especificar y documentar correctamente un sistema que refleje la  realidad del negocio o problema que queremos resolver.
     
 
 ### Casos de Uso y Diagramas
@@ -2007,14 +2006,21 @@ Notas:
 
 - ¿Qué es la gestión de riesgo?
     
-    La gestión de riesgos es un proceso que implica identificar, analizar y responder a los riesgos que puedan afectar al proyecto, producto u organización, con el fin de minimizar los impactos negativos y aumentar las probabilidades de éxito (maximizando los impactos positivos del riesgo)
+    La gestión de riesgos es un aspecto clave en la gestión de proyectos de software debido a la naturaleza incierta y compleja de estos proyectos.
+    El proceso implica identificar, analizar y responder a los riesgos que puedan afectar al  proyecto, producto u organización, con el fin de minimizar los impactos negativos y aumentar las probabilidades de éxito (maximizando los impactos positivos del riesgo)
     
 - ¿Cuáles son las etapas de la gestión de riesgo?
 	
-	- Identificación del Riesgo: 
+	- **Identificación del Riesgo:** 
 		Se deben identificar los riesgos potenciales que podrían impactar al proyecto. Ya sea retrasándolo, afectando su calidad o incluso comprometiendo a la organizacion.
 		
+		Se recomienda utilizar una lista de verificación de los diferentes tipos de riesgo.
+		
+		Al concluir el proceso de identificación de riesgos, se contará con una larga lista de eventualidades que podrían ocurrir y afectar al producto, al proceso y a la organización. Entonces se necesita reducir esa lista a un tamaño razonable.
+		
 		**Clasificación de Riesgos**
+		Una clasificación básica de los riesgos es:
+		
 		- **Riesgos del proyecto:** 
 	        Son aquellos relacionados con el cronograma y los recursos, como la posible salida de personal clave o retrasos en disponibilidad de hardware.
 	    - **Riesgos del producto/técnicos:** 
@@ -2022,10 +2028,30 @@ Notas:
 	    - **Riesgos empresariales o de negocio:** 
 	        Afectan a la organización en su conjunto, como la aparición de productos competidores o cambios tecnológico que desactualicen el sistema.
 	    
+	    Otra clasificación más detallada es:
+	    
+	    - Riesgos tecnológicos:
+		    Derivan de las tecnologías de software o hardware usadas para desarrollar el  sistema.
+		    
+		- Riesgos de herramientas:
+			Resultan de las herramientas de software y otro software de soporte que se usa para desarrollar el sistema.
+		
+		- Riesgos personales y riesgos de comunicación:
+			Están relacionados con las personas en el equipo de desarrollo.
+			
+		- Riesgos organizacionales:
+			Se derivan del entorno organizacional donde se desarrolla el software.
+		
+		- Riesgos de requerimientos:
+			Proceden de cambios a los requerimientos del cliente y del proceso de gestionarlos.
+			
+		- Riesgos de estimación:
+			Surgen de las estimaciones administrativas de los recursos requeridos para construir el sistema.
+	    
 	-  **Análisis de Riesgos**:
 		Por cada riesgo, se evalúa su probabilidad de ocurrencia y sus potenciales consecuencias.
 		
-		La probabilidad se clasifica en categorías: baja <10%, moderada 25-50%, o alta >75%.
+		La probabilidad se clasifica en categorías: baja inferior a 10%, moderada entre 25 y 50%, o alta mayor a 70 o 75%.
 		
 		Los efectos pueden ser: 
 		- catastróficos (amenazan la viabilidad del proyecto) 
@@ -2034,24 +2060,47 @@ Notas:
 		- insignificantes
 		
 		Es útil clasificar los riesgos y priorizarlos en función de su gravedad y probabilidad. Esto ayuda a los administradores a enfocar sus efuerzos en los riesgos de mayor impacto.
+		Generalmente se tabulan los resultados del proceso de análisis mediante una tabla  clasificada de acuerdo con la gravedad del riesgo
 		
-	
 	- **Planificación del Riesgo**
 		Una vez identificados y evaluados, se desarrollan estrategias para enfrentar los riesgos clave:
 		
 		- Estrategias de evitación: 
-			Reducen la probabilidad de que el riesgo ocurra, como diseñar redundancias para compensar posibles fallos.
+			Reducen la probabilidad de que el riesgo ocurra. 
+			*Ejemplo*: ante el riesgo de interrupción de un servicio, una estrategia de evitación sería diseñar redundancias para compensar posibles fallos.
 		- Estrategias de minimización:
-			Reducen el impacto del riesgo en caso de que no ocurra, como la reorganización de equipos para que mas miembros conozcan funciones críticas.
+			Reducen el impacto del riesgo en caso de que ocurra.
+			*Ejemplo:* ante el riesgo de salida del personal clave, una estrategia de minimización sería la reorganización del equipo de desarrollo para que mas miembros conozcan funciones críticas.
 		- Planes de contingencia: 
-			Preparan al equipo para actuar si el riesgo se materializa, como un plan alternativo en caso de problemas financieros.
+			Preparan al equipo para actuar si el riesgo se materializa, y se crea una estrategia para hacer frente al mismo.
+			*Ejemplo:* un plan alternativo en caso de problemas financieros.
 			
 	- **Monitorización del riesgo**:
 		- La monitorización continua es necesaria para revisar los riesgos y los planes. Se verifica si los riesgos previamente identificados han cambiado en probabilidad o impacto y si han surgido nuevos riesgos.
 		- Se utilizan indicadores para evaluar los riesgos, como una alta rotación de personal, peticiones de cambio de requisitos o problemas tecnológicos frecuentes.
 		  
 	- **Herramientas**
-		- Matriz de riesgos
+		- Registro de riesgos:
+			Es un documento clave en la Gestión de Riesgos del proyecto que sirve como repositorio central para identificar, documentar, analizar, planificar respuestas y monitorear todos los riesgos asociados con un proyecto.
+			
+			Se utiliza a lo largo de todo el ciclo de vida del proyecto y se crea durante la etapa de *Identificación de Riesgos*, y es actualizado y refinado en los procesos posteriores de la gestión de riesgos.
+			
+			Es un documento dinámico que recopila toda la información relevante sobre los riesgos del proyecto, desde su identificación hasta su cierre o materialización.
+			
+			El registro de riesgos suele presentarse como una tabla o matriz, aunque puede adaptarse según las necesidades del proyecto.
+			
+			Generalmente tiene las siguientes columnas:
+			- ID (identificador. Ej: R1, R2, R3).
+			- Descripción del Riesgo
+			- Categoría: expresa el tipo de riesgo dentro de la clasificación.
+			- Probabilidad: expresada en Alta - Media - Baja con el porcentaje.
+			- Impacto: Muy Alto - Alto - Medio - Bajo
+			- Prioridad: Muy Alta - Alta - Media - Baja
+			- Estrategias: se expresan las estrategias, como Mitigar, Mejorar, Aceptar.
+			- Responsable: ej: Equipo de QA, Analistas de Neogcio, Team Leader.
+			- Estado: Activo / Inactivo.
+			- Acciones: accionables identificados en relación al riesgo. Ejemplo: Diseño de casos de prueba, Reunion semanal con cliente para revisar requisitos, etc.
+	
 	
 - **Tipos de Riesgo:**
     
@@ -2270,6 +2319,11 @@ Notas:
      - Resultado real
      - Estado del test case.
     
+    
+- ¿Cuáles son las características de un buen caso de prueba?
+	 Un caso de prueba debe ser **PRECISO** (Sin ambigüedades, evitando información innecesaria), **RASTREABLE** (Vinculado a algún requisito), **REPETIBLE** (Puede ejecutarse varias veces en diferentes entornos), **REUTILIZABLE** (Genérico.)
+	 
+	
 - ¿Cuáles son las fases del proceso básico de prueba?
     
     - Planificación
@@ -2419,9 +2473,10 @@ Notas:
     Son dos tipos de pruebas de aceptación.
     - **Pruebas Alfa:** Son realizadas por los mismos desarrolladores o un equipo de QA, en un entorno de desarrollo o de prueba, y se hacen de manera controlada antes de la liberación oficial. Se enfoca en detectar errores y fallos importantes en el sistema.
     - **Pruebas Beta:** Se realizan de forma **externa** con los potenciales clientes, es decir, fuera del equipo de desarrollo, en un entorno de usuario real. Se proporciona una versión preliminar del sistema, llamada beta, a ungrupo de usuarios externos o clientes potenciales para que lo prueben y proporcionen retroalimenteación.
-- ¿Cómo se puede clasificar las pruebas de software?
+      
+- **¿Cómo se puede clasificar las pruebas de software?**
 	
-	Las pruebas de software se realizan para garantizar que el sistema cumpla con los requisitos establecidos y funcione correctamente bajo diversas condiciones. Estas pruebas pueden ser analizadas desde diferentes enfoques, y cada enfoque ofrece una perspectiva distinta sobre cómo ejecutar y evaluar el software. A continuación, los tres enfoques más comunes:
+	Las pruebas de software se realizan para garantizar que el sistema cumpla con los requisitos  establecidos y funcione correctamente bajo diversas condiciones. Estas pruebas pueden ser analizadas desde diferentes enfoques, y cada enfoque ofrece una perspectiva distinta sobre cómo ejecutar y evaluar el software. A continuación, los tres enfoques más comunes:
 	
 	 - **Desde el punto de vista de su comportamiento**:
 		 - Pruebas *estáticas*: Las pruebas estáticas son aquellas en las que no se ejecuta el código del software. Se enfocan en revisar el código fuente, la documentación, o el diseño del sistema para identificar defectos sin necesidad de ejecutar el programa.
@@ -2440,6 +2495,24 @@ Notas:
 		
 	- **Desde el punto de vista de los requisitos:**
 		Las pruebas también se pueden clasificar según el tipo de requisitos que se están verificando. Esto se divide principalmente en pruebas que validan funcionalidades específicas del sistema (funcionales) y pruebas que verifican aspectos no relacionados directamente con la funcionalidad (no funcionales).
+		
+		- Pruebas No Funcionales: Las pruebas no funcionales validan aspectos del sistema que no están directamente relacionados con la funcionalidad, como el rendimiento, la usabilidad, la seguridad, etc. Estas pruebas ayudan a evaluar la calidad general del sistema y cómo se comporta bajo condiciones de uso no funcional.
+			-  Objetivo: Evaluar aspectos como la eficiencia, la capacidad de carga, la seguridad, la accesibilidad, entre otros.
+			- Ejemplo: realizar pruebas de carga para determinar cómo el sistema maneja grandes volúmenes de usuarios simultáneos.
+			
+			**Dentro de la clasificación de Pruebas No Funcionales**:
+			- Pruebas de rendimiento:
+				Las pruebas de rendimiento verifican la respuesta del sistema bajo carga.
+			- Pruebas de seguridad:
+				Detectar vulnerabilidades
+			- Otras:
+				- Pruebas de carga
+				- Pruebas de estrés
+				- Pruebas de resistencia
+				- Prueba de picos
+				- pruebas de usabilidad
+				- Pruebas de accesibilidad
+				- Pruebas de regresión
 		- Pruebas *Funcionales*: Las pruebas funcionales validan que el software cumpla con las funcionalidades descritas en los documentos de requisitos. Se enfocan en comprobar que las características del sistema funcionan de acuerdo con las especificaciones y los objetivos del negocio.
 			- Objetivo: Asegurar que cada función del software opere como se espera.
 			- Ejemplo: Verificar que un sistema de pago en línea acepte pagos correctamente cuando el usuario ingresa los datos de tarjeta de crédito.
@@ -2540,12 +2613,48 @@ Notas:
     
     Es el profesional encargado de prevenir los fallos y asegurar la calidad del software. Suele ser el encargado del diseño de las pruebas.
     
-- **¿Cuál es la diferencia entre Quality Assurance (QA) y Quality Control (QC)?**
+- ==**¿Cuál es la diferencia entre Quality Assurance (QA) y Quality Control (QC)?**==
     
     - **QA:** Orientado al **control y gestión de las pruebas** (prevenir fallos).
         
     - **QC:** El tester que trabaja sobre **procesos correctivos** sobre el producto (bajo la gestión de controles de defecto).
         
+- ¿Cuál es el rol del tester o probador?
+	En muchas fuente bibliográficas, se describe al probador o tester de software como la persona responsable de llevar a cabo todo el proceso de pruebas de un software. Su tarea es esencial para asegurar la calidad del producto antes de que llegue a los usuarios finales.
+	
+	El probador utiliza diversas técnicas y enfoques para identificar errores y asegurar que el producto cumple con los requisitos establecidos. Además, debe formular las preguntas correctas para detectar fallos importantes para las partes interesadas, y reportar de manera adecuada los defectos encontrados a través de informes de incidencias.
+	
+	Un probador de software se enfoca en varios aspectos clave:
+	- Bugs (errores): 
+		El probador identifica fallos o cualquier cosa que pueda afectar negativamente el valor del producto. Estos defectos pueden verse desde distintas perspectivas; para un programador, por ejemplo, un "bug" es un error en el código que necesita ser corregido.
+		
+		**Ejemplo:** Un error de programación que provoca que una aplicación móvil se cierre inesperadamente.
+		
+	- Riesgos: 
+		Los testers también identifican riesgos que podrían derivar en futuros erroes. Estos riesgos son señales que indican la probabilidad de problemas más serios si no se abordan a tiempo.
+		
+		Ejemplo: Un retraso en la carga de una página web puede ser un indicio de problemas de rendimiento en condiciones de alta carga de usuarios.
+		
+	- Problemas (issues):
+		Un issue o problema no necesariamente afecta directamente al producto, pero puede amenazar el éxito del proyecto.
+		Estos problemas pueden tener que ver más con aspectos exernos, como la usabilidad o el entorno de uso.
+		
+		*Ejemplo:* Un sitio web con demasiados anuncios puede resultar molesto para los usuarios, afectando negativamente su experiencia.
+		
+	- Testabilidad (Testability):
+		Los probadores identifican características del software que dificultan o limitan el proceso de pruebos. Estos obstáculos pueden hacer que las pruebas sean menos efectivas o más complicadas.
+		
+		*Ejemplo:* Un sistema de autenticación con tokens de sesión muy cortos puede dificultar las pruebas en una aplicación bancaria.
+	
+	- Artefactos (artifacts):
+		Son problemas que surgen como consecuencia de la herramienta utilizada para realizar las pruebas o de la forma en que se están llevando a cabo.
+		
+		*Ejemplo*: Un problema que aparece solo al utilizar una herramienta específica de automatización de pruebas, pero no en condiciones normales de uso del software
+	
+	- Curiosidades o comportamientos inesperados:
+		Los testers también pueden encontrar comportamientos inesperados que no son necesariamente fallos, pero que pueden sugerir características ocultas o nuevas formas de usar el producto.
+		
+		"La búsqueda de fallos en un sistema requiere curiosidad, pesimismo profesional, ojo crítico, atención al detalle, buena comunicación con los compañeros de desarrollo y experiencia sobre la que basar la predicción del error". ISQTB (2010)
 
 
 ### Pruebas Específicas
