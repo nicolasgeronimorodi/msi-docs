@@ -1105,8 +1105,18 @@ Notas:
     La secuenciación de actividades es ordenar las actividades a realizar de manera lógica. 
     
     Tipos de dependencias:
-    - Fin-comienzo: debe terminar una para empezar la siguiente.
-    - ¿Hay otras?
+    - Relaciones temporales:
+	    - Fin-comienzo (FS): debe terminar una actividad para empezar la siguiente.
+	    - Comienzo-comienzo (SS): debe comenzar una actividad para empezar la siguiente.
+	    - FF
+	    - SF
+    - Naturaleza de la dependencia
+	    - Obligatoria: lógica dura, deriva de limitaciones físicas o técnicas.
+	      Ejemplo: no se pude instalar un motor antes de construir una estructura que lo soporte.
+	    - Discrecional: lógica blanda. Se elige por buenas prácticas, experencias previas o preferencia. Ejemplo: el equipo prefiere completar primero el diseño de UI antes de empezar el backend, aunque técnicamente podrían ir en paralelo.
+	    - Externa:
+		    - Ej: No se puede utilizar un paquete de software hasta que el proveedor (un externo) lo despliegue.
+		- Interna: Un equipo interno debe terminar el diseño para que otro equipo inicie el desarrollo.
     
 - **¿Cuáles son los 4 componentes fundamentales de la gestión de proyectos según PMBOK?**
     
@@ -2146,13 +2156,32 @@ Notas:
     
 - ==¿Cuáles son los principios del Testing?==
   
-	- El testing muestra la presencia de defectos, no su ausencia
-	- El testing exhaustivo es imposible
-	- Testing temprano (Early testing)
-	- Agrupación de defectos (Defect clustering)
-	- Paradoja del pesticida (Pesticide paradox)
-	- El testing depende del contexto (Testing is context dependent)
-	- Falsedad de la ausencia de errores (Absence of errors fallacy)
+	- El testing muestra la presencia de defectos, no su ausencia:
+		Las pruebas pueden revelar la existencia de errores en el software, pero nunca pueden demosrar que el producto esté completamente libre de defectos.
+		
+	- El testing exhaustivo es imposible:
+		Es imposible probar todas las combinaciones posibles de entradas y escenarios en uns oftware, ya que esto requeriría tiempo y recursos ilimitados. Se deben priorizar las pruebas en función del riesgo y áreas críticas del sistema.
+		
+	- Testing temprano (Early testing):
+		Las actividades de prueba deben comenzar lo antes posible en el ciclo de vida del desarrollo de software. Identificar y corregir defectos en etapas tempranas es mucho más económico que hacerlo al final del proyecto.
+		*Ejemplo*: Detectar un error de especificación en la fase de requisitos.
+		
+	- Agrupación de defectos (Defect clustering):
+		A menudo, la mayoría de los defectos se concentran en unos pocos módulos del software. Esto sigue el Principio de Pareto: el 80% de los defectos provienen del 20% de los módulos.
+		
+	- Paradoja del pesticida:
+		Si las mismas pruebas se repiten una y otra vez, eventualmente dejarán de encontrar nuevos errores. Las pruebas deben actualizarse y mejorarse constantemente para ser efectivos.
+		
+		
+	- El testing depende del contexto (Testing is context dependent):
+		Las pruebas deben adaptarse al tipo de software que se está evaluando. Por ejemplo. Los riesgos y requisitos de un software médico son muy diferentes a los de un sitio de e-commerce, por lo que las pruebas se deben ajustar en consecuencia.
+		*Ejemplo:* Un sistema de monitoreo de administración de medicación require de pruebas más rigurosas y detalladas que las pruebas de un e-commerce, debido a que los riesgos para la vida humana son significativamente mayores.
+		
+	- Falsedad de la ausencia de errores (Absence of errors fallacy):
+		Encontrar y corregir muchos defectos no garantiza el éxito del software. Aunque un producto puede estar libre de errores técnicas, puede fallar si no satisface las necesidades del usuario o si los requisitos no se definieron adecuadamente.
+		
+		Ejemplo: Un software puede estar técnicamente libre de defectos, pero si no cumple con las expectativas del usuario final, como en el caso de una interfaz poco intuitiva o una funcionalidad mal diseñada, no será considerado exitoso.
+		
     
     
     
