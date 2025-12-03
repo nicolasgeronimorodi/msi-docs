@@ -5,6 +5,7 @@ Notas:
   Empecé con el proceso de aumentar este MD en base al documento de google original (o la copia que creé). Debo continuarlo.
 - 18/11/2025:
   Hay preguntas en los enunciados de los parciales/exámenes que se pueden agregar:
+  
   - ¿Cuales son los principios del agilismo? Mencione tres.
   - ¿Cuánto testing es suficiente?
   - ¿Cuáles son los diferentes niveles de prueba? Explique dos, la que realiza el usuario final y en donde se integran diferentes componentes.
@@ -17,7 +18,7 @@ Notas:
 
 ### Conceptos Clave
 
-- ¿Para qué usan la información las organizaciones?
+- **¿Para qué usan la información las organizaciones?**
     
     Se considera un recurso fundamental y decisivo en las operaciones, como apoyo para la toma de decisiones y para la reducción de la incertidumbre a nivel estratégico, ayudando a las organizaciones a ser más competitivas. para acompañar frente a la demanda del mercado actual.
     
@@ -58,7 +59,7 @@ Notas:
         
     - **ERP** (Sistema Planificación de Recursos): Integran información y procesos de una organización en un solo sistema.
         
-- ¿Cómo se describe un Sistema de Información y sus elementos?
+- **¿Cómo se describe un Sistema de Información y sus elementos?**
     
     Es un conjunto de elementos orientados al tratamiento y administración de datos e información, organizados para cubrir una necesidad. Sus elementos son:
     
@@ -106,13 +107,13 @@ Notas:
      - que trabaje de manera eficiente
      - que sea mantenible a lo largo del tiempo
     
-- ==**¿Qué es el proceso del software?**== 
+- **¿Qué es el proceso del software?** 
     
     El proceso del software es un conjunto de actividades que se llevan a cabo para desarrollar software, organizando el trabajo de manera estructurada. 
     
     *Generalmente, un proceso de software incluye las siguintes fases:*
 
-- ==¿**Cuáles son las Actividades Fundamentales del Proceso de Ingeniería de Software?**==
+- ¿**Cuáles son las Actividades Fundamentales del Proceso de Ingeniería de Software?**
 	
 	Existen muchos diferentes procesos de software, pero todos deben incluir cuatro actividades que son fundamentales para la Ingeniería del Software:
 	
@@ -279,6 +280,7 @@ Notas:
 	    - Supone que el producto está perfectamente definido antes de iniciar el desarrollo.
 	      
 - **¿Qué es el modelo V?**
+	
 	Es un modelo prescriptivo. Es una variante del modelo en cascada donde cada fase de desarolllo tiene su fase de prueba correspondiente. Refuerza la validación y verificación en cada etapa.
 	
 	El modelo en V estructura el proceso de desarrollo en varios niveles. A partir del código del producto, emergen cuatro niveles de prueba que permiten **verificar y validar** el sistema en sus diferentes etapas. En este modelo, el proceso de verificación se inicia desde la escritura del código, ascendiendo a los niveles superiores de prueba, alineados con fases previas del desarrollo, como se observa en la figura. A su vez, el proceso de validación se lleva a cabo mediante la ejecución de pruebas correspondientes a cada nivel, asegurando que el producto cumpla con los requisitos establecidos.
@@ -501,7 +503,22 @@ Notas:
 	 
 - **¿Qué es una ERS (Especificación de Requerimientos de Software)?**
     
-    Es un documento que define un conjunto de requerimientos especificados en el lenguaje natural del cliente. Es el segundo paso de la Ingeniería de Requerimientos.
+    Es un documento que define un conjunto de requerimientos especificados en el lenguaje natural del cliente. Es el paso "Modelado y especificación" de la Ingeniería de Requerimientos.
+    
+     Tiene que definir con exactitud lo que se implementará, ya que **es un comunicado oficial de lo que se debe implementar.**
+     - Puede formar parte del contrato entre el comprador del sistema y los desarrolladores del software.
+     - **Incluye tanto los requerimientos del usuario para un sistema, como una especificación detallada de los requerimientos del sistema.**
+       
+    Si se utiliza un proceso de desarrollo iterativo interno, entonces el documento de requerimientos suele ser mucho menos detallado y cualquier ambigüedad puede resolverse durante el desarrollo del sistema.
+    
+    El documento de requerimientos **_no debe incluir detalles de la arquitectura o el diseño del sistema_**. Este documento suele tener un conjunto variado de usuarios, por lo que es interpretado desde diferentes perspectivas.
+    
+     - Clientes del Sistema -> Especifican los requerimientos y los leen para comprobar que cubren sus necesidades. Los clientes especifican los cambios a los requerimientos.
+     - Administradores -> Usan el doc. de requerimientos para planear una cotización para el sistema y el proceso de desarrollo del sistema.
+     - Ingenieros del Sistema -> Usan los requerimientos para entender qué sistema debe desarrollarse.
+     - Ingenieros de prueba del sistema -> Usan los requerimientos para desarrollar pruebas de validación para el sistema.
+     - Ingenieros de mantenimiento del sistema-> Usan los requerimientos para comprender el sistema y las relaciones entre sus componentes.
+     
 
 
 ### Historias de Usuario
@@ -552,7 +569,7 @@ Notas:
     - T - Testeable:
 	    Debe ser clara y detallada para que pueda verificarse fácilmente mediante pruebas.
       
-- ==**¿Qué es el método SMART para historias de usuario?**==
+- **¿Qué es el método SMART para historias de usuario?**
 	
 	El método SMART es una técnica que ayuda a definir metas claras y alcanzables para el equipo. Cada objetivo debe ser:
 	
@@ -652,7 +669,7 @@ Notas:
 	 
 - **¿Qué es una historia de usuario transaccional?**
     
-    Una Historia de Usuario (HU) transaccional describe un requerimiento  funcional en el cual varias operaciones relacionadas deben ejecutarse como una sola unidad atómica. Esto implica que o se llevan a cabo todas las operaciones exitosamente o, si ocurre algún error en el camino, se revierte todo para mantener la integridad de los datos y evitar estados intermedios inconsistentes.
+    Una Historia de Usuario (HU) transaccional describe un requerimiento  funcional en el cual  varias operaciones relacionadas deben ejecutarse como una sola unidad atómica. Esto implica que o se llevan a cabo todas las operaciones exitosamente o, si ocurre algún error en el camino, se revierte todo para mantener la integridad de los datos y evitar estados intermedios inconsistentes.
     
     Para ser considerado transaccional, el proceso debe:
     •Implicar cambios críticos en más de una fuente de datos y/o
@@ -678,7 +695,7 @@ Notas:
 
 ### Gestión de Procesos
 
-- ==**¿Qué es la gestión de procesos?**==
+- **¿Qué es la gestión de procesos?**
     *Nota: ¿es el mismo concepto, o misma definición, para gestión por procesos?, probablemente no.*
     
     Es una disciplina que consiste en identificar, diseñar, analizar, medir, ejecutar, controlar y mejorar los procesos clave de una organización para alcanzar sus objetivos de manera eficiente y efectiva.
@@ -998,6 +1015,31 @@ Notas:
 		Las herramientas varían desde técnicas de planificación y control como los Gráficos de Gantt, el PERT, el CPM, y aplicaciones informáticas modernas como Trello, Asana entre otras.
 	
     
+- **¿Cuáles son los 4 componentes fundamentales de la gestión de proyectos según PMBOK?**
+    
+    1. **Alcance (Scope):** Define qué trabajo debe realizarse y qué no debe incluirse en el proyecto. Comprende:
+        - Definición clara de los entregables
+        - Requerimientos del proyecto
+        - Límites y exclusiones
+        - Estructura de desglose del trabajo (EDT/WBS).
+        
+    2. **Tiempo (Time):** Planificación, estimación y control de la duración del proyecto. Incluye: 
+        - Secuenciación de actividades
+        - Estimación de duraciones
+        - Desarrollo del cronograma
+        - Control del cronograma
+        
+    3. **Costo (Cost):** Abarca la planificación, estimación, presupuestación y control de los costos del proyecto. Comprende:
+        - Estimación de costos de recursos
+        - Desarrollo del presupuesto
+        - Control de costos
+        - Gestión del valor ganado
+        
+    4. **Calidad (Quality):** Cumplir con los requisitos y satisfacer las expectativas del cliente. Incluye:
+        - Planificación de la calidad
+        - Aseguramiento de la calidad
+        - Control de la calidad
+        - Mejora continua
 - ==**¿Qué es el enfoque predictivo o clásico de la gestión de proyectos?**==
 	
 	La gestión de proyectos, tal como se desarrolló en las últimas décadas del  siglo XX, se fundamenta en la **planificación detallada, el seguimiento riguroso y el control continuo** de las actividades necesarias para alcanzar los objetivos del proyecto. 
@@ -1057,13 +1099,13 @@ Notas:
 	
 - **¿Cuáles son las 5 fases del ciclo de vida del proyecto predictivo según PMBOK?**
     
-    La gestión de proyectos predictiva divide el desarrollo del proyecto en fases  secuenciales,  conocidas como el ciclo de vida del proyecto. Cada fase completa antes de que la siguiente comience, lo que facilita un enfoque estructurado y controlado. Las fases típicas incluyen:
+    La gestión de proyectos predictiva divide el desarrollo del proyecto en fases  secuenciales,   conocidas como el ciclo de vida del proyecto. Cada fase completa antes de que la siguiente comience, lo que facilita un enfoque estructurado y controlado. Las fases típicas incluyen:
     
     - **Inicio**:
-	    Establece las bases del proyecto a través de un acta de constitución, la justificación del  mismo, el estudio de viabilidad y la identificación de riesgos iniciales. Esta fase define el propósito y la dirección del proyecto.
+	    Establece las bases del proyecto a través de un acta de constitución, la justificación del   mismo, el estudio de viabilidad y la identificación de riesgos iniciales. Esta fase define el propósito y la dirección del proyecto.
 	    
     - **Planeación**:
-	    La fase de planeación consiste en desarrollar todos los planes subsidiarios necesarios (alcance, tiempo, costo, calidad, recursos, comunicación, riesgos,  adquisiciones, gestión de interesados) que se integran en un plan "global" de gestión del proyecto. 
+	    La fase de planeación consiste en desarrollar todos los planes subsidiarios necesarios  (alcance, tiempo, costo, calidad, recursos, comunicación, riesgos,  adquisiciones, gestión de interesados) que se integran en un plan "global" de gestión del proyecto. 
 	    
 	    Permite definir claramente qué se va a hacer, cuándo, cómo y con qué recursos.
 	    
@@ -1073,9 +1115,9 @@ Notas:
 	    (¡De haber cambios en el alcance?) Se implementan los cambios aprobados para alcanzar los objetivos establecidos.
 	    
     - **Control**:
-	    En la fase de control, se monitorea y controla el progreso del proyecto en relación con   el plan. Implica la revisión y aprobación de cambios, así como también la actualización de la documentación y los planes del proyecto. 
+	    En la fase de control, se monitorea y controla el progreso del proyecto en relación con    el plan. Implica la revisión y aprobación de cambios, así como también la actualización de la documentación y los planes del proyecto. 
 	    
-	    Esta fase ayuda a asegurar que el proyecto se mantenga dentro de los límites de calidad, coste y tiempo definidos.
+	    Esta fase ayuda a asegurar que el proyecto se mantenga dentro de los límites de c alidad, coste y tiempo definidos.
 	    
     - **Cierre**:
 	    La fase de cierre finaliza formalmente el proyecto (o una fase del mismo), incluyendo la entrega de todos los entregables, la obtención de la aceptación formal del cliente o patrocionador, la documentación de las lecciones aprendidas, y la liberación de recursos para futuros proyectos.
@@ -1089,8 +1131,37 @@ Notas:
 		- Módulo de carrito de compras
 		- Módulo de procesamiento de pagos
 		- Interfaz de usuario (UI)
+		  
+-  **¿Como es el flujo de trabajo de la gestión tradicional?** 
+	
+	*posibles respuestas:
+	- desde el punto de vista de actividades fundamentales según Sommerville.
+		- Especificación del software
+		- Diseño e implementación
+		- Validación del software
+		- Evolución del software
+	- desde el punto de vista de las actividades comunes en la estructura del proceso del software, coincide con las etapas del modelo en cascada según Pressman.
+		- Comunicación
+		- Planeación
+		- Modelado
+		- Construcción
+		- Despliegue*
+	- desde el punto de vista de "División en Fases Secuenciales" o "Ciclo de Vida del Proyecto" apunte de la materia Unidad 2 - Proyecto.
+		- Inicio
+		- Planeación
+		- Ejecución
+		- Control
+		- Cierre
+	- desde el punto de vista del PMBOK:
+		- Requisitos
+		- Factibilidad
+		- Planificación
+		- Diseño
+		- Construcción
+		- Pruebas
+		- Entrega
     
-- ==¿**Qué es el "creep de alcance" y cómo se controla?**==
+- ¿**Qué es el "creep de alcance" y cómo se controla?**
     
     Es el crecimiento de un alcance de manera no planificada, que puede aumentar tiempos y costos del proyecto.
     *Ampliar*
@@ -1100,7 +1171,7 @@ Notas:
     Es un costo de proyecto de referencia, normalmente definido al sumar  todas las estimaciones de costo iniciales, que se utiliza para realizar el control de los costos del proyecto y reconocer desviaciones considerables.
     *Ampliar!*
     
-- ==**¿Qué tipos de dependencias existen en la secuenciación de actividades?**==
+- **¿Qué tipos de dependencias existen en la secuenciación de actividades?**
     
     La secuenciación de actividades es ordenar las actividades a realizar de manera lógica. 
     
@@ -1117,34 +1188,8 @@ Notas:
 	    - Externa:
 		    - Ej: No se puede utilizar un paquete de software hasta que el proveedor (un externo) lo despliegue.
 		- Interna: Un equipo interno debe terminar el diseño para que otro equipo inicie el desarrollo.
-    
-- **¿Cuáles son los 4 componentes fundamentales de la gestión de proyectos según PMBOK?**
-    
-    1. **Alcance (Scope):** Define qué trabajo debe realizarse y qué no debe incluirse en el proyecto. Comprende:
-        - Definición clara de los entregables
-        - Requerimientos del proyecto
-        - Límites y exclusiones
-        - Estructura de desglose del trabajo (EDT/WBS).
-        
-    2. **Tiempo (Time):** Planificación, estimación y control de la duración del proyecto. Incluye: 
-        - Secuenciación de actividades
-        - Estimación de duraciones
-        - Desarrollo del cronograma
-        - Control del cronograma
-        
-    3. **Costo (Cost):** Abarca la planificación, estimación, presupuestación y control de los costos del proyecto. Comprende:
-        - Estimación de costos de recursos
-        - Desarrollo del presupuesto
-        - Control de costos
-        - Gestión del valor ganado
-        
-    4. **Calidad (Quality):** Cumplir con los requisitos y satisfacer las expectativas del cliente. Incluye:
-        - Planificación de la calidad
-        - Aseguramiento de la calidad
-        - Control de la calidad
-        - Mejora continua
-    
-    - **¿Qué son los productos del trabajo en metodologías tradicionales?**
+		  
+- **¿Qué son los productos del trabajo en metodologías tradicionales?**
 	    - En los enfoques tradicionales (cascada, V-model, ingeniería clásica del software), los **productos del trabajo** son los **artefactos formales** que se generan como resultado de cada fase del proceso. Estos productos suelen ser **documentales**, **secuenciales** y **predefinidos**.
 		    - Ejemplos:
 			    - Documentación de Requisitos (Especificación de Requisitos del Software (ERS o SRS)
@@ -1164,7 +1209,7 @@ Notas:
 	 Es frecuente que en la economía moderna sea difícil o imposible predecir la forma en la que evolucionará un sistema basado en computadora. Por lo tanto, se debe ser lo suficientemente ágil para responder a lo fluido que se presenta el ambiente de negocios. La fluidez implica cambio, y el cambio es caro, en particular si es descontrolado o si se administra mal, o si se da en etapas tardías del proyecto.
 	
 	
-- ==**¿Qué beneficios tienen las metodologías Ágiles?**==
+- **¿Qué beneficios tienen las metodologías Ágiles?**
     
     - Prioridades flexibles 
     - Mayor transparencia 
@@ -1172,7 +1217,7 @@ Notas:
     - Mejora la calidad final 
     - Entrega anticipada.
     
-- ==**¿Cuáles son los 5 objetivos clave de la gestión ágil?==**
+- **¿Cuáles son los 5 objetivos clave de la gestión ágil?**
     
     - Maximizar valor
     - Reducir tiempo de salida al mercado: del tiempo es un factor competitivo crítico
@@ -1181,7 +1226,7 @@ Notas:
     - Resultados fiables: mientras que la gestión predictiva busca cumplir con plazos y costos predefinidos, la gestión agil se centra en entregar resultados valiosos.
     *Ampliar!*
 	
-- ==**¿Qué factores determinan la elección entre gestión predictiva o ágil?**==
+- **¿Qué factores determinan la elección entre gestión predictiva o ágil?**
     Los factores que determinan la elección entre una gestión y otra son:
     
     - Prioridad de Negocio 
@@ -1239,7 +1284,7 @@ Notas:
 	11. Las mejores arquitecturas y diseños surgen de equipos con organización propia.
 	12. El equipo reflexiona en intervalos regulares sobre cómo se rmás eficaz y luego afina y ajusta su comportamiento en consecuencia.
 	
-- ==**¿Qué es Scrum?**==
+- **¿Qué es Scrum?**
 	 
 	 Es un enfoque iterativo e incremental que permite a los equipos entregar valor de manera rápida y adpatarse a cambios en los requerimientos o el entorno. Pone su enfoque en la entrega de productos mediante ciclos iterativos y colaborativos.
 	 
@@ -1259,10 +1304,10 @@ Notas:
 	- Adaptación:
 		El equipo ajusta el producto o el proceso según los resultados de la insepcción.
 		
-- ¿Qué es el Ciclo de Scrum?
+- **¿Qué es el Ciclo de Scrum?**
 	El ciclo de scrum se divide en sprints, que son períodos cortos de trabajo que generalmente duran entre 2 y 4 semanas, al final de los cuales se entrega un incremento funcional del producto.
 	
-- ¿Cuáles son los Roles de Scrum?
+- **¿Cuáles son los Roles de Scrum?**
 	 1. Product Owner:
 		- Responsable de maximizar el valor del producto y gestionar el backlog del producto.
 		- Comunica las prioridades de negocio al equipo y toma decisiones sobre el producto.
@@ -1278,7 +1323,7 @@ Notas:
 		- El equipo debe ser pequeño y auto-organizado.
 		- Son responsables de completar las tareas durante el sprint.
 	
-- ¿Cuales son los Artefactos de Scrum?
+- **¿Cuales son los Artefactos de Scrum?**
 	1. Product Backlog:
 		- Es una lista priorizada de todo lo que se necesita en el producto.
 		- Se gestiona continuamente y el Product Owner es responsable de gestionarlo.
@@ -1291,7 +1336,7 @@ Notas:
 		- Es el producto funcional que debe estar en un estdao "hecho" al final de cada sprint.
 		- Cada incremento es acumulativo y debe estar completamento probado.
 	
-- ¿Cuales son las Ceremonias de Scrum?
+- **¿Cuales son las Ceremonias de Scrum?**
 	
 	- Sprint Planning:
 		En esta reunión, el equipo planifica el trabajo para el próximo spinrt. El PO presenta las historias de usuario prioritarias y el equipo decide qué puede completar durante el sprint.
@@ -1518,7 +1563,7 @@ Notas:
 		- Cambios en el alcance (si la linea superior sube o baja).
 		- Predicción visual de cuando se completará todo el trabajo, manteniendo trazabilidad si se agregan o eliminan tareas.
 		  
-- ¿Qué es una Spike en Scrum?
+- **¿Qué es una Spike en Scrum?**
 	
 	Un spike en Scrum es una tarea de investigación cuyo objetivo es reducir la incertidumbre técnica, funcional o de diseño. Los spikes son especialmente útiles cuando el equipo se enfrenta a un desafío desconocido y necesitan investigar antes de comprometerse con una solución:
 	
@@ -1531,7 +1576,7 @@ Notas:
 	
 	Ejemplo: Si el equipo está considerando usar una nueva base de datos para un microservicio nuevo de la aplicación, pueden realizar un spike para investigar si esa base de datos cumple con los requisitos de escalabilidad y rendimiento.
 	
-- ¿Qué son Épicas, Temas y Tareas en Scrum?
+- **¿Qué son Épicas, Temas y Tareas en Scrum?**
 	
 	- Épicas: 
 		Son grandes historias de usuario que se descomponen en otras más pequeñas.
@@ -1540,14 +1585,14 @@ Notas:
 	- Tasks:
 		Son las unidades más pequeñas de trabajo que el equipo puede completar durante un sprint.
 		
-- ¿Qué es Scrum Técnico y Scrum Avanzado?
+- **¿Qué es Scrum Técnico y Scrum Avanzado?**
 	- Scrum Técnico:
 		Se refiere a la aplicación de Scrum con un enfoque en los aspectos técnicos del desarrollo, como la implementación de buenas prácticas de codificación, automatización de pruebas y diseño técnico de alta calidad.
 		
 	- Scrum Avanzado:
 		Es la aplicación de Scrum con mayor dominio, profundidad y madurez, especialmente en contextos complejos.  Se refiere a un conocimiento profundo del marco, mas allá de los fundamentos. Implica habilidades avanzadas de facilitación y se enfoca en el manejo de equipos de alta madurez, así como también el control de depencias entre equipos y la mejora continua a nivel organizacional.
 	
-- ¿Qué es la metodología Lean?
+- **¿Qué es la metodología Lean?**
 	La metodología Lean tiene su origen en la manufactura, pero se ha adaptado al desarrollo de software, con el objetivo de maximizar el valor entregado al cliente y minimizar los desperdicios (entendiendose "desperdicios" como cualquier actividad que no aporte valor directo). Lean se centra en los siguientes principios clave:
 	
 	- Eliminar desperdicios:
@@ -1605,11 +1650,11 @@ Notas:
 
 ### UML (Lenguaje Unificado de Modelado)
 
-- ¿Qué es UML?
+- **¿Qué es UML?**
     
     Es un lenguaje unificado de modelado utilizado para construir, especificar, documentar y visualizar software de manera efectiva.
     
-- ¿Por qué UML es un lenguaje y NO una metodología?
+- **¿Por qué UML es un lenguaje y NO una metodología?**
     
     UML es solo un lenguaje estándar para escribir "planos" de software. No proporciona un proceso, es independiente del proceso de desarrollo.
     
@@ -1617,18 +1662,18 @@ Notas:
     
 - **Relaciones UML.**
     
-- ¿Qué diagramas se modelan en el dominio del problema?
+- **¿Qué diagramas se modelan en el dominio del problema?**
     
     Para describir el dominio de problema se utilizan dos diagramas de UML, el DIAGRAMA DE CLASES y el DIAGRAMA DE CASOS DE USO. El modelo de dominio representan las “cosas” que existen o los “eventos” que suceden en el entorno en el que se desenvuelve un sistema.
     
-- ¿Para qué modelamos el dominio?
+- **¿Para qué modelamos el dominio?**
     
-    Para visualizar, construir, especificar y documentar correctamente un sistema que refleje la  realidad del negocio o problema que queremos resolver.
+    Para visualizar, construir, especificar y documentar correctamente un sistema que refleje la realidad del negocio o problema que queremos resolver.
     
 
 ### Casos de Uso y Diagramas
 
-- ¿Qué es un actor en UML?
+- **¿Qué es un actor en UML?**
     
     Es el rol que juega un usuario en un caso de uso. Representa un rol jugado por una persona, hardware o incluso otro sistema.
     
@@ -1644,11 +1689,11 @@ Notas:
         
     - **Diagrama de secuencia:** Se usa para detallar el **orden cronológico** (para diseñar).
         
-- ¿Para qué se usa un diagrama de actividad?
+- **¿Para qué se usa un diagrama de actividad?**
     
     Para describir cualquier tipo de procesos. Se usa para modelar de forma gráfica los diferentes casos de uso, transacciones o procedimientos que haya en un sistema.
     
-- ¿Para qué sirve un diagrama de despliegue?
+- **¿Para qué sirve un diagrama de despliegue?**
     
     Es utilizado para representar la distribución física (estática) de los componentes software en los distintos nodos físicos de la red.
     
@@ -1677,13 +1722,13 @@ Notas:
         
     4. **Fase de transición:** Se prueba el producto y se informan defectos.
         
-- ¿Qué es un flujo de trabajo en PUD y cuáles son sus componentes?
+- **¿Qué es un flujo de trabajo en PUD y cuáles son sus componentes?**
     
     Es un conjunto de actividades, herramientas y estándares que se usan en un proceso.
     
     - **Flujo de trabajo (FT) = actividades + trabajadores + artefactos**.
         
-- ¿Cuál es el propósito del flujo de trabajo de requisitos?
+- **¿Cuál es el propósito del flujo de trabajo de requisitos?**
     
     Guiar el desarrollo hacia el sistema correcto, mediante una buena descripción de los requisitos del sistema.
     
@@ -1694,7 +1739,7 @@ Notas:
 
 ### Factibilidad
 
-- ¿Qué es la factibilidad?
+- **¿Qué es la factibilidad?**
     
     La factibilidad refiere a la capacidad de llevar a cabo un proyecto, evaluando si este puede realizarse con los recursos, tecnología, personal y tiempo disponibles. Un proyecto es factible si las condiciones actuales permiten que este se complete con éxito desde un punto de vista técnico, económico y operativo. 
     
@@ -1704,16 +1749,16 @@ Notas:
 	
 	Ejemplo: Un proyecto de software que pretende utilizar inteligencia artificial requiere una infraestructura de servidores específicos y personal con conocimientos avanzados. Si la empresa no dispone de estas tecnologías o no puede contratar a los especialistas necesarios, el proyecto no sería factible.
 	
-- ==**¿Qué es la factibilidad técnica? Dar ejemplos.**==
+- **¿Qué es la factibilidad técnica? Dar ejemplos.**
     
     La factibilidad técnica evalúa si los recursos tecnológicos (hardware, software, infraestructura y personal) son suficientes para desarrollar el sistema propuesto y si el equipo tiene la capacidad de implementar las tecnologías necesarias. Es esencial analizar tanto los recursos actuales como las posibles necesidades futuras.
     
-    **¿Por qué es importante?**:
-	    Permite:
-	    - Evitar sorpresar: identifica posibles obstáculos y riesgos técnicos
-	    - Optimizar recursos: permite tomar decisiones informadas sobre la inversión en tecnología.
-	    - Asegurar el éxito del proyecto: reduciendo la probabilidad de fracasos técnicos.
-	--
+    ¿Por qué es importante?:
+    Permite:
+    - Evitar sorpresar: identifica posibles obstáculos y riesgos técnicos
+    - Optimizar recursos: permite tomar decisiones informadas sobre la inversión en tecnología.
+    - Asegurar el éxito del proyecto: reduciendo la probabilidad de fracasos técnicos.
+	
 	
 	**Elementos Claves de la Factibilidad Técnica:**
 	
@@ -1775,29 +1820,35 @@ Notas:
 		*departamentos usen el mismo sistema operativo, por ejemplo, Windows,*
 		*para que todos los equipos sean compatibles y el soporte técnico sea más*
 		*fácil.*
+		
 	- Análisis de Compatibilidad de Hardware y Software:
 		Es una análisis que verifica si el hardware  y el software que ya tiene la empresa pueden trabajar bien con las nuevas soluciones tecnológicas que se quieren implementar. Es importante asegurarse de que los sitemas existentes no presentes problemas de integración con las nuevas tecnologías. 
 		Ejemplo sencillo: *si una empresa quiere implementar un nuevo sistema de facturación, pero usa computadoras muy antiguas, el análisis de compatibilidad verifica si ese nuevo software de facturación funcionará correctamente en esas computadoras o si se necesitará actualizar los equipos.*
+		
 	- Benchmarking de Tecnología:
 		El benchmarking consiste en comparar diferentes tecnologías, herramientas o productos que cumplen funciones similares. Esto ayuda a tomar una decisión informada sobre cuál es la mejor opción en términos de rendimiento, costo, facilidad de uso, etc.
 		Ejemplo sencillo: *Una empresa que está eligiendo un sistema de gestión de proectos puede hacer un benchmarking de las plataformas más populares (como Trello, Asana y Jira) para comparar sus características, costos y facilidad de integración antes de elegir cuál implementar.*
+		
 	- PoC: 
 		Las pruebas de concepto (Proof of Concept) permiten realizar pruebas a pequeña escala de una nueva tecnología o enfoque para ver si realmente funcionará antes de hacer una inversión mayor. Sirve para reducir el riesgo de fallos en la implementación a gran escala. 
 		Ejemplo sencillo: *Una empresa quiere lanzar una app movil. Antes de desarrollarla por completo, hacen una versión muy básica PoC para probar si los usuarios potencilaes la encuentran útil. Si la PoC tiene éxito, proceden con el desarrollo completo*.
+		
 	- Estudio de Capacidad de Procesamiento:
 		Este estudio analiza si los sistemas actuales (servidores, redes, computadores) tienen suficiente capacidad de procesamiento para manejar la nueva carga de trabajo que generará el proyecto. Evalúa si los servidores pueden manejar el aumento de datos, usuarios o transaccciones sin perder rendimiento. 
 		Ejemplo sencillo: *Una tienda online pequeña que espera aumentar sus
 		ventas hace un estudio de capacidad de procesamiento para ver si su
-		servidor actual puede soportar el doble de visitas durante una campaña de descuentos. Si descubren que su servidor no es lo suficientemente potente, necesitarán actualizarlo antes de lanzar la campaña*
+		servidor actual puede soportar el doble de visitas durante una campaña de descuentos. Si descubren que su servidor no es lo suficientemente potente, necesitarán actualizarlo antes de lanzar la campaña.*
+		
 	- Simulación de Rendimiento: 
 		Es un proceso en el que se simulan condiciones de uso en escenarios reales o extremos para comprobar como funcionará el sistema bajo diferentes niveles de carga o estrés. Esto ayuda a predecir como se comportará el sistema cuando esté en pleno funcionamiento.
 		Ejemplo sencillo: *Antes de lanzar un nuevo sistema de atención al cliente en línea, una empresa simula como funcionarí si 1.000 usuarios tratan de conectarse al mismo tiempo. Si el sistema responde bien, saben que está listo para usarse. Si se ralentiza o falla, deberán optimizarlo antes de implementarlo.*
+		
 	- Evaluación de Escalabilidad y Seguridad: 
 	  Esta evaluación asegura que el sistema pueda crecer sin problemas a medida que las necesidades de la empresa aumentan (escalabilidad) y que esté protegido frente a amenazas de seguridad (ciberataques, pérdida de datos, secuestro de datos, etc). Garantiza que el sistema sea flexible  y seguro para adaptarse a cambios futuros.
 	  Ejemplo sencillo: *Una pequeña plataforma de e-commerce que espera duplicar su número de clientes en los próximos años realiza una evaluación de escalabilidad para asegurarse de que su infraestructura de servidores podrá manejar el aumento de tráfico y ventas. Al mismo tiempo, revisan que sus sistemas de pago sean seguros frente a posibles ataques cibernéticos.*
 	  
 	
-- ==¿Qué es la factibilidad económica? Dar definición, ejemplos y herramientas.==
+- **¿Qué es la factibilidad económica? Dar definición, ejemplos y herramientas.**
     
 	La factibilidad económica se refiere a evaluar si un proyecto es financieramente viable. Este análisis implica comparar los costos involucrados con los beneficios financieros esperados para determinar si el proyecto generará un retorno positivo sobre la inversión (ROI) y será sostenible a largo plazo.
 	¿Por qué es importante? Una evaluación exhaustiva de la factibilidad económica permite:
@@ -1858,7 +1909,7 @@ Notas:
 		     
 		     Ejemplo: Un banco que invierte $300.00 en una nueva plataforma de banca digital, con la expectativa de ahorrrar $100.000 al año durante 4 años. Utilizan una tasa de descuento del 5% para calcular si esos ahorros futuros valen más que los $300.000 de inversión inicial. Si el valor presente de los ahorros es mayor que la inversión, el proyecto será viable.  
 		 
-- ==¿Qué es la factibilidad operativa? Dar definición, ejemplos y herramientas.==
+- **¿Qué es la factibilidad operativa? Dar definición, ejemplos y herramientas.**
     
     La factibilidad operativa evalúa si la organización tiene la capacidad para implementar y utilizar un nuevo sistema o proceso de manera efectiva, asegurando que los usarios finales lo acepten y lo utilicen eficientemente. Esta evaluación incluye la disposición de los usuarios, los recursos humanos disponibles, y las condiciones organizacionales que permitan su implementación.
     
@@ -1943,7 +1994,7 @@ Notas:
 		Espacios donde los usuarios puedan intercambiar experiencias y resolver dudas con otros usuarios.
 	
 	
-- ¿Cuál es la importancia del análisis de la factibilidad?
+- **¿Cuál es la importancia del análisis de la factibilidad?**
 	
 	El análisis de la factibilidad es una herramienta fundamental en la planificación y evaluación de la viabilidad de un proyecto de software. Realizar este análisis antes de comenzar el desarrollo ofrece varios beneficios clave. 
 	
@@ -1968,7 +2019,7 @@ Notas:
     Tiene un rol clave en asegurar que las decisiones del producto sean  realistas y sostenibles, trabajando con el equipo técnico, de negocio y stakeholders.
     
 
-- ¿Cuál es la definición de viabilidad?
+- **¿Cuál es la definición de viabilidad?**
 	La viabilidad evalúa si es rentable o sostenible a largo plazo realizar un proyecto. Este análisis considera principalmente los factores económicos y los beneficios que el proyecto generará en el futuro, en comparación con los costos que implicará su desarrollo. La evaluación de la viabilidad va mas allá de la simple comparación de costos y beneficios; **también implica un estudio detallado del mercado, la demanda esperada, y las tendencias económicas que podrían afectar el rendimiento del proyecto a lo largo del tiempo**. 
 	
 	Ejemplo: un proyecto podría ser técnicamente posible, pero si los costos de desarrollo superan los beneficios que generará, no sería viable. La viabilidad económica asegura que la inversión inicial tendrá un retorno adecuado y que el proyecto será rentable para la empresa. Asimismo, un análisis de viabilidad debería incluir escenarios de sensibilidad que evalúen cómo:
@@ -1977,7 +2028,7 @@ Notas:
 	 - cambios en las condiciones del mercado
 	podrían afectar la rentabilidad del proyecto a lo largo del tiempo.
 	
-- ¿Cuál es la diferencia entre factibilidad económica y viabilidad económica?
+- **¿Cuál es la diferencia entre factibilidad económica y viabilidad económica?**
 	
 	Si bien la factibilidad económica evalúa los costos y beneficios financieros del proyecto, la viabilidad económica también considera aspectos estratégicos, como el posicionamiento en el mercado, la ventaja competitiva y el potencial de crecimiento a largo plazo.
 	
@@ -2009,17 +2060,17 @@ Notas:
 ### Riesgo y Gestión del Riesgo
 
 
-- ¿Qué es el riesgo?
+- **¿Qué es el riesgo?**
 	
 	El riesgo se define como un evento incierto o conjunto de eventos que pueden afectar a los objetivos de un proyecto y pueden contribuir a su éxito o fracaso. Los riesgos que pueden tener un impacto positivo en el proyecto se les conoce como oportunidades, mientras que las amenazas son riesgos que podrían afectar al proyecto de una manera negativa.
 	
 
-- ¿Qué es la gestión de riesgo?
+- **¿Qué es la gestión de riesgo?**
     
     La gestión de riesgos es un aspecto clave en la gestión de proyectos de software debido a la naturaleza incierta y compleja de estos proyectos.
     El proceso implica identificar, analizar y responder a los riesgos que puedan afectar al  proyecto, producto u organización, con el fin de minimizar los impactos negativos y aumentar las probabilidades de éxito (maximizando los impactos positivos del riesgo)
     
-- ¿Cuáles son las etapas de la gestión de riesgo?
+- **¿Cuáles son las etapas de la gestión de riesgo?**
 	
 	- **Identificación del Riesgo:** 
 		Se deben identificar los riesgos potenciales que podrían impactar al proyecto. Ya sea retrasándolo, afectando su calidad o incluso comprometiendo a la organizacion.
@@ -2133,18 +2184,18 @@ Notas:
 
 ### Conceptos Fundamentales
 
-- ¿Qué es el testing de software?
+- **¿Qué es el testing de software?**
 	El testing de software consiste en una serie de actividades orientadas a recopilar información sobre el funcionamiento y comportamiento de una aplicación, con el fin de deerminar si está lista para su uso público o generalizado. 
 	
 	El testing, en el mundo del desarrollo de software, juega un papel fundamental en asegurar la calidad del producto final. Por eso, está estrechamente relacionado con el Aseguramiento de la Calidad (QA), y su objetivo principal es garantizar que el software sea apto para el uso previsto antes de su lanzamiento.
 	
-- ¿Cuál es la diferencia entre Aseguramiento de Calidad (QA) vs Control de Calidad (QC)?
+- **¿Cuál es la diferencia entre Aseguramiento de Calidad (QA) vs Control de Calidad (QC)?**
 
 	 - QA: El Aseguramiento de Calidad es un enfoque **preventivo**, que tiene como objetivo establecer procesos y estándares que garanticen que el software cumpla con los requisitos y expectativas del cliente. QA se enfoca en evitar errores **durante el desarrollo** y en implementar prácticas que aseguren la calidad del producto a lo largo de todo el ciclo de vida del software.
 	 
 	 - QC: El Control de Calidad es un enfoque **correctivo**, que implica la **evaluación del producto terminado** para identificar defectos y problemas. QC se centra en la detección de errore o fallos en el software y la implementación de soluciones antes de que el producto sea entregado al cliente final.
 	   
-- Verificación y validación en testing.
+- **¿Qué es verificación y validación en testing?**
     
     La calidad del software no solo depende de los atributos del producto final, sino también de cómo se ha llevado a cabo el proceso de desarrollo. Este enfoque integral se conoce como Verificación y Validación (V&V), dos actividades que abordan diferentes aspectos de la calidad y están presentes en todas las fases del ciclo de vida del software, desde planificación hasta el mantenimiento:
     
@@ -2154,7 +2205,7 @@ Notas:
     
     En resumen, la verificación se centra en la corrección del proceso de desarrollo, mientras que la validación evalúa si el producto final es el adecuado para su propósito.
     
-- ==¿Cuáles son los principios del Testing?==
+- **¿Cuáles son los principios del Testing?**
   
 	- El testing muestra la presencia de defectos, no su ausencia:
 		Las pruebas pueden revelar la existencia de errores en el software, pero nunca pueden demosrar que el producto esté completamente libre de defectos.
@@ -2303,7 +2354,7 @@ Notas:
 		
 		Ejemplo: Ejemplo: En un sistema de control de tráfico aéreo, los errores pueden costar vidas humanas, por lo que el costo de no encontrar un defecto crítico es extremadamente alto. En este caso, se justificaría una inversión mayor en testing. Por otro lado, en una aplicación de uso interno para gestionar agendas, el costo de un fallo podría ser mucho menor, y el testing podría ajustarse para reflejar este menor riesgo.
 		
-- ¿Qué es el estado de un defecto? ¿Cuales son los posibles estados?
+- **¿Qué es el estado de un defecto? ¿Cuales son los posibles estados?**
 	
 	El estado de un defecto refleja su posición actual en su ciclo de vida  dentro del proceso de gestión de errores, 
 	
@@ -2349,17 +2400,63 @@ Notas:
      - Estado del test case.
     
     
-- ¿Cuáles son las características de un buen caso de prueba?
+- **¿Cuáles son las características de un buen caso de prueba?**
 	 Un caso de prueba debe ser **PRECISO** (Sin ambigüedades, evitando información innecesaria), **RASTREABLE** (Vinculado a algún requisito), **REPETIBLE** (Puede ejecutarse varias veces en diferentes entornos), **REUTILIZABLE** (Genérico.)
 	 
 	
-- ¿Cuáles son las fases del proceso básico de prueba?
+- **¿Cuáles son las fases del proceso básico de prueba?**
+    
+    El proceso de pruebas de software incluye una serie de actividades esenciales que aseguran la calidad del producto. Las fases del proceso son:
     
     - Planificación
     - Especificación
     - Ejecución
     - Análisis
-    - Evaluación.
+    - Reporte
+    
+    1. Planificación:
+	    - Definición de los objetivos de las pruebas
+	    - Definición de actividades necesarias para cumplirlos, considerando recursos disponibles: herramientas, tiempo y personal
+	    - Gestión de riesgos asociados a las pruebas
+	    - Determinación de criterios de aceptación
+	    Resultado de la fase: Plan de pruebas, un documento que incluye asignación de recursos, gestión de riesgos y criterios de cobertura.
+	    
+	    Componentes de un plan de prueba:
+	    - Introducción
+	    - Características a probar
+	    - Características que no deben ser probadas
+	    - Supuestos
+	    - Aproximación: estrategia general, ya sea manual, automatizada, etc.
+	    - Criterio de prueba: Criterio de aceptación para definir el éxito o fracaso de una prueba.
+	    - Entregable de la prueba: Resultados generados a partir de las pruebas, como reportes o registros.
+	    - Tareas de prueba: Actividades específcas que se realizarán durante el proceso de pruebas.
+	    - Ambiente: Descripción del entorno de pruebas necesario (hardware, software, configuraciones) para la ejecución de los casos de prueba.
+	      
+	2. Especificación de Pruebas:
+		Se consideran:
+		- Ambiente de prueba
+		- Datos de prueba
+		- Diseño de los casos de prueba
+		- Priorización de casos
+		- Verificación de que los requerimientos sean testeables
+		  
+	3. Ejecución de las pruebas:
+		-  Definición de los procedimientos de prueba, manual o automatizado
+		-  Verificación del ambiente e instalación del build
+		-  Ejecución de los casos de prueba
+		
+	4. Análisis de las pruebas:
+		- Interpretación de los resultados obtenidos
+		- La habilidad de interpretación dependen de la experiencia del tester.
+		  - Tester Jr: Ejecuta pruebas
+		  - Tester SSr: Diseña y ejecuta pruebas
+		  - Tester Sr: Diseña, ejecuta pruebas y analiza resultados.
+		    
+	5. Evaluación de las pruebas (Reporte):
+		- Compración de los resultados obtenidos con los planes y criterios de aceptación previamente establecidos
+		- Verificación de los entregables y corrección de defectos
+		- Recolección de información de buenas prácticas utilizadas durante proceso de pruebas
+		- Elaboración de un resumen de los resultados
     
 
 ### Tipos y Niveles de Prueba
@@ -2391,22 +2488,23 @@ Notas:
 	---------------------------------Escritura de Código--------------------
 	
 	
-- ¿Cuales son los niveles de prueba según el modelo V?
+- **¿Cuales son los niveles de prueba según el modelo V?**
 
 	 - Pruebas Unitarias
 	 - Pruebas de Integración
 	 - Pruebas de Sistemas
 	 - Pruebas de Aceptación
 	   
-- ¿Qué son las pruebas unitarias?
+- **¿Qué son las pruebas unitarias?**
 	
-	Son un tipo de prueba de software donde se verifica el funcionamiento de las partes más pequeñas y aisladas de una aplicación, llamadas unidades. Estas unidades suelen ser funciones o métodos individuales dentro de una clase u objeto en un lenguaje de programación. 
+	Son un tipo de prueba de software donde se verifica el funcionamiento de las partes más  pequeñas y aisladas de una aplicación, llamadas unidades. Estas unidades suelen ser funciones o métodos individuales dentro de una clase u objeto en un lenguaje de programación. 
 	
 	El propósito principal de las pruebas unitarias es asegurarse de que cada unidad de código funcione correctamene de manera independiente, sin depender de otras partes del sistema. Esto permite detectar errores de forma temprana, ya que cualquier fallo en una unidad puede ser corregido antes de integrarla con otros componentes del software.
 	
-- ¿Qué se hace en una prueba unitaria?
+- **¿Qué se hace en una prueba unitaria?**
 	
 	En una prueba unitaria, se crea un conjunto de casos de prueba específicos que cubren diferentes escenarios para la unidad bajo prueba. Por ejemplo, si se está probando una función que realiza una suma los casos de prueba pueden incluir:
+	
 	 - Verificar que la suma de dos números sea correcta
 	 - Verificar la suma de dos numeros negativos
 	 - Verificar el comportamiento cuando se suman cero y otro número
@@ -2416,9 +2514,9 @@ Notas:
 	
 - **¿Quién realiza las pruebas unitarias?**
 	
-	Las pruebas unitarias son normalmente realizadas por los desarrolladores del software, quienes escriben estas pruebas en paralelo al desarrollo del código. Al integrar las puebas unitarias en su flujo de trabajo, los desarrolladores pueden verificar ocntinuamente que el código que están escribiendo cumple con los requisitos y que cualquier cambio en el futuro no rompoe la funcionalidad existente. 
+	Las pruebas unitarias son normalmente realizadas por los desarrolladores del software, quienes escriben estas pruebas en paralelo al desarrollo del código. Al integrar las puebas unitarias en su flujo de trabajo, los desarrolladores pueden verificar continuamente que el código que están escribiendo cumple con los requisitos y que cualquier cambio en el futuro no rompe la funcionalidad existente. 
 	
-- ¿Cuáles son las ventajas de las pruebas unitarias?
+- **¿Cuáles son las ventajas de las pruebas unitarias?**
 	
 	- Detección temprana de errores: 
 		Las pruebas unitarias permiten detectar problemas en etapas tempranas del desarrollo, lo que reduce el costo de corregirlos.
@@ -2429,7 +2527,7 @@ Notas:
 	- Mejor comprensión del código: 
 		Al escribir pruebas unitarias, los desarrolladores tienden a pensar de manera más estructurada sobre el comportamiento esperado de cada unidad, lo que lleva a un código más claro y robusto.
 	
-- ¿ Cuáles son los tipos de pruebas unitarias?
+- **¿ Cuáles son los tipos de pruebas unitarias?**
 	
 	- Pruebas positivas:
 		Verifican que una unidad de código se comporte como se espera en condiciones normales o válidas. 
@@ -2437,15 +2535,15 @@ Notas:
 		
 	- Pruebas Negativas:
 		Verifican que el código maneje adecuadamente situaciones o entradas no válidas. 
-		Ejemplo: Para la misma función de suma, una prueba negativa sería verificar que invocarla con los parámetros ("dos" y 3) lance un error o maneje la entrada incorrecta decuadamente.
+		Ejemplo: Para la misma función de suma, una prueba negativa sería verificar que invocarla con los parámetros ("dos" y 3) lance un error o maneje la entrada incorrecta adecuadamente.
 		
 	- Boundary Testing (Pruebas de Frontera):
 		Se utilizan para verificar el comportamiento de una unidad en los límites de sus valores permitidos. 
-		Ejemplo: Si una función acepta números entre 1 y 100, una prueba de frontera verificaría el comportamiento con los valores 1, 100, 0 y 101.
+		Ejemplo: Si una función acepta números entre 1 y 100, una prueba de frontera verificaría el comportamiento con los valores 0, 1, 100 y 101.
 		
 	- Pruebas de Excepción: 
-		Evalúan como se comporta el código cuando courre un error o una excepción. 
-		Ejemplo: Una función que divide dos números, una exception tes verificaría el comportamiento cuando el divior es 0.
+		Evalúan como se comporta el código cuando ocurre un error o una excepción. 
+		Ejemplo: Una función que divide dos números, una exception test verificaría el comportamiento cuando el divisor es 0.
 		
 		**Pruebas Complementarias a las Unitarias**
 		- Pruebas de Verificación Funcional:
@@ -2455,65 +2553,278 @@ Notas:
 		- Pruebas de Regresión:
 			Son un conjunto de pruebas unitarias que se ejecutan nuevamente después de realizar cambios en el código para asegurarse de que las modificaciones no haya introducido errores en funcionalidades existentes. 
 	
-- ¿Qué son las pruebas de integración?
+- **¿Qué son las pruebas de integración?**
 	  
 	Las pruebas de integración son un tipo de prueba de software diseñada para verificar que los diferentes módulos o componentes de una aplicación funcionen correctamente cuando se combinan. 
 	
 	A diferencia de las pruebas unitarias, que se enfocan en evaluar unidades individuales de código en aislamiento, las pruebas de integración validan que las partes del sistema interactúen y se comuniquen de manera adecuada. 
 	
-	El objetivo principal de las pruebas de integración es identificar fallos que puedan surgir en las interfaces entre módulos, como errores en la transmisión de datos, problemas de sincronización o dependencias mal gestionadas. Estas pruebas aseguran que cuando se integran varios componentes, la aplicación funcione como un todo coherente, sin comprotamientos inesperados ni fallos derivados de la interacción entre sus partes. 
+	El objetivo principal de las pruebas de integración es identificar fallos que puedan surgir en las interfaces entre módulos, como errores en la transmisión de datos, problemas de sincronización o dependencias mal gestionadas. 
 	
-	Esto es especialmente importante en aplicaciones complejas, donde distintos módulos pueden haber sido desarrollados por equipos diferentes o con tecnologías distintas. El integration testing permite detectar problemas que no son visibles al probar componentes por separado, como incompatibilidades en los formatos de datos, errores en los flujos de comunicación o mal manejo de excepciones.
+	Estas pruebas aseguran que cuando se integran varios componentes, la aplicación funcione como un todo coherente, sin comportamientos inesperados ni fallos derivados de la interacción entre sus partes. 
+	
+	Esto es especialmente importante en aplicaciones complejas, donde  distintos módulos pueden haber sido desarrollados por equipos diferentes o con tecnologías distintas. El integration testing permite detectar problemas que no son visibles al probar componentes por separado, como incompatibilidades en los formatos de datos, errores en los flujos de comunicación o mal manejo de excepciones.
 	
 	
 - **¿Qué se hace en una prueba de integración?** 
-- ¿Quien realiza las pruebas de integración?
-- ¿Cuáles son las ventajas de las pruebas de integración?
-- ¿Cuáles son los tipos de pruebas de integración?
+	
+	Durante una prueba de integración, se combinan varios módulos del sistema y se verifican si trabajan correctamente juntos. Se crean casos de prueba específicos para examinar las interacciones entre estos módulos.
+	
+	Algunos ejemplos incluyen:
+	- Comunicación entre 2 servicios web.
+	- La integración de un frontend con un backend.
+	- La interacción entre un sistema de base de datos y código de backend de la aplicación.
+	  
+- **¿Quien realiza las pruebas de integración?**
+	
+	Las pruebas de integración suelen ser realizadas tanto por desarrolladores como equipos de QA. Los desarrolladores realizan pruebas básicas de integración mientras construyen el software, pero el equipo de QA normalmente lleva a cabo pruebas de integración más exhaustivas en un entorno que simula mejor la interacción real entre los módulos.
+	 
+- **¿Cuáles son las ventajas de las pruebas de integración?**
+	
+	- Detección de errores en la interacción entre módulos:
+		Los integration tests permiten detectar problemas en interfaces o puntos de conexión entre componentes, que son difíciles de identificar con pruebas unitarias.
+		
+	- Prevención de problemas de integración tardía:
+		Al realizar pruebas de integración tempranas, se evita que los errores de integración se acumulen y sean más difíciles de resolver cuando el sistema esté más avanzado.
+		
+	- Validación de funcionalidades más complejas:
+		El integration testing asegura que las funcionalidades que dependen de que varios módulos trabajen juntos funcionen correctamente.
+		
+	- Mayor confiabilidad del sistema:
+		Al asegurar que las diferentes partes del sistema se integran correctamente, las pruebas de integración mejoran la estabilidad del software en su conjunto.
+	  
+- **¿Cuáles son los tipos de pruebas de integración?**
+	
+	- Pruebas de integración de Big Bang:
+		Todos los módulos se integran simultáneamente y se prueban en conjunto. Este enfoque puede dificultar la localización de errores si los fallos son numerosos. 
+		
+		*Ejemplo*: Si una aplicación tiene tres módulos: 1 FE, 1 BE y una DB, la prueba de tipo Big Bang se realiza una vez que todos estén implementados y conectados entre sí.
+		
+	- Pruebas de integración incremental:
+		Los módulos se integran y se prueban de manera gradual, uno a uno. Se pueden clasificar en 2 subtipos:
+		
+		- Top-Down: Los módulos de alto nivel se prueban primero y se van integrando gradualmente los módulos de nivel inferior.
+		  *Ejemplo:* en una aplicación web, primero se integraría el frontend con el controlador (API), luego el controlador con el backend (servicios), y finalmente el backend con la base de datos.
+		  
+		- Bottom-Up: Se comienza integrando los módulos de bajo nivel y se va ascendiendo a los de alto nivel.
+		 *Ejemplo:* se probaría primero la base de datos con el backend, luego el backend con el controlador, y finalmente el controlador con el frontend.
+		  
+	- Pruebas de Integración Continua:
+		Este enfoque es parte de la metodología DevOps (desarrolladores integran y prueban el código continuamente en un entorno automatizado). Se ejecutan pruebas de integración de manera constante con cada nuevo cambio en el código.
+		*Ejemplo:* Cada vez que un desarrollador sube cambios al repositorio de código, se ejecutan automáticamente las pruebas de integración para asegurar que esos cambios no rompan la funcionalidad de otros módulos.
+		
+	- Pruebas de Interfaz:
+		Las pruebas de interfaz verifican que las interfaces entre módulos se comuniquen correctamente y se transiferan los datos de manera esperada.
+		*Ejemplo:* Si un módulo de frontend envía una solicitud HTTP al backend para obtener datos, las pruebas de interfaz verificarían que los datos se envíen y reciban correctamente.
+		
+	- Otras pruebas relacionadas a la integración:
+		- Pruebas de Integración de Extremo a Extremo (End-To-End Testing):
+			Las pruebas E2E verifican el flujo completo de una aplicación a través de múltiples módulos, asegurándose de que las interacciones entre los componentes funcionen correctamente a lo largo de todo el sistema.
+			*Ejemplo:* Probar un proceso compleot de compra en un sitio web, desde FE hasta API pasando por BE y llegando a la DB.
+			
+		- Pruebas de Regresión:
+			Las pruebas de regresión se realizan luego de integrar nuevos módulos para asegurarse de que la nueva integración no haya afectado el comportamiento anterior del sistema.
+			
+			*Ejemplo:* Después de integrar un nuevo módulo de pagos en una aplicación, se ejecutan pruebas de regresión para asegurar que el módulo de gestión de usuarios siga funcionando correctamente.
+		
+		
 - **¿Qué son las Pruebas de Sistema (System Testing)?**
 	 
 	Las pruebas de sistema son un tipo de prueba de software que se llevan a cabo sobre el sistema completo e integrado, con el fin de verificar que todos los componentes funcionen en conjunto y que el sistema cumpla con los requisitos especificados. 
 	
-	A diferencia de las pruebas de integración, que evalúan la interacción entre módulos individuales, las pruebas de sistema examinan el comportamiento de todo el sistema en su conjunto, incluyendo tanto sus funcionalidades como aspectos no funcionales. 
+	A diferencia de las pruebas de integración, que evalúan la interacción  entre módulos individuales, las pruebas de sistema examinan el comportamiento de todo el sistema en su conjunto, incluyendo tanto sus funcionalidades como aspectos no funcionales. 
 	
 	El objetivo principal de las pruebas de sistema es asegurar que el software funcione según lo esperado en un entorno lo más cercano posible al real, abarcando todos los aspectos que afectan su correcto desempeño, desde el funcionamiento de las funciones principales, hasta el rendimiento bajo cargas de trabajo intensas y la capacidad de recuperación ante fallos.
 	
-- ¿Qué se hace en una prueba de sistema?
-- ¿Quién realiza las pruebas de sistema?
-- ¿Cuáles son las ventajas de las pruebas de sistema?
-- ¿Cuáles son los tipos de pruebas de sistema?
-- ¿Qué es un smoke test?
+- **¿Qué se hace en una prueba de sistema?**
+	
+	En las pruebas de sistema, el sistema completo es sometido a una batería de pruebas que verifican tanto sus funcionalidades como sus características no funcionales.
+	
+	Esto incluye pruebas funcionales, como verificar que el sistema realice las tareas para las que fue diseñado, y pruebas no funcionales, como evaluar el rendimiento, la seguridad y la estabilidad bajo diferentes condiciones.
+	
+	Se simulan escenarios de uso real para garantizar que el software no solo funcione correctamente en condiciones normales, sino que también responda bien ante situaciones extremas, como carga elevadas de usuarios, pérdida de conexión, aaques de seguridad y fallos de hardware o software.
+	
+	
+- **¿Quién realiza las pruebas de sistema?**
+	Las pruebas de sistema suelen ser realizadas por equipo de Quality Asusrance (QA), o un equipo especializado en pruebas de osftware. 
+	
+	Este equipo no solo verifica que el sistema cumpla con los requisitos técnicos y funcionales, sino que también evalúa la experiencia del usuario final.
+	
+	En algunos casos, también pueden participar probadores externos o usuarios reales en entornos de pruebas beta.
+	
+	
+- **¿Cuáles son las ventajas de las pruebas de sistema?**
+	
+	- Verificación integral del sistema:
+		Las pruebas de sistema, al probar el sistema completo, se asegura que todos los componentes funcionen juntos como un todo, tal como lo harían en el entorno real de producción.
+		
+	- Detección de problemas en entornos reales:
+		Las pruebas de sistema permiten detectar errores que no se manifestaron durante las pruebas unitarias o de integración, ya que simulan el uso real del sistema.
+		
+	- Asegura la calidad global del producto:
+		El system testing asegura que no solo se prueben los aspectos funcionales del software, sino también los no funcionales como rendimiento, seguridad y usabilidad.
+	
+- **¿Cuáles son los tipos de pruebas de sistema?**:
+	
+	- Pruebas Funcionales:
+		Verifican que el sistema cumpla con todas las funciones requeridad según las especificaciones del cliente. 
+		Se prueban entradas y salidas del sistema, asegurando que los resultados sean los esperados.
+		
+		*Ejemplo:* Probar una app de e-commerce para verificar que los usuarios puedan agregar productos al carrito, procesar pagos y recibir confirmaciones de compra correctamente.
+		
+	- Pruebas No Funcionales: 
+		Evalúan aspectos no relacionados con las funcionalidades específicas del sistema, como su rendimiento, seguridad, escalabilidad, usabilidad y fiabilidad. 
+		*Ejemplo:* Medir el tiempo de respuesta de una aplicación bajo una carga de usuarios específca para asegurar que cumple con los tiempos de respuesta esperados.
+		
+	- Pruebas de Carga (Performance Test):
+		Evalúan el rendimiento de un sistema bajo diferentes niveles de carga, desde condiciones normales hasta un alto vlumen de usuarios o transacciones.
+		
+		*Ejemplo:* probar una aplicación de banca online para ver cómo se comporta cuando 10.000 usuarios realizan transferencias simultaneamente.
+		
+	- Pruebas de Estrés (Stress Testing):
+		Se utilizan para determinar los límites del sistema bajo condiciones extremas, como volumen de usuarios superior al esperado o recursos del sistema limitados.
+		
+		*Ejemplo:* someter un sitio web a una cantidad de visitas muy por encima de su capacidad para ver cómo responde el sistema y si se mantiene estable o colapsa.
+		
+	- Pruebas de Seguridad (Vulnerability):
+		Verifican la capacidad del sistema para resistir ataques de seguridad, evaluando vulnerabilidades como la exposición a ataques de inyección SQL, accesos no autorizados o brechas en el manejo de datos sensibles.
+		*Ejemplo:* Realizar un PENTEST para intentar acceder a datos de usuarios sin permisos, o romper la autenticación del sistema.
+		
+	- Pruebas de Backup y Restauración:
+		Evalúan la capacidad del sistema para realizar copias de seguridad de datos de manera efectiva y restaurarlos en caso de un fallo o pérdida.
+		
+		*Ejemplo:* Probar un sistema de gestión de datos verificando que se puedan realizar copias de seguridad automáticas y que los datos puedan restaurarse después de una interrupción.
+		
+	- Pruebas de Humo (Smoke Testing):
+		
+		Son un conjunto básico de pruebas rápidas que se realizan para verificar si las funcionalidades principales del sistema funcionan correctamente después de una nueva build o actualización.
+		Si estas pruebas fallan, se detienen las pruebas más profundas.
+		
+		*Ejemplo:* Después de actualizar una aplicación, verificar que los usuarios puedan inicar sesión y realizar tareas clave sin errores antes de realizar pruebas más detalladas.
+		
+	- Pruebas de Usabilidad:
+		Evalúna lo fácil y amigable que es el sistema para los usuarios finales. Se analiza la UX, la navegación, el diseño y la facilidad para realizar tareas.
+		
+		*Ejemplo:* Probar una app móvil de e-commerce asegurando que los usuarios puedan completar acciones como buscar productos, agregar al carrito y comprar en pocos clics.
+		
+	-  Pruebas de Compatibilidad:
+		Las pruebas de compatibilidad aseguran que un sistema funcione correctamente en diferentes plataformas, sistemas operativos, dispositivos y navegadores.
+		
+	- Pruebas de Recuperación:
+		Evalúan la capacidad del sistema para recuperarse de fallos, como caídas del sistema o pérdida de conexión. El sistema debe ser capaz de volver a un estado estable sin pérdida de datos.
+		
+	- Pruebas de Extremo a Extremo (End-To-End Testing):
+		
+		Estas pruebas validan el flujo completo de una aplicación, desde el inicio hasta el fin, asegurándose de que todos los componentes y módulos del sistema trabajen en conjunto correctamente.
+		
+		Se simulan escenarios del mundo real para garantizar que el sistema funcione de manera efectiva en su totalidad, incluyendo las interacciones entre usuarios y servicios backend.
+		
+		*Ejemplo:* Probar un proceso completo de compra en línea, verificando que el cliente pueda navegar por el sitio, agregar productos al carrito, realizar el pago y recibir la confirmación de compra sin problemas a lo largo de todo el flujo.
+	
+- **¿Qué es un smoke test?**
     
-    Un test de alto nivel, básico y de corto tiempo, para asegurar el  funcionamiento correcto de las funciones críticas del software.
+    Un test de alto nivel, básico y de corto tiempo, para asegurar el   funcionamiento correcto de las funciones críticas del software.
     
-    Las pruebas de humo, smoke testing, son un conjunto básico de pruebas rápidas que se realizan para verificar si las funcionalidades principales del sistema funcionan correctamente después de una nueva construcción o actualización. Si estas pruebas fallas, se detienen las pruebas más profundas. Ejemplo: Después de actualizar una aplicación, verificar que los usuarios puedan iniciar sesión y realizar tareas clave sin errores antes de realizar pruebas más detalladas.
+    Las pruebas de humo, smoke testing, son un conjunto básico de pruebas rápidas que se realizan para verificar si las funcionalidades principales del sistema funcionan correctamente después de una nueva construcción o actualización. Si estas pruebas fallas, se detienen las pruebas más profundas. *Ejemplo*: Después de actualizar una aplicación, verificar que los usuarios puedan iniciar sesión y realizar tareas clave sin errores antes de realizar pruebas más detalladas.
     
 - **¿Qué son las pruebas de aceptación?**
 	Las pruebas de aceptación UAT son una fase crítica en el ciclo de vida del software, donde los usuarios finales o representantes del cliente validan si el sistema cumple con los requisitos y expectativas establecidos. Este tipo de pruebas se lleva a cabo después de que el sistema haya sido completamente desarrollado, probado en niveles previos (unitarios, integración, sistema) y está listo para ser entregado en su versión final.
 	
-	El objetivo principal de las pruebas de aceptación es asegurar que el software es apropiado para su uso en el mundo real. Durante esta fase, los usuarios finales prueban las funciones principales y los escenarios de uso del software para verificar que satisfacen sus necesidades y cumplen con los requisitos previamente acordados.
-	También se evalúa si el sistema es fácil de usar, intuitivo y de acuerdo con las expectativas del cliente.
+	El objetivo principal de las pruebas de aceptación es asegurar que el  software es apropiado para su uso en el mundo real. Durante esta fase, los usuarios finales prueban las funciones principales y los escenarios de uso del software para verificar que satisfacen sus necesidades y cumplen con los requisitos previamente acordados.
 	
-- ¿Qué se hace en una prueba de aceptación?
-- ¿Quién realiza las pruebas de aceptación?
-- ¿Cuáles son los tipos de pruebas de aceptación?
+	También se evalúa si el sistema es fácil de usar, intuitivo y de acuerdo con  las expectativas del cliente.
+	
+- **¿Qué se hace en una prueba de aceptación?**
+	
+	Durante las pruebas de aceptación, los usuarios o clientes realizan pruebas que simulan el uso real del software. A diferencia de las pruebas técnicas o funcionales, las pruebas de aceptación se enfocan en validar si el sistema hace lo que el usuario final necesita. Este proceso involucra tareas como:
+	
+	- Verificar que las funcionalidades esenciales estén operativas
+	- Evaluar el sistema bajo condiciones de uso típicas
+	- Asegurarse de que los requisitos del cliente se cumplan correctamente
+	- Validar que el sistema sea fácil de usar y proporcione la experiencia esperada.
+	
+	
+- ¿**Quién realiza las pruebas de aceptación?**
+	
+	Las pruebas de aceptación son realizadas principalmente por usuarios finales o representantes del cliente.
+	El equipo de QA o equipo de desarollo no suelen estar involucrados directamente en esta fase, ya que el objetivo es justamente evaluar el sfotware desde la perspectiva del usuario final.
+	
+	Los usuarios pueden ser:
+	- Clientes internos: 
+		Miembros de la orgnización que solicitaron o utilizarán el software
+	- Clientes externos:
+		Usuarios reales del producto que han proporcionado requisitos.
+	- Equipos de negocio:
+		Representantes de áreas que se beneficiarán directamente del software (como marketing, ventas, etc).
+	
+	En algunos casos, los testers de las pruebas UAT pueden ser expertos del cliente o consultores externos que validan si el sistema cumple con las expectativas.
+	
+- **¿Cuáles son las ventajas de las pruebas de aceptación?**
+	
+	- Validación desde la perspectiva del usuario:
+		Las pruebas UAT aseguran que el sistema satisfaga las necesidades y expectativas del usuario final antes de su implementación.
+		
+	- Detección de errores en una etapa tardía:
+		Aunque es una fase tardía en el proceso, las pruebas de aceptación pueden detectar problemas que no se encontraron en fases anteriores, especialmente aquellos relacionados con la experiencia del usuario.
+		
+	- Asegura la satisfacción del cliente:
+		Este proceso asegura que el sistema cumpla con los requisitos del cliente, y por lo tanto, aumenta la probabilidad de una aceptación positiva del producto final.
+		
+	- Reduce el riesgo de post-lanzamiento:
+		Al realizar las pruebas en el entorno de aceptación, se disminuye el riesgo de sorpresas o problemas después del lanzamiento del producto al mercado.
+		
+- **¿Cuáles son los tipos de pruebas de aceptación?**
+	
+	- Pruebas de Aceptación del Usuario:
+		Es el tipo más común de acceptance test, donde los usuarios finales prueban el sistema para verificar que cumple con sus requisitos y expectativas.
+		
+		*Ejemplo:* Los usuarios de una app de contabilidad revisan si pueden generar reportes financieros correctamente y si los datos se presentan de manera clara y útil.
+		
+	- Pruebas de Aceptación Operacional:
+		Se centran en la evaluación de aspectos operacionales del sistema, como su capacidad de operar correctamente en el entorno de producción, la seguridad, la gestión de fallos y la recuperación.
+		
+		*Ejemplo:* Verificar si el sistema de gestión de inventarios puede manejar los procesos de entrada y salida de productos sin fallos, con tiempo de respuesta adecuado y manteniendo la integridad de los datos.
+		
+	- Pruebas Alfa (Alpha Testing):
+		son realizadas por los mismos desarrolladores o un equipo de QA, en un entorno de desarrollo o de prueba, y se hacen de manera controlada antes de la liberación oficial. Se enfoca en detectar errores y fallos importantes en el sistema.
+		
+		*Ejemplo:* Verificar si el sistema de gestión de inventarios puede manejar los procesos de entrada y salida de productos sin fallos, con un tiempo de respuesta adecuado y manteniendo la interidad de los datos.
+		
+		
+	- Pruebas Beta (Beta Testing):
+		Estas pruebas se realizan fuera del equipo de desarrollo, en un entorno de usuario real. Se proporciona una versión preliminar del sistema, llamada "beta" a un grupo de usuarios externos o clientes potenciales para que lo prueben y proporcionen feedback.
+		
+		*Ejemplo:* Una nueva aplicación móvil se lanza en versión beta para un grupo limitado de usuarios con el fin de identificar problemas de usabilidad y recoger sugerencias antes del lanzamiento oficial.
+		
+	- Pruebas de Aceptación de Negocio (BAT - Business Acceptance Testing):
+		Se evalúa si el software satisface las necesidades de negocio de la organización, mas allá de los aspectos técnicos o funcionales. Este tipo de prueba se centra en asegurar que el software entregue valor desde el punto de vista empresarial.
+		
+		*Ejemplo:* Una plataforma de comercio electrónico es probada para asegurarse de que puede manejar el volumen esperado de transacciones y que las funcionalidades se alinean con las metas de negocio de la empresa.
+		
+	- Pruebas de Aceptación de Usabilidad:
+		Se enfocan en evaluar la facilidad de uso del sistema, la experiencia de usuario, la interfa de usuario y la accesibilidad.
+		
+		*Ejemplo:* Probar una aplicación de redes sociales para verificar si los usuarios pueden navegar intuitivamente entre las secciones y realizar tareas sin dificultades.
+		
+		
 - **¿Cuál es la diferencia entre pruebas alfa y beta?**
     
     Son dos tipos de pruebas de aceptación.
     - **Pruebas Alfa:** Son realizadas por los mismos desarrolladores o un equipo de QA, en un entorno de desarrollo o de prueba, y se hacen de manera controlada antes de la liberación oficial. Se enfoca en detectar errores y fallos importantes en el sistema.
+      
     - **Pruebas Beta:** Se realizan de forma **externa** con los potenciales clientes, es decir, fuera del equipo de desarrollo, en un entorno de usuario real. Se proporciona una versión preliminar del sistema, llamada beta, a ungrupo de usuarios externos o clientes potenciales para que lo prueben y proporcionen retroalimenteación.
       
 - **¿Cómo se puede clasificar las pruebas de software?**
 	
-	Las pruebas de software se realizan para garantizar que el sistema cumpla con los requisitos  establecidos y funcione correctamente bajo diversas condiciones. Estas pruebas pueden ser analizadas desde diferentes enfoques, y cada enfoque ofrece una perspectiva distinta sobre cómo ejecutar y evaluar el software. A continuación, los tres enfoques más comunes:
+	Las pruebas de software se realizan para garantizar que el sistema cumpla con los requisitos   establecidos y funcione correctamente bajo diversas condiciones. Estas pruebas pueden ser analizadas desde diferentes enfoques, y cada enfoque ofrece una perspectiva distinta sobre cómo ejecutar y evaluar el software. A continuación, los tres enfoques más comunes:
 	
 	 - **Desde el punto de vista de su comportamiento**:
 		 - Pruebas *estáticas*: Las pruebas estáticas son aquellas en las que no se ejecuta el código del software. Se enfocan en revisar el código fuente, la documentación, o el diseño del sistema para identificar defectos sin necesidad de ejecutar el programa.
-			   - Objetivo: Detectar problemas antes de que el software se ejecute, lo que puede ahorrar tiempo y esfuerzo en etapas posteriores del desarrollo.
+			 - Objetivo: Detectar problemas antes de que el software se ejecute, lo que puede ahorrar tiempo y esfuerzo en etapas posteriores del desarrollo.
 			   - Ejemplo: revisar el código fuente para detectar errores de sintaxis o malas prácticas de programación.
 		
 		 - Pruebas *dinámicas*: Las pruebas dinámicas requieren ejecutar el software y observar su comportamiento en tiempo real. Se enfocan en validar si las funcionalidades del sistema funcionan como se espera bajo condiciones de ejecución reales.
-			   - Objetivo: Asegurar que el software cumple con los requisitos operatios y de rendimiento mientras se está ejecutando. Ejemplo: Probar la funcionalidad de un formlario de login, verificar si las entradas son procesadas correctamente por el sistema.
+			 - Objetivo: Asegurar que el software cumple con los requisitos operatios y de rendimiento mientras se está ejecutando. Ejemplo: Probar la funcionalidad de un formlario de login, verificar si las entradas son procesadas correctamente por el sistema.
 		
 	 - **Desde el punto de vista de su ejecución:** 
 		 - Pruebas *manuales*: Las pruebas manuales implican la intervención de un tester humano que sigue un conjunto predefinido de pasos para probar el software. El tester evalúa el comportamiento del sistema observando como interactúa el usuario con el software.
@@ -2525,15 +2836,17 @@ Notas:
 	- **Desde el punto de vista de los requisitos:**
 		Las pruebas también se pueden clasificar según el tipo de requisitos que se están verificando. Esto se divide principalmente en pruebas que validan funcionalidades específicas del sistema (funcionales) y pruebas que verifican aspectos no relacionados directamente con la funcionalidad (no funcionales).
 		
-		- Pruebas No Funcionales: Las pruebas no funcionales validan aspectos del sistema que no están directamente relacionados con la funcionalidad, como el rendimiento, la usabilidad, la seguridad, etc. Estas pruebas ayudan a evaluar la calidad general del sistema y cómo se comporta bajo condiciones de uso no funcional.
+		- Pruebas No Funcionales: Las pruebas no funcionales validan aspectos del sistema  que no están directamente relacionados con la funcionalidad, como el rendimiento, la usabilidad, la seguridad, etc. Estas pruebas ayudan a evaluar la calidad general del sistema y cómo se comporta bajo condiciones de uso no funcional.
 			-  Objetivo: Evaluar aspectos como la eficiencia, la capacidad de carga, la seguridad, la accesibilidad, entre otros.
 			- Ejemplo: realizar pruebas de carga para determinar cómo el sistema maneja grandes volúmenes de usuarios simultáneos.
 			
 			**Dentro de la clasificación de Pruebas No Funcionales**:
 			- Pruebas de rendimiento:
 				Las pruebas de rendimiento verifican la respuesta del sistema bajo carga.
+				
 			- Pruebas de seguridad:
 				Detectar vulnerabilidades
+				
 			- Otras:
 				- Pruebas de carga
 				- Pruebas de estrés
@@ -2542,6 +2855,7 @@ Notas:
 				- pruebas de usabilidad
 				- Pruebas de accesibilidad
 				- Pruebas de regresión
+				  
 		- Pruebas *Funcionales*: Las pruebas funcionales validan que el software cumpla con las funcionalidades descritas en los documentos de requisitos. Se enfocan en comprobar que las características del sistema funcionan de acuerdo con las especificaciones y los objetivos del negocio.
 			- Objetivo: Asegurar que cada función del software opere como se espera.
 			- Ejemplo: Verificar que un sistema de pago en línea acepte pagos correctamente cuando el usuario ingresa los datos de tarjeta de crédito.
@@ -2575,40 +2889,97 @@ Notas:
 				*Ejemplo de testing de caja blanca:*
 				Utilizar un framework como JUnit para comprobar que una función específica devuelve el resultado correcto para todos los posibles valores de entrada.
 	   
-- ¿Qué es un test de caja negra? (definición y ejemplo).
+- **¿Qué es un test de caja negra? (definición y ejemplo).**
     
     Se enfoca en las entradas y salidas del sistema, sin conocimiento de la estructura interna. Se basa en los requerimientos. Ejemplo: Sistema de login de usuario.
     
-- ¿Qué es un test de caja blanca? (definición y ejemplo).
+- **¿Qué es un test de caja blanca? (definición y ejemplo).**
     
     Se basa en un análisis de los detalles procedimentales del código, por lo que es necesario conocer la lógica interna. Ejemplo: Función que calcula descuento probando todas las rutas.
     
 
 ### Pruebas y Metodologías Ágiles
 
-- ¿Qué es TDD?
+- **¿Cuáles es la principal diferencia entre testing tradicional y testing ágil?**
     
-    Desarrollo Dirigido por Tests. Es una técnica para diseñar software centrada en la implementación de las funciones justas que el cliente necesita, minimizando defectos y produciendo software modular.
+    - En ambientes tradicionales: 
+	    El testing es una etapa que se realiza al final del proceso de desarrollo, es decir, una vez que el producto está prácticamente terminado.
+	    
+	- En ambientes ágiles:
+		El testing es una actividad continua, integrada en el desarrollo desde las primeras etapas. No es una fase separada, sino que forma parte del ciclo de vida del producto de manera iterativa.
+		
+- **¿Qué otras diferencias hay entre testing tradicional y testing ágil?**
+	
+	- Testing Tradicional:
+		- El testing es una fase que ocurre al final.
+		- El testing está enfocado en encontrar errores.
+		- El tester verifica una funcionalidad.
+		- El tester busca "destruir" el sistema. 
+		- Solo el tester es responsable de la calidad.
+		  
+	- Testing Ágil:
+		- El testing es una actividad integrada en el desarrollo mismo.
+		- El testing está enfocado en prevenir errores.
+		- El tester entiende y contribuye al proceso de calidad completo.
+		- El tester ayuda a construir un mejor sistema.
+		- Todo el equipo es responsable de la calidad.
+	
+	
+- **¿Cuáles son las ventajas del Testing Ágil?**
+	
+	1. Detección temprana de errores
+		Al tener un feedback continuo, los errores se identifican en etapas tempranas.
+		
+	2. Mayor calidad:
+		El enfoque ágil asegura que el desarrollo y el testing estén orientados a entregar valor al cliente.
+		
+	3. Reducción de costos:
+		Al encontrar y corregir defectos tempranamente, los costos asociados a errores se reducen considerablemente.
+	
+	
+- **¿Qué es TDD?**
+    
+    Desarrollo Dirigido por Tests. Es una técnica para diseñar software centrada en la implementación de las funciones justas que el cliente necesita, minimizando defectos y produciendo software modular. Forma parte de la metodología XP Extreme Programming.
+    Se basa en el ciclo Red-Green-Refactor
     
 - **¿Qué es el ciclo Red-Green-Refactor en TDD?**
     
-    1. **Rojo:** Escribir una prueba que falle.
+    1. **Rojo:** Escribir una prueba que falle, debido a que no hay código implementado aún.
         
     2. **Verde:** Implementar el código mínimo necesario para que la prueba pase.
         
     3. **Refactorizar:** Mejorar el código sin romper la funcionalidad.
        
 - **Ejemplo de TDD con Red-Green-Refactor:**
-	Supongamos que estamos desarrollando una calculadora. Escribimos primero una prueba que verifique que 2+2 debe ser igual a 4. La prueba fallará (rojo), entonces escribimos el código que permita que pase (verde). Finalmente, refactorizamos para optimizar el código manteniendo la funcionalidad correcta.
+	Supongamos que estamos desarrollando una calculadora. Escribimos  primero una prueba que verifique que 2+2 debe ser igual a 4. La prueba fallará (rojo), entonces escribimos el código que permita que pase (verde). Finalmente, refactorizamos para optimizar el código manteniendo la funcionalidad correcta.
 	
 
-- ¿Qué es ATDD?
+- **¿Qué es ATDD?**
     
     Desarrollo dirigido por tests de Aceptación. Técnica colaborativa donde clientes, testers y desarrolladores colaboran para definir los criterios de aceptación antes de comenzar el desarrollo. Este enfoque asegura que todos entiendan claramente qué se espera del sistema.
     
-- ¿Qué es BDD?
+    Fases del ciclo de ATDD:
+    1. DISCUSS:
+	    PO, QA, desarrolladores y negocio colaboran para entender en conjunto cuál es el comportamiento deseado del sistema.
+	    
+	2. DISTILL:
+		Lo conversado en la fase anterior se convierten en criterios de aceptación, muchas veces descritos en formato Gherkin (Given-When-Then).
+		
+	3. DEVELOP
+		El equipo implementa la funcionalidad comenzando por las pruebas de aceptación como guía.
+		
+		(Se puede usar el ciclo Red-Green-Refactor dentro de esta fase)
+		
+	1. DEMO
+		Se muestra la funcionalidad al Product Owner o stakeholders, usando los mismos tests de aceptación como evidencia.
+		
+		El resultado es la aprobación o nuevos cambios que reinician el ciclo.
     
-     Behavior Driven Development (desarrollo guiado por el comportamiento). BDD se enfoca en el comportamiento del sistema desde una perspectiva de negocio. Utiliza ejemplos concretos para definir cómo debería comportarse el sistema en diferentes escenarios. Las pruebas se redactan en un lenguaje accesible para todos los involucrados, como clientes y desarrolladores.
+- **¿Qué es BDD?**
+    
+     Behavior Driven Development (desarrollo guiado por el comportamiento). BDD se enfoca en el comportamiento del sistema desde una perspectiva de negocio. 
+     
+     Utiliza ejemplos concretos para definir cómo debería comportarse el sistema en diferentes escenarios. Las pruebas se redactan en un lenguaje accesible para todos los involucrados, como clientes y desarrolladores.
      
 	**Ejemplo de BDD**:
 		Imagina un carrito de compras en un supermercado en línea:
@@ -2617,15 +2988,74 @@ Notas:
 		- Escenario 3: Al agregar un producto al carrito, el sistema debería notificar al usuario.
 		Estas pruebas no solo validan el sistema, sino que aseguran que el
 		comportamiento sea coherente con las expectativas del usuario.
-	 
+	
+	**Ciclo típico de BDD**
+	BDD tiene un ciclo muy similar al de ATDD, aunque más orientado al comportamiento del sistema y al lenguaje compartido entre negocio y tecnología. El ciclo se suele describir en tres etapas:
+		1. **Descubrir**  
+		   En esta etapa participan negocio, QA y desarrolladores. Se conversa para entender el comportamiento deseado, el problema que se quiere resolver, las reglas de negocio y los casos borde. 
+		   Resultado: ejemplos concretos del comportamiento esperado, aún sin escribir en Gherkin.
+		2. **Formular**  
+		   Los ejemplos descubiertos se transforman en escenarios escritos en Gherkin utilizando Given, When y Then. 
+		   Resultado: escenarios legibles para todos, que expresan el comportamiento esperado en términos del negocio.
+		3. **Automatizar**  
+		 Los escenarios escritos se conectan con código mediante step definitions. Luego se ejecutan primero fallando, se implementa el código mínimo para hacerlos pasar y se refactoriza manteniendo el comportamiento correcto.  
+		 Resultado: documentación viva y pruebas ejecutables que verifican el comportamiento real del sistema.
+		
+	
+	El ciclo se repite para cada historia o funcionalidad, de la misma manera que en ATDD se repite el ciclo Discuss, Distill, Develop y Demo.
+
+	**Participantes de BDD**
+	
+	BDD se basa en la colaboración de tres roles conocidos como los “Three Amigos”:
+	
+	
+	1. Negocio (Product Owner, analistas, stakeholders)
+		Define qué comportamiento se necesita y por qué. Aporta objetivos de negocio y claridad sobre el valor esperado.
+		
+	2. QA o Tester
+		Aporta pensamiento crítico, casos borde, criterios de aceptación y enfoques para verificar el comportamiento. Garantiza que la calidad se considere desde el inicio.
+		
+	3. Desarrolladores
+		Aportan factibilidad técnica, decisiones de diseño e implementación del comportamiento definido. Conectan los escenarios con el código y refactorizan para mantener calidad técnica.
+	
+	
+	**Relación entre BDD y ATDD**
+	
+	ATDD se enfoca en definir pruebas de aceptación antes de desarrollar.   BDD se enfoca en definir el comportamiento del sistema mediante un lenguaje claro y compartido.  
+	
+	Ambos parten de conversaciones tempranas, ambos usan estructuras Given-When-Then y ambos buscan evitar malentendidos entre negocio y equipo técnico, pero BDD tiene un alcance conceptual más amplio.
+    
+    
+    
+	
+    
+    
+	
+	
+    
+
+El ciclo se repite para cada historia o funcionalidad, de la misma manera que en ATDD se repite el ciclo Discuss, Distill, Develop y Demo.
+
+Participantes de BDD
+
+BDD se basa en la colaboración de tres roles conocidos como los “Three Amigos”:
+
+1. Negocio (Product Owner, analistas, stakeholders)  
+    Define qué comportamiento se necesita y por qué. Aporta objetivos de negocio y claridad sobre el valor esperado.
+    
+2. QA o Tester  
+    Aporta pensamiento crítico, casos borde, criterios de aceptación y enfoques para verificar el comportamiento. Garantiza que la calidad se considere desde el inicio.
+    
+3. Desarrolladores  
+    Aportan factibilidad técnica, decisiones de diseño e implementación del comportamiento definido. Conectan los escenarios con el código y refactorizan para mantener calidad técnica.
+    
+
+Relación entre BDD y ATDD
+
+ATDD se enfoca en definir pruebas de aceptación antes de desarrollar.  
+BDD se enfoca en definir el comportamiento del sistema mediante un lenguaje claro y compartido.  
+Ambos parten de conversaciones tempranas, ambos usan estructuras Given-When-Then y ambos buscan evitar malentendidos entre negocio y equipo técnico, pero BDD tiene un alcance conceptual más amplio. 
      
-    
-- **¿Cuáles son las principales diferencias entre testing tradicional y testing ágil?**
-    
-    - **Tradicional:** El testing es una etapa que se realiza **al final** del proceso de desarrollo.
-        
-    - **Ágil:** El testing es una **actividad continua**, integrada en el desarrollo desde las primeras etapas.
-        
 - ¿Qué pruebas son buenas candidatas para automatización?
     
     Pruebas de carga y rendimiento, Pruebas de humo (Smoke tests), Pruebas repetitivas, Pruebas de regresión.
@@ -2648,7 +3078,9 @@ Notas:
         
     - **QC:** El tester que trabaja sobre **procesos correctivos** sobre el producto (bajo la gestión de controles de defecto).
         
-- ¿Cuál es el rol del tester o probador?
+- **¿Cuál es el rol del tester o probador?**
+	
+	
 	En muchas fuente bibliográficas, se describe al probador o tester de software como la persona responsable de llevar a cabo todo el proceso de pruebas de un software. Su tarea es esencial para asegurar la calidad del producto antes de que llegue a los usuarios finales.
 	
 	El probador utiliza diversas técnicas y enfoques para identificar errores y asegurar que el producto cumple con los requisitos establecidos. Además, debe formular las preguntas correctas para detectar fallos importantes para las partes interesadas, y reportar de manera adecuada los defectos encontrados a través de informes de incidencias.
