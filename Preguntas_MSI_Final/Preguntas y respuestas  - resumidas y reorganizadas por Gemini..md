@@ -18,10 +18,61 @@ Notas:
 
 ### Conceptos Clave
 
+- **¿Cómo se describe un sistema de información y sus elementos?**
+	
+	Un Sistema de Información es un conjunto de componentes interrelacionados que trabajan en conjunto para recopilar, procesar, almacenar y distribuir información, con el objetivo de apoyar la toma de decisiones, la coordinación y el control dentro de una organización.
+	
+	Los Sistemas de Información ayudan  a gestionar las operaciones y mejorar la eficiencia, además de proveer herramientas para el análisis de problemas y creación de nuevos productos.
+	
+- **¿Cuáles son los componentes de un Sistema de Información?**
+	
+	- Personas: 
+		Usuarios que interactúan con el sistema, tanto los que ingresan datos como los que usan los resultados para tomar decisiones.
+		
+	- Hardware:
+		Dispositivos físicos que soportan el S.I, como computadoras, servidores, dispositivos de red y almacenamiento, entre otros.
+		
+	- Software:
+		Programar y aplicaciones que procesan los datos y generan información.
+		
+	- Datos:
+		Hechos brutos que son ingresados al sistema para su procesamiento. 
+		Los datos bien estructurados son esenciales para producr información valiosa.
+		
+	- Procedimientos:
+		Son las políticas y reglas que guían el uso del S.I, asegurando que se opere correctamente y de manera eficiente.
+	
+- **¿Cuál es la definición de dato, información y conocimiento?**
+	
+	- Dato:
+		Un dato es un hecho aislado. Es una representación básica y sin procesar de hechos, eventos o valores, generalmente en forma de números, letras, símbolos o señales.
+		Es un elemento "crudo" que por sí solo no tiene significado ni contexto específico.
+		Los datos representan cosas del mundo real.
+		*Ejemplo:* Datos médicos de pacientes en una organización dedicada al cuidado de la salud. Otros ejemplos: número de empleados, horas totales trabajadas a la semana o número de unidades fabricadas en una línea de producción.
+	
+	- Información:
+		La información es el conjunto de datos organizados de tal manera que poseen un valor adicional mas allá del valor que se les puede atribuir como hechos individuales.
+		Es el resultado de procesar, organizar o interpretar datos para darles un significado o utilidad dentro de un contexto específico.
+		*Ejemplo:* Una imagen etiquetada como "foto de un atardecer" es información.
+	
+	- Conocimiento:
+		El conocimiento es la comprensión de un conjunto de información y de las formas en que ésta puede convertirse en algo útil para realizar una tarea específica o tomar una decisión.
+		Poseer conocimiento significa comprender las relaciones entre la información.
+	
 - **¿Para qué usan la información las organizaciones?**
     
-    Se considera un recurso fundamental y decisivo en las operaciones, como apoyo para la toma de decisiones y para la reducción de la incertidumbre a nivel estratégico, ayudando a las organizaciones a ser más competitivas. para acompañar frente a la demanda del mercado actual.
+    La información se considera un recurso fundamental y decisivo en las operaciones, como  apoyo para la toma  de decisiones y para la reducción de la incertidumbre a nivel estratégico, ayudando a las organizaciones a ser más competitivas. para acompañar frente a la demanda del mercado actual.
     
+    
+- **¿Qué otras afirmaciones se pueden realizar respecto de la información?**
+	
+	- Se podría afirmar que vivimos en una economía basada en la información, por lo tanto, integrar la información de diferentes fuentes genera un potencial importante en las organizaciones.
+	  
+	- Se pueden establecer reglas y relaciones para organizar los datos en información útil y valiosa, en ese sentido, el tipo de información que se genera depende de las relaciones definidas entre los datos.
+	  
+	- El valor de la información est´directamente relacionado con la forma en que ayuda a tomar decisiones y alcanzar las metas de la organización. La información valiosa ayuda a realizar tareas de manera eficiente y eficaz.
+	  
+	  
 - **¿Cuáles son las funciones principales de la información?**
     
     - Aumentar el conocimiento del usuario.
@@ -31,49 +82,139 @@ Notas:
     
 - **¿Cómo se clasifican los niveles de información?**
     
-    - Estratégico.
-    - Táctico.
-    - Técnico.
+    En contextos organitivos, militares, de inteligencia o de gestión, la información se categoriza  según su propósito, nivel de detalle y horizonte temporal.
     
-- **Clasifique la toma de decisiones.**
+    - Información estratégica:
+		La información estratégica es la información de alto nivel que se utiliza para definir los objetivos generales, la dirección y las políticas de una organización a largo plazo.
+		Se centra en el "por qué" y "hacia dónde" se dirige la organización.
+		- Horizonte temporal: Largo plazo
+		- Usuarios: Alta dirección, ejecutivos o tomadores de decisiones estratégicas.
+		- Finalidad: Definir metas, identificar oportunidades, mitigar riesgos y establecer el rumbo de la organización.
+		  
+	-  Información táctica:
+		La información táctica es la información que apoya la planificación de acciones a mediano plaza, alineadas con objetivos específicos dentro de un departamento o área. 
+		Se centra en el "qué" y "cuándo" hacer.
+		Está destinada a la toma de decisiones relacionadas con la asignación correcta de recursos disponibles para alcanzar los objetivos fijados a nivel estratégico.
+		- Horizonte temporal: Mediano plazo (semanas, meses).
+		- Usuarios: Mandos intermedios, gerentes de área o equipos de planificación.
+		- Finalidad: Coordinar recursos, optimizar procesos y alcanzar metas operativas dentro de un marco estratégico más amplio.
+		  
+    - Información técnica:
+	    La información técnica es la información detallada, específica y operativa que se utiliza para realizar tareas concretas o resolver problemas específicos. 
+	    Se centra en el "cómo" hacer algo.
+	    Está destinada a la toma de decisiones relacionadas con actividades rutinarias de una organización.
+	    - Horizonte temporal: Corto plazo, orientada a la ejecución inmediata.
+	    - Usuarios: Técnicos, operarios, personal de nivel operativo.
+	    - Finalidad: Facilitar la implementación de procesos, procedimientos o actividades específicas.
+	      
+	
     
-    - **Estratégicas (o de planificación):** Adoptadas por la cúspide jerárquica o altos directivos.
-    - **Tácticas o de pilotaje:** Tomadas por directivos intermedios. Buscan asignar eficientemente los recursos disponibles.
-    - **Operativas:** Adoptadas por el nivel inferior, relacionadas con las actividades rutinarias de la empresa.
+- **¿Qué es la toma de decisiones y como se la puede clasificar?**
+    
+    La toma de decisión es la estrategia de solución a un problema, mediante la elección de una alternativa entre varias posibles.
+    La información puede reducir el número de alternativas, o clarificar un poco más cuáles son los beneficios y riesgos de cada una.
+    
+    El proceso de la Toma de Decisión en una organización inicia con la detección de una   situación que rodea algún problema. 
+    Seguidamente, viene el análisis y la definición del problema.
+    
+    Tomar una decisión supone escoger la megjor alternativa entre las posibles.
+    
+    Las decisiones se clasifican en función de la posición jerárquica a nivel administrativo  ocupado por el decisor.
+    
+    - Decisiones **Estratégicas (o de planificación):** 
+	    Son decisiones adoptadas por decisores que se encuentran en la cúspide de la pirámide jerárquica o altos directivos.
+	    
+    - Decisiones **Tácticas (o de pilotaje):** 
+	    Son las decisiones tomadas por directivos intermedios. 
+	    Tienen como propósito asignar eficientemente los recursos disponibles para alcanzar los objetivos fijados a nivel estratégico.
+	    
+    - Decisiones **Operativas:** 
+	    Son decisiones adoptadas por decisores que se sitúan en el nivel inferior de la pirámide jerárquica. 
+	    Están relacionadas con las actividades rutinarias de la organización.
     
 ### Sistemas de Información y Negocio
 
 - **Tipos de Sistemas de Información.**
     
-    - **TPS** (Sistema de procesamiento de transacciones): Gestiona información de transacciones.
+    - **TPS** (Sistema de procesamiento de transacciones): 
+        Los TPS se encargan de registrar transacciones diaras que suceden en una organización, como las ventas o las compras. Su objetivo es la eficiencia operativa.
+        *Ejemplo:* Registrar una venta en caja.
         
-    - **MIS** (Sistemas de información gerencial): Orientados a solucionar problemas empresariales.
+        Los TPS:
+        - Lograron la automatización de procesos operativos diarios dentro de la organización.
+        - Tienen como función principal: Procesar transacciones y registrarlas, además de ofrecer datos transaccionales brutos.
+        - Ubicación de los usuarios en la pirámide jerárquica: usualmente en la base.
         
-    - **DSS** (Sistemas de soporte a decisiones): Herramienta para análisis de variables de negocio y apoyo a la toma de decisiones.
-        
-    - **EIS** (Sistemas de información ejecutiva): Herramienta orientada a gerentes para monitorizar el estado de variables.
-        
-    - **OAS** (Sistemas de automatización de oficinas): Aplicaciones para el trabajo diario administrativo.
-        
-    - **SE** (Sistema experto): Sistemas de inteligencia artificial que utilizan experiencia para hallar soluciones (ejemplo: simuladores).
-        
-    - **ERP** (Sistema Planificación de Recursos): Integran información y procesos de una organización en un solo sistema.
-        
-- **¿Cómo se describe un Sistema de Información y sus elementos?**
+        *Otros ejemplos:* procesar pagos y cobros, procesar pólizas, procesar entradas y salidas, etc.
     
-    Es un conjunto de elementos orientados al tratamiento y administración de datos e información, organizados para cubrir una necesidad. Sus elementos son:
     
-    - **Entradas:** Datos obtenidos de la operatoria.
+    - **MIS** (Sistemas de información gerencial): 
+        Los MIS ayudan a los gerentes a tomar decisiones al proporcionar informes regulares sobre el desempeño de la organización. 
+        Los MIS convierten los datos de los TPS en información útil para la gestión.
+        Los informes o reportes generados sirven de soporte para los departamentos de  marketing, producción, finanzas, entre otras áreas funcionales. Típicamente están enlazados a través de una base de datos en común.
         
-    - **Procesos:** Operaciones realizadas con los datos para producir información.
+	    - Ubicación de los usuarios en la pirámide jerárquica: usualmente en el medio, junto con los DSS.
         
-    - **Salidas:** Producto (informes, listados, estadísticas) obtenido al procesar los datos.
+        *Ejemplo:* Reporte mensual de ventas (como salida de un MIS).
+    
+    - **DSS** (Sistemas de apoyo a decisiones): 
+        Los DSS son sistemas que ayudan a la toma de decisiones complejas o no rutinarias, al proporcionar herramientas de análisis, simulación y modelado.
+         
+        Los DSS tienen las siguientes características:
+	    - Son herramientas para realizar el análisis de diferentes variables de negocio o análisis de datos, con la finalidad de apoyar el proceso de toma de decisiones.
+	      
+	    - Tienen un enfoque en decisiones eficientes: el DSS es más útil que un MIS convencional, debido a que ofrece ayuda inmediata para la resolución de problemas, los cuales son únicos y complejos, y cuya información a menudo es díficil de obtener a través de un reporte predefinido.
+	      
+	    - Mientras que el MIS ayuda a que la organización "haga las cosas correctamente", un DSS ayuda a los administradores de la organización a "hacer lo correcto".
+	    
+	    - El objetivo de un DSS es brindar soporte a la toma de decisión, más que reemplazar la toma de decisiones administrativas.
+	      
+	    *Ejemplo:* Simulación de estrategias de mercado, simulación de producción para industria petrolera, entre otros.
+	      
+    - **EIS** (Sistemas de información ejecutiva): 
+        Los EIS son herramientas orientadas a usuarios de nivel gerencial, que permiten monitorizar el estado de las variables de un área o unidad de la empresa, a partir de información interna y externa a la misma.
         
-    - **Retroalimentación:** Salidas que ingresan nuevamente al sistema para su análisis.
+        Los EIS suelen permitir a sus usuarios configurar los indicadores claves de desempeño (KPIs) relevantes para sus objetivos.
         
+        Características de los EIS:
+        - Ayudan a la cúpula administrativa a tomar mejores decisiones. (Presidente, VP, miembros del consejo directivo).
+        - Proveen información de alto nivel para decisiones a largo plazo. *Ej:* expansión de mercados, inversiones, reestructuraciones.
+        - Ubicación de los usuarios en la pirámide jerárquica: usualmente en la cúspide.
+          
+    - **OAS** (Sistemas de automatización de oficinas):
+        Los OAS son un tipo de S.I empresarial diseñado para automizar y optimizar tareas administrativas y de oficina.
+        - Ubicación de los usuarios en la pirámide jerárquica: los usuarios son principalmente personal de oficina, como secretarios, asistentes, administradores y ocasionalmente gerentes. Entonces, los usuarios se ubican en un rango cercano a la base y se acerca hasta el estrato medio.
+        
+        Ejemplos de funcionalidades:
+        - Comunicación interna
+        - Envío de e-mails
+        - Agendamiento de reuniones
+          
+        *Ejemplos:* Microsoft Teams, Microsoft Office 365, Gmail y la G-Suite, 
+        
+        
+    - **SE** (Sistema experto): 
+        Los S.E, sistemas experos, son sistemas de Inteligencia Aritficial, que se basan en utilizar la experiencia y el conocimiendo para analizar variables y hallar una solución a un problema dado.
+        
+        Características los de E.S:
+	    - Emulan el conocimiento y la capacidad de razonamiento de un experto humano en un dominio específico.
+	    - Usan una base del conocimiento: el conjunto de reglas, datos, procedimientos y relaciones que deben seguirse para obtener el valor o la respuesta generada.
+	      
+	    *Ejemplos:* Supervisión de reactores nucleares, desarrollo de planes de marketing, elaboración de diagnósticos medicos, entre otros.
+	    
+    - **ERP** (Sistema de Planificación de Recursos Empresariales): 
+        Un ERP (Enterprise Resource Planning) es un software que integra y automatiza los procesos centrales de una empresa, como finanzas, recursos humanos, fabricación, cadena de suministro, entre otros, utilizando una única base de datos para proporcionar una visión unificada. Sirve para optimizar la gestión, mejorar la eficiencia, facilitar la toma de decisiones y centralizar la información de todos los departamentos.
+        
+        Funciones principales
+        - **Integración**: Conecta diversas áreas del negocio (contabilidad, ventas, inventario, RR. HH., etc.) en un solo sistema.
+        - **Automatización**: Automatiza tareas repetitivas y procesos para reducir errores y aumentar la productividad.
+        - **Centralización de datos**: Recopila la información de diferentes fuentes en una única base de datos, eliminando duplicidades y creando una fuente de verdad.
+        - **Análisis y reporte**: Ofrece herramientas de análisis de datos para planificar, presupuestar y obtener informes financieros y de rendimiento
+    
+    
 - **¿Qué es un Sistema de Negocio?**
     
-    Es el conjunto de procesos, actividades, personas, reglas y recursos que una organización utiliza para generar valor o alcanzar un objetivo comercial. Su meta es entregar un producto o servicio al cliente.
+    Es el conjunto de procesos, actividades, personas, reglas y recursos que  una organización utiliza para generar valor o alcanzar un objetivo comercial. Su meta es entregar un producto o servicio al cliente.
     
 - **Diferencia entre un Sistema de Información y un Sistema de Negocio**
     
@@ -83,12 +224,13 @@ Notas:
         
 - **¿Qué relación tienen un servicio IT y los Sistemas de Información?**
     
+    La sigla I.T significa Tecnología de la Información. Refiere al uso de computadoras, redes, software y otros dispositivos para almacenar procesos, transmitir y proteger información. Es decir, con las Tecnologías de la Información se gestionan, operan y mantienen los Sistemas de Información.
 
 ### Modelado BPMN
 
 - **¿Qué es BPMN y para qué se utiliza?**
     
-    Es una notación gráfica que describe la lógica de los pasos de un proceso de Negocio, de modo tal que se pueda coordinar la secuencia de los procesos y los mensajes que fluyen entre los participantes de las diferentes actividades de los procesos del negocio mediante un Diagrama de Proceso del Negocio (BPD).
+    Es una notación gráfica que describe la lógica de los pasos de un proceso de Negocio, de  modo tal que se pueda coordinar la secuencia de los procesos y los mensajes que fluyen entre los participantes de las diferentes actividades de los procesos del negocio mediante un Diagrama de Proceso del Negocio (BPD).
     
 
 ---
@@ -1656,7 +1798,7 @@ Notas:
     
 - **¿Por qué UML es un lenguaje y NO una metodología?**
     
-    UML es solo un lenguaje estándar para escribir "planos" de software. No proporciona un proceso, es independiente del proceso de desarrollo.
+    UML es sólo un lenguaje y NO es una metodología; por lo tanto, es sólo una parte de un método de desarrollo de software.UML es solo un lenguaje estándar para escribir "planos" de software que permiten visualizar, especificar, construir y documentar sistemas. UML es independiente del proceso. UML proporciona notación, no proceso.
     
 - **Elementos de construcción de UML.**
     
@@ -1673,9 +1815,15 @@ Notas:
 
 ### Casos de Uso y Diagramas
 
+- **¿Qué es un diagrama de caso de uso? 
+  
+  Los casos de uso representan todas las interacciones posibles que se descrAAAAAAibirán en los requerimientos del sistema. Los actores en el proceso **pueden ser individuos u otros sistemas** y se representan como figuras sencillas.
+  
+  Cada interacción se constituye como una elipse con etiqueta. Líneas vinculan a los actores con la interacción.
+  
 - **¿Qué es un actor en UML?**
     
-    Es el rol que juega un usuario en un caso de uso. Representa un rol jugado por una persona, hardware o incluso otro sistema.
+    Es el rol que juega un usuario en un caso de uso. Representa un rol j ugado por una persona, hardware o incluso otro sistema. Suele tener un nombre, que refleja el rol que cumple el usuario al interactuar con el caso de uso.
     
 - **¿Cuál es la diferencia entre relaciones de inclusión y extensión en casos de uso?**
     
@@ -1683,6 +1831,23 @@ Notas:
         
     - **Extensión:** Un caso de uso distinto maneja las **excepciones** del caso de uso básico (la flecha apunta del caso de uso extendido al básico).
         
+    
+- **¿Qué es un diagrama de secuencia?**
+	
+	Muestra una **[Interacción](https://405310-caruso-tomas.github.io/MSI/El%20Lenguaje%20Unificado%20de%20Modelado.%20Manual%20de%20Referencia/Diccionario/Interacción)** como un gráfico de dos dimensiones. La dimensión vertical es el eje de tiempo, de arriba hacia abajo. Los mensajes más altos ocurren antes que los más bajos.
+	
+	Un [Mensaje](https://405310-caruso-tomas.github.io/MSI/El%20Lenguaje%20Unificado%20de%20Modelado.%20Manual%20de%20Referencia/Diccionario/Mensaje) se muestra como una flecha desde la línea de vida de un objeto a la línea de vida del otro.
+	
+	Cada **rol** se representa mediante una columna vertical que contiene un símbolo de cabecera y una línea de vida vertical. Durante el tiempo que existe un objeto, la línea de vida se representa con una línea discontinua. Durante el tiempo que la ejecución de una acción sobre el objeto está activa, la línea de vida se representa con una línea doble.
+
+- **¿Qué es un diagrama de colaboración?**
+	
+	Una Colaboración es una relación contextual entre un conjunto de objetos que trabajan juntos para lograr un propósito.
+	
+	Contiene una colección de **roles** dentro de un patrón genérico, que pueden ser representadas por objetos individuales, o vinculadas a ellos.
+	
+	Este diagrama muestra como los **objetos** y los Actores intercambian mensajes y **colaboran** entre sí para cumplir el objetivo de un Caso de Uso. Es decir, ambas perspectivas concuerdan en que el diagrama representa Interacciones.
+	
 - **¿Cuándo usar diagrama de secuencia vs diagrama de colaboración?**
     
     - **Diagrama de colaboración:** Se usa en el análisis para identificar responsabilidades de los objetos, sin tanta importancia en la secuencia cronológica.
@@ -1691,7 +1856,7 @@ Notas:
         
 - **¿Para qué se usa un diagrama de actividad?**
     
-    Para describir cualquier tipo de procesos. Se usa para modelar de forma gráfica los diferentes casos de uso, transacciones o procedimientos que haya en un sistema.
+    Para describir cualquier tipo de procesos. Se usa para modelar de forma  gráfica los diferentes casos de uso, transacciones o procedimientos que haya en un sistema.
     
 - **¿Para qué sirve un diagrama de despliegue?**
     
@@ -2273,10 +2438,27 @@ Notas:
 	• Error: Una equivocación humana (por ejemplo, un programador escribe mal una condición).
 	• Defecto: El error se introduce en el sistema (el código erróneo está
 	presente).
-	• Fallo: El defecto se manifiesta en la ejecución del programa (el sistema no se comporta como debería, por ejemplo, rechaza una transacción válida).
+	• Fallo: El defecto se manifiesta en la ejecución del programa (el sistema no se comporta  como debería, por ejemplo, rechaza una transacción válida).
 	
 	
-- ==**Otra definición de defecto**==
+- ==**¿Qué otra definición de defecto se puede dar?**==
+	
+	En el desarrollo de software, un defecto es una imperfección o error en el sistema que impide que este cumpla correctamente con las funciones que se esperan de él.
+	
+	¿Cómó se origina un defecto?
+	
+	Los defectos suelen ser el resultado de errores humanos durante el desarrollo o la especificación de los requerimientos. Un requerimiento mal redactado o cncompleto puede ser interpretado de diferentes formas, lo que lleva a que los desarrolladores introduzcan errores en el sistema.
+	
+	*Ejemplo:* Supongamos que un sistema de e-commerce tiene el requerimiento de calcular el impuesto sobre las compras. Si en el documento de requerimientos no se especifica claramente el porcentaje de impuesto, un desarrollador podría implementar un cálculo incorrecto del impuesto, cobrando un 20% en lugar del 15% requerido. Este error en el código es lo que llamamos un defecto, ya que el sistema no está cumpliendo con su funcionalidad esperada.
+	
+	Cuando un defecto es detectado, se documenta con un conjunto de atributos clave que permiten su gestión y resolución:
+	
+	- Id: Un número único que identifica el defecto
+	- Nombre: Una breve descripción del defecto. Ejemplo: "Cálculo incorrecto del impuesto"
+	- Severidad: Mide el impacto del defecto en el sistema. En el ejmplo, sería un defecto de "Severidad alta".
+	- Prioridad: Indica la urgencia con la que debe corregirse el defecto. Aunque el defecto tiene alta severidad, si ocurre en una sección que no es crítica para el negocio, su prioridad podría ser baja, ya que no requiere atención inmediata.
+	  
+	  
 - **¿Cómo se analiza un bug (diferencia entre severidad y prioridad)?**
 	 
 	 Cuando se detecta un defecto (o bug), se analiza en base a su severidad y prioridad para decidir como abordarlo. No todos los efectos requieren ser corregidos de inmediato, y el análisis ayuda a asignar los recursos adecuados para su resolución.
@@ -2284,6 +2466,7 @@ Notas:
 	- Severidad:
 		
 		La severidad de un defecto **refleja el impacto que tiene en la funcionalidad del sistema** o en la **experiencia** del usuario. Existen diversos esquemas para clasificar la severidad de los defectos, pero el más común y aconsejable es utilizar dos niveles clave: Severidad-1 y Severidad-2. Usar más niveles puede dificultar el análisis y la resolución de los problemas.
+		
 		- Severidad-1: Este tipo de defectos impide la finalización del proyecto. Un proyecto no puede completarse si existen problemas de Sev-1 sin resolver.
 		- Severidad-2: Son defectos menos críticos que, en cantidades limitadas, permiten que el proyecto se complete.
 		  
@@ -2356,7 +2539,7 @@ Notas:
 		
 - **¿Qué es el estado de un defecto? ¿Cuales son los posibles estados?**
 	
-	El estado de un defecto refleja su posición actual en su ciclo de vida  dentro del proceso de gestión de errores, 
+	El estado de un defecto refleja su posición actual en su ciclo de vida  dentro del proceso de  gestión de errores, 
 	
 	 **Estados comunes en el ciclo de vida de un defecto**
 	 - **Nuevo (New)**: 
@@ -2380,7 +2563,7 @@ Notas:
 	
 - **¿Qué es un test case y cuáles son sus elementos principales?**
     
-    Un caso de prueba es un artefacto fundamental en el proceso de pruebas de software, ya que permite analizar y documentar si el software cumple con los requisitos y funciona correctamente. Su propósito principal es verificar que una funcionalidad específica de un producto de software opere según lo esperado. Un caso de prueba bien definido facilita la reproducción de defectos y asegura una cobertura adecuada de los requisitos del sistema.
+    Un caso de prueba es un artefacto fundamental en el proceso de pruebas  de software, ya que permite analizar y documentar si el software cumple con los requisitos y funciona correctamente. Su propósito principal es verificar que una funcionalidad específica de un producto de software opere según lo esperado. Un caso de prueba bien definido facilita la reproducción de defectos y asegura una cobertura adecuada de los requisitos del sistema.
     
     Cada caso de prueba generalmente se compone de los siguientes elementos (a grandes rasgos):
     
@@ -3025,37 +3208,6 @@ Notas:
 	
 	Ambos parten de conversaciones tempranas, ambos usan estructuras Given-When-Then y ambos buscan evitar malentendidos entre negocio y equipo técnico, pero BDD tiene un alcance conceptual más amplio.
     
-    
-    
-	
-    
-    
-	
-	
-    
-
-El ciclo se repite para cada historia o funcionalidad, de la misma manera que en ATDD se repite el ciclo Discuss, Distill, Develop y Demo.
-
-Participantes de BDD
-
-BDD se basa en la colaboración de tres roles conocidos como los “Three Amigos”:
-
-1. Negocio (Product Owner, analistas, stakeholders)  
-    Define qué comportamiento se necesita y por qué. Aporta objetivos de negocio y claridad sobre el valor esperado.
-    
-2. QA o Tester  
-    Aporta pensamiento crítico, casos borde, criterios de aceptación y enfoques para verificar el comportamiento. Garantiza que la calidad se considere desde el inicio.
-    
-3. Desarrolladores  
-    Aportan factibilidad técnica, decisiones de diseño e implementación del comportamiento definido. Conectan los escenarios con el código y refactorizan para mantener calidad técnica.
-    
-
-Relación entre BDD y ATDD
-
-ATDD se enfoca en definir pruebas de aceptación antes de desarrollar.  
-BDD se enfoca en definir el comportamiento del sistema mediante un lenguaje claro y compartido.  
-Ambos parten de conversaciones tempranas, ambos usan estructuras Given-When-Then y ambos buscan evitar malentendidos entre negocio y equipo técnico, pero BDD tiene un alcance conceptual más amplio. 
-     
 - ¿Qué pruebas son buenas candidatas para automatización?
     
     Pruebas de carga y rendimiento, Pruebas de humo (Smoke tests), Pruebas repetitivas, Pruebas de regresión.
@@ -3072,7 +3224,7 @@ Ambos parten de conversaciones tempranas, ambos usan estructuras Given-When-Then
     
     Es el profesional encargado de prevenir los fallos y asegurar la calidad del software. Suele ser el encargado del diseño de las pruebas.
     
-- ==**¿Cuál es la diferencia entre Quality Assurance (QA) y Quality Control (QC)?**==
+- **¿Cuál es la diferencia entre Quality Assurance (QA) y Quality Control (QC)?**
     
     - **QA:** Orientado al **control y gestión de las pruebas** (prevenir fallos).
         
