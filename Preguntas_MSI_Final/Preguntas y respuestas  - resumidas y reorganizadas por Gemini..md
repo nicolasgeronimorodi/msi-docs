@@ -902,6 +902,7 @@ Notas:
 	
 	1. **Planificar la gestión del alcance:** 
 		Definir cómo se determinará el alcance del proyecto y cómo se controlará a lo largo del ciclo de vida.
+		
 	2. **Recopilar requisitos:** 
 		Identificar y documentar las necesidades de los interesados clave.
 		
@@ -1278,23 +1279,30 @@ Notas:
 	
 	*posibles respuestas:
 	- desde el punto de vista de actividades fundamentales según Sommerville.
+		
 		- Especificación del software
 		- Diseño e implementación
 		- Validación del software
 		- Evolución del software
+		  
 	- desde el punto de vista de las actividades comunes en la estructura del proceso del software, coincide con las etapas del modelo en cascada según Pressman.
+		
 		- Comunicación
 		- Planeación
 		- Modelado
 		- Construcción
-		- Despliegue*
+		- Despliegue
+		  
 	- desde el punto de vista de "División en Fases Secuenciales" o "Ciclo de Vida del Proyecto" apunte de la materia Unidad 2 - Proyecto.
+		
 		- Inicio
 		- Planeación
 		- Ejecución
 		- Control
 		- Cierre
+		  
 	- desde el punto de vista del PMBOK:
+		
 		- Requisitos
 		- Factibilidad
 		- Planificación
@@ -1576,10 +1584,11 @@ Notas:
 - ==**¿Cómo funciona la técnica de Planning Poker?==**
     
     Es una técnica comúnmente utilizada para estimar Story Points. Cada miembro del equipo asigna un puntaje a la HU usando una baraja de números (normalmente basada en la secuencia de Fibonacci) y luego se discuten las diferencias hasta llegar a un consenso.
-    
-    *Añadidura propia:*
-	    - Esta técnica se suele utilizar junto con la técnica del "Tamaño relativo", donde los Story Points a asignar se basan en la comparación entre historias. Por ejemplo: si una historia que se completó previamente tenía 3 puntos, y la nueva historia parece dos veces más compleja, entonces se podría asignar 6 (5) Story Points.
-	    - Además, cada equipo suele definir una referencia para lo que se considera una historia de 3 o 5 puntos, es decir, cuales son los criterios que tiene que tener una historia de determinado puntaje para que sirva como punto de comparación al momento de puntuar o estimar. A esta HU de referencia se le suele llamar "HU canónica".
+	
+	Info propia:
+	Esta técnica se suele utilizar junto con la técnica del "Tamaño relativo", donde los Story Points a asignar se basan en la comparación entre historias. Por ejemplo: si una historia que se completó previamente tenía 3 puntos, y la nueva historia parece dos veces más compleja, entonces se podría asignar 6 (5) Story Points.
+	
+	Además, cada equipo suele definir una referencia para lo que se considera una historia de 3 o 5 puntos, es decir, cuales son los criterios que tiene que tener una historia de determinado puntaje para que sirva como punto de comparación al momento de puntuar o estimar. A esta HU de referencia se le suele llamar "HU canónica".
     
     
 - **¿Qué son los Story Points?**
@@ -1612,12 +1621,31 @@ Notas:
 		
 	Así, los puntos **no son comparables entre equipos**, pero **sí consistentes dentro del mismo equipo**, que es lo que importa para calcular su **velocidad**.
 	
-- ==**¿Cómo se calcula la velocidad de un equipo?**==
-    
-    Velocidad, trabajo y tiempo son las tres magnitudes que componen la fórmula de la velocidad, en gestión de proyectos ágil, definiéndose como la cantidad de trabajo realizada por unidad de tiempo.
-    
-    Velocidad = Trabajo / Tiempo.
-	*Chequear*.
+- **¿Qué son capacidad y velocidad en Scrum? ¿Qué escenarios existen en términos de su relación?**
+	
+	- Capacidad (Capacity):
+		Es la cantidad de trabajo que el equipo es capaz de completar en un sprint, generalmente medida en Story Points o tiempo disponible. Se calcula considerando el tamaño del equipo, las horas disponibles y cualquier impedimento que pueda reducir la capacidad total.
+		
+	- Velocidad (Velocity):
+		Es la cantidad promedio de trabajo completado por el equipo durante un sprint, medida en Story Points. La velocidad se utiliza para estimar cúantos puntos pueden completarse en sprints futuros.
+	
+	
+	**Diferentes escenarios:**
+	1. Capacidad y Velocidad iguales:
+		- Esto significa que el equipo estimó bien su capacidad de trabajo, y al final del sprint completaron exactamente lo que planificaron.
+		- Causa: Buen manejo del planning, estimaciones realistas, ausencia de bloqueos.
+		- Consecuencia: El equipo tiene una buena comprensión de su rendimiento y puede hacer estimaciones más fiables a futuro.
+		  
+		  
+	2. Capacidad mayor que la Velocidad (Subrendimiento):
+		- Aquí la capacidad planificada es mayor que la velocidad real, lo que significa que el equipo no completó todo lo que había planificado para el sprint.
+		- Causa: Bloqueos, tareas subestimadas, falta de claridad en requisitos, emergencias no previstas, cambio de alcance.
+		- Consecuencia: El equipo puede estar sobreestimando su capacidad real de entrega, lo que puede llevar a ajustes futuros.
+		  
+	3. Velocidad mayor que la capacidad (Sobre-rendimiento):
+		- En este caso, el equipo terminó más trabajo de lo que había planeado, lo que indica que su capacidad estimada era menor que su rendimiento real.
+		- Causa: Sobre-estimación de la complejidad de las tareas, alta productividad, mayor eficiencia en la ejecución.
+		- Consecuencia: El equipo podría estar infrautilizando su capacidad, y podrían planifciar más trabajo en futuros sprints.
 	
 - **¿Cuál es la definición oficial de Scrum para velocidad?**
 	
@@ -1631,7 +1659,8 @@ Notas:
 		- En el Sprint 1 se completan 25 puntos,
 		- En el Sprint 2 se completan 27,
 		- En el Sprint 3 se completan 26
-			- Velocidad promedio = 26 puntos por sprint.
+		- Velocidad **promedio** = 26 puntos por sprint.
+		  
 	Este enfoque es relativo al equipo y se basa en SP, no en horas. Por eso, la velocidad no tiene unidades de tiempo. (no se consideran puntos por hora ni puntos por día).
 
 - **¿Qué definición de velocidad alternativa se puede dar?**
@@ -1650,73 +1679,52 @@ Notas:
 	- En **Scrum**, la velocidad representa la cantidad de trabajo completado (en Story Points) por Sprint.
 	- En **otros enfoques** como Kanban, Lean, XP o la gestión tradicional, la velocidad se entiende literalmente como **trabajo dividido por tiempo**, y se usa para medir **rendimiento o eficiencia** en un flujo continuo o en procesos productivos.
 	
-- **¿Qué es el gráfico burn-up y burn-down?**
-    
-    Gráficos para pronosticar el proceso que muestran:
-    
-    - **Burn-up:** Cantidad de _story points_ quemados respecto del total.
-        
-    - **Burn-down:** _Story points_ por quemar.
-      
-      
-    Otra definición:
-    Los gráficos Burn Up y Burn Down son herramientas de visualización muy usadas en Scrum y otros marcos ágiles para seguir el progreso de un equipo a lo largo del tiempo dentro de un Sprint, una release o un proyecto completo.
-    
-    - Burn Down Chart (Gráfico de trabajo pendiente) (Ideal para sprints):
-	    
-	    El burn down chart muestra cuánto trabajo queda por hacer en función del tiempo. 
-	    - Eje X: el tiempo, normalmente dividido en días de Sprint.
-	    - Eje Y: cantidad total de trabajo pendiente. (típicamente Story Points)
-	    
-	    **Cómo se interpreta**
-		- Al comienzo del Sprint, la línea parte del total de puntos comprometidos.
-		- Cada día, se resta lo que el equipo completó.
-		- Idealmente, la línea va descendiendo hasta llegar a cero al final del Sprint.
-	    
-	    El gráfico muestra visualmente si el equipo va encaminado, atrasado o adelantado  respecto del progreso esperado.
-	    
-	    **Qué revela:**
-	    - Progreso diario o por iteración.
-	    - Riesgos de no completar el Sprint a tiempo
-	    - Si el equipo está quemando trabajo de manera conestante o irregular.
-	    - Caída "neutral": el equipo estimó correctamente con justeza las tareas.
-	    - Caída "antes de lo esperado": el equipo sobreestimó las tareas, tiene que ajustar estimación.
-	    - Caída "retrasada": el equipo subestimó las tareas, tiene que reajustar estimación.
-	      
-	  - **Burn Up Chart**:. (Ideal para proyectos completos)
-	    
-		  El Burn Up Chart muestra el trabajo completado acumulado a lo largo del tiempo, y además suele mostrar una línea fija de alcance total (scope). Es el complemento inverso del Burn Down.
-		  Ejes:
-		  - Eje X (horizontal): tiempo. días, semanas o sprints.
-		  - Eje Y (vertical): cantidad de trabajo (en puntos, tareas o unidades).
-		  
-		**Cómo se interpreta**:
-		- La línea inferior muestra el trabajo completado acumulado.
-		- La línea superior muestra el alcance total del trabajo previsto (que puede cambiar si se agregan o quitan tareas)
-		- Cuando ambas líneas se tocan, el equipo completó el alcance total.
-		  
-		**Ejemplo**:
-		- Día 1: 0 puntos completados
-		- Día 5: 25 puntos completados
-		- Día 10: 50 puntos completados (igual al alcance, proyecto terminado).
-		  
-		**Qué revela**:
-		- Progreso acumulado real.
-		- Cambios en el alcance (si la linea superior sube o baja).
-		- Predicción visual de cuando se completará todo el trabajo, manteniendo trazabilidad si se agregan o eliminan tareas.
-		  
+	
+- **¿Qué es el gráfico de quemado (Burn-Down)?**
+	Los gráficos de quemado o Burn Down Charts en Scrum son herramientas visuales que permiten hacer seguimiento del progreso de un Sprint o un proyecto. Estos gráficos muestran la cantidad de trabajo que queda por hacer y cómo va evolucionando día a día o iteración por iteración.
+	
+	- Eje Y (vertical): cantidad de trabajo restante (pueden ser Puntos de Historia u horas).
+	- Eje X (horizontal): tiempo, generalmente días o iteraciones.
+	
+	**1. Situación prevista o ideal**
+	Este gráfico muestra cómo debería ir quemándose el trabajo si todo va según lo planificado. Es una línea recta que desciende uniformemente (en diagonal) desde la cantidad total de trabajo hasta cero al final del sprint.
+	
+	En el gráfico ideal, la pendiente de la línea muestra el ritmo constante al que se debería reducir el trabajo día a día.
+	
+	**Ejemplo gráfico:**
+		- Se empieza con 50 SP y, el sprint dura 14 días. La línea ideal desciende uniformemente de 50 a 0 en 14 días.
+	
+	
+	**2. Situación optimista**
+	En esta situación, el equipo está avanzando más rápido de lo previsto. El   gráfico de quemado descendería más rápido que la línea prevista (ideal), lo  que indica que se está terminando más trabajo cada día que lo originalmente planificado.
+	
+	- Consecuencia: El trabajo podría terminar antes de lo esperado
+	  
+	**Ejemplo gráfico:**
+		- Se empieza con 50 SP y, en lugar de disminuir a un ritmo constante, el equipo quema más trabajo en los primeros días, y en el día 7 o 8 ya han terminado el trabajo
+	
+	
+	**3. Situación pesimista**
+	
+	Este gráfico refleja una situación en la que el equipo está quemando menos trabajo del esperado. La línea en el gráfico es más plana que la línea ideal, lo que indica que hay más trabajo acumulado y posiblemente no se termine a tiempo.
+	
+	- Consecuencia: Es probable que no se termine todo el trabajo dentro del sprint, lo que requiere ajustes o renegociaciones.
+	  
+	  **Ejemplo gráfico:**
+		- Se empieza con 50 SP en un sprint de 14 días, pero, al llegar al día 7 solo ha quemado 10 puntos. Esto indica que el equipo stá detrás del cronograma y deberá ajustar su plan.
+	
 - **¿Qué es una Spike en Scrum?**
 	
-	Un spike en Scrum es una tarea de investigación cuyo objetivo es reducir la incertidumbre técnica, funcional o de diseño. Los spikes son especialmente útiles cuando el equipo se enfrenta a un desafío desconocido y necesitan investigar antes de comprometerse con una solución:
+	Un spike en Scrum es una tarea de investigación cuyo objetivo es reducir la  incertidumbre técnica, funcional o de diseño. Los spikes son especialmente útiles cuando el equipo se enfrenta a un desafío desconocido y necesitan investigar antes de comprometerse con una solución:
 	
-	Tipos de spikes:
+	**Tipos de spikes:**
 	- Spike técnico:
 		Implica investigar tecnologías, herramientas o frameworks que el equipo no ha utilizado antes.
 		
 	- Spike funcional:
 		Se utiliza pra entender mejor los requisitos del cliente o usuario.
 	
-	Ejemplo: Si el equipo está considerando usar una nueva base de datos para un microservicio nuevo de la aplicación, pueden realizar un spike para investigar si esa base de datos cumple con los requisitos de escalabilidad y rendimiento.
+	Ejemplo: Si el equipo está considerando usar una nueva base de datos para  un microservicio nuevo de la aplicación, pueden realizar un spike para investigar si esa base de datos cumple con los requisitos de escalabilidad y rendimiento.
 	
 - **¿Qué son Épicas, Temas y Tareas en Scrum?**
 	
@@ -1778,15 +1786,49 @@ Notas:
 		
 	- **Lean Startup:** Es una metodología que considera a la startup como una organización temporal cuyo objetivo es encontrar un modelo de negocio viable y escalable mediante experimentos que sirven para aprender. Su premisa fundamental es el ciclo "construir - medir - aprender" utilizan un Producto Mínimo Viable (MVP) para validar hipótesis con clientes reales. 
 	
-	Scrum es rígido durante el Sprint pero flexible entre Sprints, priorizando la ejecución disciplinada y la entrega de incrementos funcionales, mientras que Lean Startup es completamente flexible, promoviendo el pivoteo constante basado en el aprendizaje validado obtenido de experimentos con clientes reales.
+	Scrum es rígido durante el Sprint pero flexible entre Sprints, priorizando la ejecución  disciplinada y la entrega de incrementos funcionales, mientras que Lean Startup es completamente flexible, promoviendo el pivoteo constante basado en el aprendizaje validado obtenido de experimentos con clientes reales.
 	
-	Scrum se centra en el producto y la productividad del equipo, mientras que Lean Startup se centra en el cliente y la validación del modelo de negocio. Scrum funciona mejor cuando los requisitos están relativamente claros; Lean Startup está diseñado específicamente para contextos de alta incertidumbre.
+	Scrum se centra en el producto y la productividad del equipo, mientras que Lean Startup se  centra en el cliente y la validación del modelo de negocio. Scrum funciona mejor cuando los requisitos están relativamente claros; Lean Startup está diseñado específicamente para contextos de alta incertidumbre.
 	
 - **¿Qué es un MVP?**
 	Un MVP (Producto Mínimo Viable) es una versión básica de un producto que incluye solo las funcionalidades esenciales para comenzar a entregar valor al usuario y recibir retroalimentación. El concepto central del MVP es probar rápidamente una idea en el mercado para aprender de los usuarios reales sin invertir demasiado tiempo ni recursos en el desarrollo de funcionalidades avanzadas.
 	
-	Ejemplo: Si estás construyendo una aplicación de entrega de alimentos, el MVP solo incluiría la funcionalidad básica de búsqueda de restaurantes y pedido de comida, sin características avanzadas como recomendaciones personalizadas o programas de lealtad.
----
+	*Ejemplo*: Si estás construyendo una aplicación de entrega de alimentos, el MVP solo incluiría la funcionalidad básica de búsqueda de restaurantes y pedido de comida, sin características avanzadas como recomendaciones personalizadas o programas de lealtad.
+	
+	
+- **¿Qué es Kanban?**
+	
+	Kanban es un método visual de gestión del trabajo que busca optimizar el flujo de tareas desde que aparecen hasta que se completan. 
+	
+	Su propósito principal es hacer visible el proceso, limitar el trabajo en curso y detectar cuellos de botella.  Al mostrar en un tablero todo el recorrido que hace cada tarea, el equipo puede entender dónde se generan demoras, cómo se distribuye la carga y qué decisiones ayudan a mejorar la velocidad y la calidad del resultado.
+	 
+	Kanban no fija iteraciones ni roles estrictos; en cambio, se centra en lograr un flujo continuo y estable, ajustando el sistema conforme se observan problemas en el trabajo real.
+	
+	Las columnas que siempre se usan son Pendiente, En Proceso, Hecho.
+	
+	**Posibles columnas del tablero Kanban según un esquema extendido de siete estados.**
+	 
+	- **Objetivos**  
+		Columna opcional. Incluye metas o hitos importantes a largo plazo, para mantener la alineación del equipo. No se gestionan tareas aquí; funciona como recordatorio estratégico.
+
+	- **Pendiente**  
+		Incluye las tareas listas para ser trabajadas. Están priorizadas, y la de mayor prioridad se coloca arriba. Cuando alguien tiene capacidad libre, toma una tarjeta de esta columna.
+	
+	- **Preparación**  
+		Columna opcional. Se utiliza para tareas que aún requieren análisis o discusión antes de comenzar su ejecución. Permite evitar que llegue trabajo poco claro a Desarrollo.
+	
+	- **En proceso**  
+		Aquí se realiza el trabajo activo. El equipo desarrolla la tarea hasta finalizarla. Si surge un problema o falta de definición, la tarea puede regresar a Preparación.
+	
+	- **Prueba**  
+		Se valida que la tarea cumpla los criterios funcionales o de calidad. Si algo no está bien, vuelve a Desarrollo; si supera la revisión, avanza.
+	
+	- **Aplicación**  
+		Columna opcional. Se usa cuando se necesita una acción específica antes de considerar la tarea finalizada, como desplegar una versión o realizar una integración.
+	
+	- **Hecho**  
+		Estado final. Representa que la tarea está completada, validada y sin acciones pendientes.
+	
 
 ## 4. UML, bloques de construcción, elementos, relaciones, PUD, vistas, vistas 4+1
 
@@ -1794,49 +1836,245 @@ Notas:
 
 - **¿Qué es UML?**
     
-    Es un lenguaje unificado de modelado utilizado para construir, especificar, documentar y visualizar software de manera efectiva.
+    Unified Model Language (UML) es un lenguaje estándar que se utilizara para visualizar, especificar, construir y documentar los artefactos de un sistema basado en software.
     
 - **¿Por qué UML es un lenguaje y NO una metodología?**
     
-    UML es sólo un lenguaje y NO es una metodología; por lo tanto, es sólo una parte de un método de desarrollo de software.UML es solo un lenguaje estándar para escribir "planos" de software que permiten visualizar, especificar, construir y documentar sistemas. UML es independiente del proceso. UML proporciona notación, no proceso.
+    UML es sólo un lenguaje y NO es una metodología; por lo tanto, es sólo una parte de un método de desarrollo de software. UML es solo un lenguaje estándar para escribir "planos" de software que permiten visualizar, especificar, construir y documentar sistemas. UML es independiente del proceso. UML proporciona notación, no proceso.
     
-- **Elementos de construcción de UML.**
+- **¿Qué son los bloques de construcción de UML?**
+	Para la utilización de UML se definen tres clases de bloques de construcción:
+	- Elementos UML
+	- Relaciones UML
+	- Diagramas UML
+
+- **¿Qué son y como se dividen los elementos de UML?**
+	
+	Existen 4 tipos de elementos en UML:
+	
+	1. Elementos estructurales   
+		Son los bloques estáticos del sistema:
+		
+		- Clases:
+			Las clases definen las propiedades y comportamientos de los objetos.
+			
+		- Interfaces:
+			Las interfaces definen un conjunto de operaciones que una clase o componente debe implementar.
+			
+		- Casos de Uso:
+			Los casos de uso describen como los actores externos interactúan con el sistema
+			
+		- Nodos:
+			Los nodos representan dispositivos físicos o recursos donde se ejecutan los componentes de software.
+			
+	2. Elementos de comportamiento:
+		Son los elementos dinámicos que describen el comportamiento de un sistema a lo largo del tiempo:
+		
+		- Interacciones:
+			Representan el flujo de mensajes entre objetos.
+			
+		- Máquinas de Estado:
+			Modelan la secuencias de estados que atraviesa un objeto en respuesta a eventos.
+			
+	3. Elementos de agrupación:
+		Los elementos de agrupación son contenedores que organizan otros elementos:
+		
+		- Paquetes:
+			Los paquetes agrupan elementos estructurales y de comportamiento.
+			
+	4.  Elementos de anotación:
+		Los elementos de anotación son explicaciones adicionales sobre el modelo. Se representan mediante Notas que aclaran o detallan el comportamiento o restricciones.
+		
+	
+- **¿Qué son las relaciones UML?**
+    Una relación en UML define la conexión entre elementos de UML. Para diferencias las distintas relaciones se utilizan varios tipos de líneas. Nos permiten modelar el elace entre diferentos elementos estructurales, mostrando además información adicional como multiplicidad (número de instancias de una clase que pueden estar relacionadas con la clase asociada) y nombres de roles (identificación del extremo de una asociación).
     
-- **Relaciones UML.**
+     **Relaciones**:
+     
+     - Asociación:
+	    La asociación es una relación entre dos o más clases, donde una clase utiliza los servicios de otra. No implica una dependencia fuerte, sino que simplemente existe una conexión entre las clases.
+	    
+	    Se representa como una línea continua con flecha/s  abiertas.
+	    
+	    La flecha se hace en el sentido Contenedora--->Contenida.
+	    Es decir, la clase Contenedora contiene a la Contenida, o, también, la clase Contenedora "conoce" a la Contenida.
+	    
+	    Las flechas pueden ser bidireccionales si ambas clases se conocen con la otra.
+	    
+	    *Ejemplo:* Un Doctor está asociado con un Paciente. El doctor tiene pacientes a los que atiende, pero ambos pueden existir por separado; es decir, el paciente no depende directamente del doctor para existir.
+	    
+	- Agregación:
+	    La agregación es un tipo de asociación que indica una relación "todo-parte". En la agregación, la aprte puede existir independientemente del todo. Es decir, si el objeto "todo" se destruye, el objeto "parte" sigue existiendo.
+	    
+	    Se representa como una línea continua con un rombo vacío en el extremo de la clase "todo".
+	    
+	    *Ejemplo:* En un club social, la clase Club podría tener una agregación con la clase Socio. Si el club deja de existir, los Socios pueden seguir existiendo como personas independientes.
+	    
+	- Composición:
+		La composición es una relación más fuerte que la agregación. También es una relación "todo-parte", pero en este caso, las partes no pueden existir de forma independiente del todo. Si el objeto "todo" se destruye, las partes también lo hacen.
+		
+		Se representa como una línea continua con un rombo relleno en el extremo de la clase "todo".
+		
+		*Ejemplo:* Un Taller puede tener una relación de composición con Workstation (estación de trabajo). Si el objeto Taller se destruye, las Workstation ya no pueden existir por separado, debido a que en el mundo real, son una parte integral del taller.
+		
+	- Dependencia:
+		La dependencia es una relación en la cual una clase depende de otra para funcionar correctamente, pero es una relación más deébl que la asociación. Indica que un cambio en la clase de la que depende puede afectar a la otra.
+		
+		Se representa como una línea discontinua con una flecha abierta.
+		
+		*Ejemplo:* Una clase Reporte puede depender de una clase  ServicioDeDatos para poder generarse. El reporte no almacena permanentemente al servicio solo lo utiliza.
+		
+		*Reporte ---> ServicioDatos*. Reporte depende del ServicioDeDatos
+		
+		Si cambia algo en ServicioDeDatos, la clase Reporte podría verse afectada.
+		
+	- Generalización:
+		La generalización representa una relación entre una clase padre (Superclase) y una clase hija (Sub-clase), donde la Subclase hereda atributos y comportamientos de la Superclase.
+		
+		La clase hija es una especialización de la clase padre, y puede añadir o modificar comportamientos y atributos.
+		
+		Permite reutilizar código y comportamientos, estableciendo una jerarquía de clase.
+		
+		Se representa con una línea continua con una flecha cerrada vacía, la cual apunta desde la Subclase a la Superclase.
+		
+		*Ejemplo:* La clase PlantillaReporteCompras y PlantillaReporteVentas heredan de la clase PlantillaReportes, compatiendo atributos comunes, per con sus propias especificaciones.
+		
+	- Realización:
+		La realización es una relación entre una interfaz y una clase concreta que la implementa. La clase tiene que implementar todos los métodos definidos en la interfaz.
+		
+		Ejemplo: Una clase Repositorio implementa los métodos de una interfaz IRepositorio, que son Guardar, Buscar, BuscarPorId y GuardarMuchos.
+		
+		Se representa como una línea discontinua con una flecha cerrada vacía
+	
+- **¿Qué son los diagramas UML?**
+	 
+	Los diagramas de UML permiten visualizar los sistemas desde diferentes perspectivas. Se los puede dividir en 2 grupos: Diagramas estructurales y Diagramas de comportamiento.
+	
+	- **Diagramas estructurales**:
+		- Diagrama de clase:
+			El diagrama de clase muestra las clases del sisstema, sus atributos, métodos y relaciones. Se utiliza para visualizar la estructura estática y las relaciones como herencia, asociación y agregación. Es importante porque captura las características fundamentales del sistema.
+			
+		- Diagrama de objetos:
+			El diagrama de objetos es similar al diagrama de clases, pero muestra las instancias de las clases en un momento particular del tiempo.
+			
+		- Diagrama de componentes:
+			El diagrama de componentes permite visualizar los componentes de software y sus relaciones. Muestra como están organizados los componentes de un sistema y como interactúan entre sí.
+			Es útil para representar módulos o bibliotecas dentro del sistema.
+			
+		- Diagrama de despliegue:
+			El diagrama de despliegue representa la distribución física de los componentes de software en los nodos de hardware. Por ejemplo, muestra qué servidores alojan qué componentes o bases de datos.
+			
+	- **Diagramas de comportamiento**:
+		
+		- Diagrama de caso de uso:
+			El diagrama de caso de uso representa las interacciones entre actores externos (usuarios u otros sistemas) y el sistema bajo estudio. Cada caso de uso representa una funcionalidad que proporciona valor a un actor. Los casos de uso también incluyen relaciones entre ellos, como inclusión y extensión.
+			
+		- Diagrama de secuencia:
+			El diagrama de secuencia muestra como los objetos interactúan entre sí a lo largo del tiempo. Se utiliza para representar la secuencia de mensajes que se envían entre objetos a lo largo de una línea de tiempo, especifando el orden en que ocurren las interacciones.
+			
+		- Diagrama de estado:
+			El diagrama de estado modela el conjunto de estados por los que pasa un objeto durante su vida útil en respuesta a eventos.
+			Se utiliza para modelar el ciclo de vida de un objeto en particular, mostrando como cambia su estado en respuesta a estímulos.
+			
+		- Diagrama de actividad:
+			El diagrama de actividad representa el flujo de control entre actividades. Es similar a un diagrama de flujo, pero está más enfocado en modelar el comportamiento de alto nivel del sistema, describiendo secuencias de actividades y condiciones para el flujo de ejecución.
+			
+		- Diagrama de colaboración:
+			El diagrama de colaboración es similar al diagrama de secuencia, pero pone más enfasis en las relaciones y colaboraciones entre los objetos, en lugar del orden cronológico de los mensajes.
+			 
+		
+
+- **¿Qué es el modelo de 4 Vistas + 1 ?**
+	El modelo de 4V+1 se utiliza para describir la arquitectura de sistemas complejos desde diferentes puntos de vista.
+	El objetivo de este modelo es abordar las distintas perspectivas que los usuarios pueden tener sobre un sistema de software. Las vistas son:
+	
+	- Vista Lógica (o de Diseño):
+		- Representa la descomposicion funcional del sistema, enfocándose en los elementos que proveen la funcionalidad requerida por los usuarios finales.
+		- Representa la estructura del sistema en términos de sus componentes funcionales, como Clases, objetos, interfaces o módulos. Colaboraciones entre clases.
+		- Audiencia: Diseñadores, usuarios finales y analistas de sistemas.
+		- Diagramas UML:
+			- Diagrama de clases
+			- Diagrama de objetos
+			- Diagrama de secuencia
+			  
+	- Vista de Proceso:
+		- Representa el comportamiento dinámica del sistema, incluyendo procesos, hilos, entre otros, utilizando interacciones entre componentes y concurrencia.
+		- Refiere a la sincronización de procesos
+		- Audiencia: Desarrolladores, arquitectos
+		- Se centra en aspectos como rendimiento, escalabilidad y tolerancia a fallos.
+		- Diagramas UML:
+			- Diagrama de actividad
+			- Diagrama de comunicación
+		
+	- Vista de Implementación (o de Desarrollo):
+		- Describe cómo se organiza el sistema en términos de Artefactos físicos, como archivos de código, bibliotecas, ejecutables, componentes desplegables.
+		- Se centra en la estructura del software implementado, la organización del software desde la perspectiva del desarrollo.
+		- Audiencia: Desarrolladores, gestores de configuración, arquitectos.
+		- Diagramas UML:
+			- Diagrama de componentes
+			- Diagrama de paquetes
+		
+	- Vista Física:
+		- Describre cómo los componentes del software se mapean/distribuyen en la infraestructura física, como servidores, nodos, redes y dispositivos.
+		- Se centra en la topología del sistema y su despliegue
+		- Audiencia: Administradores de sistemas, ingenierios de infraestructura, integradores.
+		- Diagramas UML:
+			- Diagrama de despliegue
+		
+	- Vista adicional: Vista de Escenarios
+		La vista adicional **unifica** las otras 4 vistas (Lógica, de Proceso, de Implementación, y Física) al describir Casos de Uso o escenarios clave que ilustran cómo los elementos de las 4 vistas interactúan para cumplir con los requisitos del sistema. Es la vista integradora.
+		
+		Diagramas UML:
+		- Diagrama de casos de uso
+		  
+	
+- **¿Qué es el modelo del domino del problema y qué diagramas se modelan en él?**
     
-- **¿Qué diagramas se modelan en el dominio del problema?**
+    El modelo del dominio es una representación conceptual de los elementos clave, conceptos y relaciones dentro de un dominio deproblema específico en el desarrollo de software.
     
-    Para describir el dominio de problema se utilizan dos diagramas de UML, el DIAGRAMA DE CLASES y el DIAGRAMA DE CASOS DE USO. El modelo de dominio representan las “cosas” que existen o los “eventos” que suceden en el entorno en el que se desenvuelve un sistema.
+    El modelo del dominio describe entidades de negocio que representan cosas que se manipulan en el negocio. Las clases del dominio aparecen como:
+    - Entidades del negocio: cosas que se manipulan en él.
+    - Entidades del mundo real o conceptos de los cuales el sistema debe hacer un seguimiento.
+    - Sucesos o eventos que ocurrirán o han ocurrido.
+      
+    Por lo tanto, para describir el dominio de problema se utilizan dos diagramas de UML, el Diagram de Clases y el Diagrama de Casos de Uso. El modelo de dominio representan las “cosas” que existen o los “eventos” que suceden en el entorno en el que se desenvuelve un sistema.
+    
     
 - **¿Para qué modelamos el dominio?**
     
-    Para visualizar, construir, especificar y documentar correctamente un sistema que refleje la realidad del negocio o problema que queremos resolver.
+    Modelamos el dominio para visualizar, construir, especificar y documentar  correctamente un sistema que refleje la realidad del negocio o problema que queremos resolver.
     
+    Al considerar las clases del modelo del dominio, vale remarcar que estas no están directamente ligadas a la implementación, sino que ayudan a comprender el problema que debe resolver el sistema
+    
+    Según el P.U.D:
+	    Las clases del dominio se utilizarán para describir los Casos de Uso, y diseñar el prototipo de interfaz de usuario que permitirán seguir analizando el sistema a construir con P.U.D
+	    
+	
+	
 
-### Casos de Uso y Diagramas
+### Más información sobre algunos diagramas
 
 - **¿Qué es un diagrama de caso de uso? 
   
-  Los casos de uso representan todas las interacciones posibles que se descrAAAAAAibirán en los requerimientos del sistema. Los actores en el proceso **pueden ser individuos u otros sistemas** y se representan como figuras sencillas.
+  Los casos de uso representan todas las interacciones posibles que se describen en los requerimientos del sistema. Los actores en el proceso **pueden ser individuos u otros sistemas** y se representan como figuras sencillas.
   
   Cada interacción se constituye como una elipse con etiqueta. Líneas vinculan a los actores con la interacción.
   
 - **¿Qué es un actor en UML?**
     
-    Es el rol que juega un usuario en un caso de uso. Representa un rol j ugado por una persona, hardware o incluso otro sistema. Suele tener un nombre, que refleja el rol que cumple el usuario al interactuar con el caso de uso.
+    Es el rol que juega un usuario en un caso de uso. Representa un rol jugado por una persona, hardware o incluso otro sistema. Suele tener un nombre, que refleja el rol que cumple el usuario al interactuar con el caso de uso.
     
 - **¿Cuál es la diferencia entre relaciones de inclusión y extensión en casos de uso?**
     
     - **Inclusión:** Un caso de uso contiene un **comportamiento común** para más de un caso de uso (la flecha apunta al caso de uso común).
         
     - **Extensión:** Un caso de uso distinto maneja las **excepciones** del caso de uso básico (la flecha apunta del caso de uso extendido al básico).
-        
-    
+      
 - **¿Qué es un diagrama de secuencia?**
 	
-	Muestra una **[Interacción](https://405310-caruso-tomas.github.io/MSI/El%20Lenguaje%20Unificado%20de%20Modelado.%20Manual%20de%20Referencia/Diccionario/Interacción)** como un gráfico de dos dimensiones. La dimensión vertical es el eje de tiempo, de arriba hacia abajo. Los mensajes más altos ocurren antes que los más bajos.
+	Muestra una Interacción como un gráfico de dos dimensiones. La  dimensión vertical es el eje de tiempo, de arriba hacia abajo. Los mensajes más altos ocurren antes que los más bajos.
 	
-	Un [Mensaje](https://405310-caruso-tomas.github.io/MSI/El%20Lenguaje%20Unificado%20de%20Modelado.%20Manual%20de%20Referencia/Diccionario/Mensaje) se muestra como una flecha desde la línea de vida de un objeto a la línea de vida del otro.
+	Un Mensaje se muestra como una flecha desde la línea de vida de un  objeto a la línea de vida del otro.
 	
 	Cada **rol** se representa mediante una columna vertical que contiene un símbolo de cabecera y una línea de vida vertical. Durante el tiempo que existe un objeto, la línea de vida se representa con una línea discontinua. Durante el tiempo que la ejecución de una acción sobre el objeto está activa, la línea de vida se representa con una línea doble.
 
@@ -2587,7 +2825,7 @@ Notas:
 	 Un caso de prueba debe ser **PRECISO** (Sin ambigüedades, evitando información innecesaria), **RASTREABLE** (Vinculado a algún requisito), **REPETIBLE** (Puede ejecutarse varias veces en diferentes entornos), **REUTILIZABLE** (Genérico.)
 	 
 	
-- **¿Cuáles son las fases del proceso básico de prueba?**
+- **¿Cuáles son las fases del proceso básico de prueba? ¿Cómo es el flujo de pruebas?**
     
     El proceso de pruebas de software incluye una serie de actividades esenciales que aseguran la calidad del producto. Las fases del proceso son:
     
@@ -2813,11 +3051,11 @@ Notas:
 		
 - **¿Qué son las Pruebas de Sistema (System Testing)?**
 	 
-	Las pruebas de sistema son un tipo de prueba de software que se llevan a cabo sobre el sistema completo e integrado, con el fin de verificar que todos los componentes funcionen en conjunto y que el sistema cumpla con los requisitos especificados. 
+	Las pruebas de sistema son un tipo de prueba de software que se llevan a cabo sobre el  sistema completo e integrado, con el fin de verificar que todos los componentes funcionen en conjunto y que el sistema cumpla con los requisitos especificados. 
 	
-	A diferencia de las pruebas de integración, que evalúan la interacción  entre módulos individuales, las pruebas de sistema examinan el comportamiento de todo el sistema en su conjunto, incluyendo tanto sus funcionalidades como aspectos no funcionales. 
+	A diferencia de las pruebas de integración, que evalúan la interacción  entre módulos  individuales, las pruebas de sistema examinan el comportamiento de todo el sistema en su conjunto, incluyendo tanto sus funcionalidades como aspectos no funcionales. 
 	
-	El objetivo principal de las pruebas de sistema es asegurar que el software funcione según lo esperado en un entorno lo más cercano posible al real, abarcando todos los aspectos que afectan su correcto desempeño, desde el funcionamiento de las funciones principales, hasta el rendimiento bajo cargas de trabajo intensas y la capacidad de recuperación ante fallos.
+	El objetivo principal de las pruebas de sistema es asegurar que el software funcione según lo  esperado en un entorno lo más cercano posible al real, abarcando todos los aspectos que afectan su correcto desempeño, desde el funcionamiento de las funciones principales, hasta el rendimiento bajo cargas de trabajo intensas y la capacidad de recuperación ante fallos.
 	
 - **¿Qué se hace en una prueba de sistema?**
 	
@@ -2906,7 +3144,7 @@ Notas:
 	
 - **¿Qué es un smoke test?**
     
-    Un test de alto nivel, básico y de corto tiempo, para asegurar el   funcionamiento correcto de las funciones críticas del software.
+    Un test de alto nivel, básico y de corto tiempo, para asegurar el  funcionamiento correcto de  las funciones críticas del software.
     
     Las pruebas de humo, smoke testing, son un conjunto básico de pruebas rápidas que se realizan para verificar si las funcionalidades principales del sistema funcionan correctamente después de una nueva construcción o actualización. Si estas pruebas fallas, se detienen las pruebas más profundas. *Ejemplo*: Después de actualizar una aplicación, verificar que los usuarios puedan iniciar sesión y realizar tareas clave sin errores antes de realizar pruebas más detalladas.
     
@@ -3215,12 +3453,11 @@ Notas:
 
 ### Principios y Gestión de Defectos
 
-        
-- Principio Pareto
+- **Principio Pareto**
     
-    Establece que el 80% de las consecuencias se derivan de 20% de las causas. Aplicado al software: el 20% de los errores causan el 80% de los fallos.
+    Establece que el 80% de las consecuencias se derivan de 20% de las causas. Aplicado al s oftware: el 20% de los errores causan el 80% de los fallos.
     
-- Rol del QA (Quality Assurance).
+- **Rol del QA (Quality Assurance).**
     
     Es el profesional encargado de prevenir los fallos y asegurar la calidad del software. Suele ser el encargado del diseño de las pruebas.
     
@@ -3233,9 +3470,9 @@ Notas:
 - **¿Cuál es el rol del tester o probador?**
 	
 	
-	En muchas fuente bibliográficas, se describe al probador o tester de software como la persona responsable de llevar a cabo todo el proceso de pruebas de un software. Su tarea es esencial para asegurar la calidad del producto antes de que llegue a los usuarios finales.
+	En muchas fuente bibliográficas, se describe al probador o tester de software como la  persona responsable de llevar a cabo todo el proceso de pruebas de un software. Su tarea es esencial para asegurar la calidad del producto antes de que llegue a los usuarios finales.
 	
-	El probador utiliza diversas técnicas y enfoques para identificar errores y asegurar que el producto cumple con los requisitos establecidos. Además, debe formular las preguntas correctas para detectar fallos importantes para las partes interesadas, y reportar de manera adecuada los defectos encontrados a través de informes de incidencias.
+	El probador utiliza diversas técnicas y enfoques para identificar errores y asegurar que el  producto cumple con los requisitos establecidos. Además, debe formular las preguntas correctas para detectar fallos importantes para las partes interesadas, y reportar de manera adecuada los defectos encontrados a través de informes de incidencias.
 	
 	Un probador de software se enfoca en varios aspectos clave:
 	- Bugs (errores): 

@@ -55,6 +55,7 @@
 		- Disonancia entre HU Transaccional V1 y su UML de clases: si en el UML de clases incluyo la clase PlanTransporte 1..N con Notificaciones, pero en la HU Transaccional solamente considero la validacion de la solicitud y la generación del plan de transporte... entonces hay algo que está mal me parece.
 		  
 		- Puede que tenga razon de ser la HU Transaccional V1 sin considerar el transporte siendo realizado en si mismo debido a que es posible que sean transacciones aparte el hecho de que se "escuchen" problemas y contingencias en base a los cuales se generan notificaciones.
+		  
 	- RAVA:
 		- En la versión 1 que hice de la HU Transaccional, primero entendí que el "protocolo de validación de sistemas críticos" se hacía ANTES de salir a recoger datos científicos. PERO, en realidad, se hace inmediatamente antes de ingresar los datos científicos recolectados.
 		- En la HU V1, entiendo al "protocolo de validación de sistemas críticos" como algo completamente separado de la "operación diaria" de "recolección de datos científicos", pero no están tan separados.
